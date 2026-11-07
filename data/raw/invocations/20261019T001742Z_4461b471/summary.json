@@ -1,0 +1,4790 @@
+{
+  "invocation_id": "20261019T001742Z_4461b471",
+  "loaded": 257,
+  "computed": 0,
+  "events": [
+    {
+      "utc": "2026-10-19T00:17:42.366660+00:00",
+      "stage": "validation",
+      "key": "176b0b0ae6cd7199b4cd0f6e05d225711a0b0e2e9ba1b78e950a29d69b8d53be",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:12.171932+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "5990a71226254831b57c02dda0c43895",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.381300+00:00",
+      "stage": "phase_validation",
+      "key": "f4aee4a54b52d18da6ecea522ea82009e3fd012c5c5ae274fa4084dde3939ac1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-04T19:34:12.655647+00:00",
+      "original_invocation_id": "20261004T193412Z_23521d1e",
+      "attempt_id": "289419135047412ea9ab59f0445560c0",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.397634+00:00",
+      "stage": "problem",
+      "key": "e322de1cde97dc60a9fff11b14a1b2ead08ffe451798618e37ebeecf62b0bc8b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:44:05.068612+00:00",
+      "original_invocation_id": "20260914T034358Z_7018a92d",
+      "attempt_id": "197b9a16002348aaa6bd8983d298cfc1",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.403195+00:00",
+      "stage": "solver",
+      "key": "183a9397826955a171bc8512a02b52dc652e6ad7f5b03c0cb5c4b5add8d81d53",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:12.568852+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "d13ee61b441e44239836280ec1585042",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.407625+00:00",
+      "stage": "ideal_samples",
+      "key": "ee47160bc446533a8ee5b702a1451b53fa6640296628f61a4a8a370aaca42ea0",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:12.896329+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "a8b42b691e614bce9f31eebaa0f447d7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.413399+00:00",
+      "stage": "distribution_analysis",
+      "key": "3cf26519b58d9de01c691ba8ac6d08dfe6e2ffa2d5dd2d8590681c7875d74ce5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:13.360743+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "e786257b78c2481faa87d4b4238ca97d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.419698+00:00",
+      "stage": "solver",
+      "key": "3c63975abcd0f747457cd37ddb0df85de9a84a1837ff110edc3807cb3ffd1706",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:15.016592+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "e804d276f4b14924aa2273c3cb3c090d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.425850+00:00",
+      "stage": "ideal_samples",
+      "key": "72a3d713dc7325078a2916553a369996454932a4452c2fe6da3bb7a61015c1d7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:15.309887+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "83139ca7981240deba9285322cd3a0cb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.431925+00:00",
+      "stage": "distribution_analysis",
+      "key": "a5faf896e0f8f97a8f18a93fa74a4cd36312ea72907aaf5f8d2ca8424340751b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:15.701871+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "fe22daa98638421da7e7847ab20077db",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.440604+00:00",
+      "stage": "solver",
+      "key": "8d71a064a291228652e6aff5fe12a296ae8eea9ece2ff16e2bc55537322d7cd8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:16.446889+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "b8fe2d231df6404a99a954b6ee7736c6",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.447224+00:00",
+      "stage": "ideal_samples",
+      "key": "397bcd82f28d4b3ed8116a9da70d7cc56a6af19caee8bb11172645a0a035ccc1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:16.873922+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "ea48ae4b6bba4eeab7b9de90c1f99d83",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.453883+00:00",
+      "stage": "distribution_analysis",
+      "key": "b62964cdf04c7f1ed362f6cef103cce3d0cc14207b1ccfccc221e338e0b97cc1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:17.338958+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "dd60298def8d48b8bf7e2e73eb97bfec",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.487420+00:00",
+      "stage": "solver",
+      "key": "40b94b2570996e8a1b56a72c0b6a2d2d7a1eb590bac9bbbc7a4ef83ee23e736d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:32.949699+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "a649fc4548664347856f8769ffebfe35",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.507504+00:00",
+      "stage": "ideal_samples",
+      "key": "0c7a512a5d95eae06c1c4a1f346a9f2e4e2d8b64e1b2e0044a6cdd36e9e43690",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:39.259672+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "a028963bdfca478bb78f7bad82d0f8db",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.526953+00:00",
+      "stage": "distribution_analysis",
+      "key": "09c598422f14656de58ab6b84a5078a10e11c3f7d3bf74fe3a3b66e29049b502",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:47:45.430429+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "877a3793e8c94b6ab28e671029cb7169",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.542369+00:00",
+      "stage": "coherent_candidate",
+      "key": "d363e27cc59011ccd2b319d00308aebe053b9d2e06b5835c699eaed81acb039c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:39.245553+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "08a879d0949d4b7787a738c2e0de8e73",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.551314+00:00",
+      "stage": "coherent_candidate",
+      "key": "89129b84a0ea776da57e3f735802eec5c4291894f000ff0f9f09389b512179db",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:39.729667+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "bbd6978658934514865cdf7c8321bda4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.560343+00:00",
+      "stage": "coherent_candidate",
+      "key": "0dd74bf2b8a4c66c4dd7db26f426f5a6c538f7fbd7eef06592ec6c292fc6dbed",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:40.345826+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "6521abb0feee42febbff2ff93ce5b776",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.568085+00:00",
+      "stage": "coherent_candidate",
+      "key": "4ca8bf06feacb3772ac5ce3131031df518069260d0ac0f7a0a3069b2930a243c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:40.860105+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "a7bbdf2a89b04d7eb323cdfedb513fe6",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.575301+00:00",
+      "stage": "coherent_candidate",
+      "key": "6c73e3153b1739263baf8ec4aef247b62db9c56174db50b766488d20804b616e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:41.368485+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "1513bd0e715641cababedf5be6d8de60",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.580915+00:00",
+      "stage": "coherent_candidate",
+      "key": "0df0dabc8c287d1889c6b4d5099255112aebea6c62c5ed082fd39e8df9c1ec7f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:41.937240+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "c740e56886224c31aa2b7852da3ba99f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.586105+00:00",
+      "stage": "coherent_candidate",
+      "key": "2e6bceccca8870b7e2fcefc93d0d70492fc24d25ecf53015a656a6362a080806",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:42.405815+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "8eb10097cde14de5ad4378bc4ca5e38a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.591473+00:00",
+      "stage": "coherent_candidate",
+      "key": "321513a968a5b6b84ef9f0a9eb1bdd59e1acf5aa1db28b14a0c03ee4f77d666d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:42.834439+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "088402bd73e6451f87e8aabefed2e0a2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.596936+00:00",
+      "stage": "coherent_candidate",
+      "key": "3e13aabf5cab9801e515c439e252fe643a5873168c5cf9de5c96a7581f9b55d4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:43.401344+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "f8149bc1984041d2b2d3842a586117e7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.602525+00:00",
+      "stage": "coherent_candidate",
+      "key": "99f1eb49ebfefacb2ddfbbce9fec05741ac36086e8df218f69b3fcb61f064db6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:44.105385+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "9bf1d1fb3f654cc097f19884ac3b2fa8",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.608194+00:00",
+      "stage": "coherent_candidate",
+      "key": "d0777dcfdf36abd4a4f05995a4b61290df265fd5b9714e177c23e26fb5524f78",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:45.307541+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "bc8cefe64089424a9179910bcac6e6b9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.618282+00:00",
+      "stage": "coherent_screening_summary",
+      "key": "6a592644296f4f1122d5c8cfe779340655ff7db68a5f238e43636f382949d804",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:45.876251+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "ed4f7c48af944cb7b7cc3c2f279fb413",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:42.736408+00:00",
+      "stage": "compile",
+      "key": "1aa9163417b01ee01501363013cb44a468c4cc131dce11f0fd0d22188020eb6e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:31.066323+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "5311a6f0a2674804a2b28f2c931c34b4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:43.028022+00:00",
+      "stage": "snapshot_samples",
+      "key": "ccbeec4cfab119f7a54a39c9f7a70555d5e075b6d9ea94a4728d56e8e24ca296",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:31.987473+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "be623655afc74d9b86b1928f62eaf615",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:43.354976+00:00",
+      "stage": "snapshot_samples",
+      "key": "3f05e760c08db44d5e059c029e51af1d1f3f1e52996ae9bbbcd8417dfd3f12de",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-18T23:28:29.472686+00:00",
+      "original_invocation_id": "20261018T232827Z_0a7d93b8",
+      "attempt_id": "118c682a28a144a58b3fb6b6f0430e9f"
+    },
+    {
+      "utc": "2026-10-19T00:17:43.437556+00:00",
+      "stage": "distribution_analysis",
+      "key": "6df220423f036103e8dd85b47171566dd8f3a6674639a9d82ebf692a685ad6e5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-18T23:28:30.672771+00:00",
+      "original_invocation_id": "20261018T232827Z_0a7d93b8",
+      "attempt_id": "e03ceee8793c4b78ad86a6f2ed3158e8"
+    },
+    {
+      "utc": "2026-10-19T00:17:43.501911+00:00",
+      "stage": "compile",
+      "key": "3e250de6b43067552db4fa76fb1e11c6619bf689470ea443f2b7adbeb27f7c03",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:35.118476+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "4e91703d60a044ed8df57a52bd70111a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:43.684972+00:00",
+      "stage": "snapshot_samples",
+      "key": "f3516a02101c68453305da6fc6f92a6936f115b291f1f4778efa5f592c6988a5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:36.137228+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "b65fdf8ee46b44d0a63d7a8bc1906903",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:43.952059+00:00",
+      "stage": "snapshot_samples",
+      "key": "9137370c869a0d2c3b210925adf90f772783619034ea19931a14d049d468a817",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:37.265239+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "92f30ff874244b2b80c834da3035e293",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:43.973591+00:00",
+      "stage": "distribution_analysis",
+      "key": "a21e77b95d7dac4ba18582a5f27e3b68a32588c7c2a65c138a88b9b3a8cf11b4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:38.049930+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "bfb03afe0df549d5930dfeb4e934e2c0",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.002903+00:00",
+      "stage": "compile",
+      "key": "f233cc968589d7e6174adc55621afbca4c649ed6a0ecbfc50767698e2cb871bd",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:38.841884+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "f309cefce9ae40e3afb63ba0f4621327",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.074053+00:00",
+      "stage": "snapshot_samples",
+      "key": "33c4e0a5b3f95238f7ee59b00c6c9c28575d59842d104d653bce3ebcc6c35e65",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:39.404576+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "cd743e22e2924d02a20c1f18a15c2d34",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.152626+00:00",
+      "stage": "snapshot_samples",
+      "key": "2eadca8ea8f3ef1c2cd8b1f99c26a9f08faa593f942c275e201bf0ec594b3fe7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:40.293497+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "9528878b88f441bfaf88b5338f9ad047",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.172951+00:00",
+      "stage": "distribution_analysis",
+      "key": "3f1b7dac7c6e91c4385221c8648b7d4978b674f21bc955e80dc35f426ea7cc52",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:41.008225+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "0b235ba0ed284a4c8024ed7cc6aa0c39",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.242272+00:00",
+      "stage": "compile",
+      "key": "bed2165d2f633463473b5a94b4cba95557e99af8140d196a51a0fba30c369d2b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:42.985444+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "83476d3cf2dc454faf7bbfafa27d90d9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.323382+00:00",
+      "stage": "snapshot_samples",
+      "key": "8da6d581049187052488dc485cc5b8c3fc6965f9d64e962ff06a3fee6a706a12",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:50.094582+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "2cbdbcae34f44c898e5c2aa7ce658f37",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.417524+00:00",
+      "stage": "snapshot_samples",
+      "key": "837300021245a06f0469eb6642960ed4deb53201a86d7245feefc06e685f1baa",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:00:57.278386+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "8b106d3445f841b1b26d07593f10ca40",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.448881+00:00",
+      "stage": "distribution_analysis",
+      "key": "7d235f2928ca06377a62d381e6e0285337766bdbd4f9728969a18c13bab2e0d2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T04:01:04.043315+00:00",
+      "original_invocation_id": "20260914T040030Z_31482a37",
+      "attempt_id": "ad872681060748d4917baae02f4fad1b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:44.775947+00:00",
+      "stage": "hardware_results",
+      "key": "165007e28479adb9844ef87c7e63a9266efef0dde27a1c3d53855ff33623827a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:56:04.892076+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "381791d760c5457d87e65456e0f62802"
+    },
+    {
+      "utc": "2026-10-19T00:17:45.435639+00:00",
+      "stage": "hardware_evidence_audit",
+      "key": "a81467e12e769c0d9e3938eb49b6b11ab18637cc3ab8e3dfa1bc67fabd34a0a1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-04T19:34:17.608237+00:00",
+      "original_invocation_id": "20261004T193412Z_23521d1e",
+      "attempt_id": "099874ecc54e4f62b8244c9bf95e1e6c",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:45.994800+00:00",
+      "stage": "hardware_metadata_refresh",
+      "key": "ab240de086cc559a781cbe5fd47e289ac3545bbf17827d49bbdf6da72f07d66a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-04T19:34:37.301215+00:00",
+      "original_invocation_id": "20261004T193412Z_23521d1e",
+      "attempt_id": "2cbd80e7932a451db63b1fa5feb1f714",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:46.109952+00:00",
+      "stage": "compile",
+      "key": "afa48a5f706e3022a20ccb642c1843b1888612e59c5c078f150bd54688ae9cbd",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:48:43.258460+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "c239eced0e24475eaeca7e9dea4ad89c"
+    },
+    {
+      "utc": "2026-10-19T00:17:46.398226+00:00",
+      "stage": "common_preparation",
+      "key": "b816b76d85a36953b95abb41a71b1d6736abe13caada2a267c70cecaf88588a9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-04T22:01:57.920650+00:00",
+      "original_invocation_id": "20261004T220152Z_0c63e1da",
+      "attempt_id": "99ad6ea3282d46f880c7b601a0aa2bd2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:46.415499+00:00",
+      "stage": "confirmation_analysis_validation",
+      "key": "9d99c5e37d3d5b96d5e600799a29ac864b9c3fecc5b9ea9de5973ced0b5b97b4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:28:50.373859+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "a7bf1932012b481c9064a707341d4295",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:46.893391+00:00",
+      "stage": "read_only_hardware_collection",
+      "key": "5ff54c1c6def08d611e11d6e38d4eb5fe03be0e08cfa6bb262377a158f8c6da4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:29:26.349898+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "42c2f0020dad489497ba82d7b5fede07"
+    },
+    {
+      "utc": "2026-10-19T00:17:47.465361+00:00",
+      "stage": "hardware_evidence_audit",
+      "key": "5c7a35c1ea4f2a66ba04d2ef274d3622fb1bcdbcce120d05950ee180bca09e3e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:29:37.963093+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d947c812f9f240ab9aa88f866547579e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:47.567985+00:00",
+      "stage": "confirmation_preparation",
+      "key": "d4714d81c793d356e2ab066600df55dc6d2dafafdccb17151704ed7e7a9d6ba7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:43:26.252948+00:00",
+      "original_invocation_id": "20261005T034306Z_46e1bc77",
+      "attempt_id": "c5416cec5ef14299a68767390a0c8c98"
+    },
+    {
+      "utc": "2026-10-19T00:17:48.205841+00:00",
+      "stage": "confirmation_analysis",
+      "key": "bd2b49e24554cc4845207b25a79327de52fc905a65fa69a52dc8efb6678ca223",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:29:50.866162+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "0ab8a779d5924a9f9f35233c6fad89bb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:48.443376+00:00",
+      "stage": "coherent_native_screen",
+      "key": "835063c4af8933d5b65597da02f931bbb421127a4ed041f8cd5d4d87000f177f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:29:36.196182+00:00",
+      "original_invocation_id": "20261005T032838Z_5f2e8732",
+      "attempt_id": "f4c12230beda4e80b0d1e3067c52dc55",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:48.743329+00:00",
+      "stage": "read_only_hardware_collection",
+      "key": "510ba44a027c5f0937d6d57743af83e1ae067885c88db012585b07688ceaaa53",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:30:13.293139+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "49c90e33df5d462eb7828fdc486bb18f"
+    },
+    {
+      "utc": "2026-10-19T00:17:49.360551+00:00",
+      "stage": "hardware_evidence_audit",
+      "key": "7127412ed874d1b2eb1663599877de30ade4a7d26e6b3dae131ae23d8af6f22e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:30:20.253315+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9fd1ce3fa26746e9b72dc72aaf65e7b2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:50.001887+00:00",
+      "stage": "coherent_confirmation_analysis",
+      "key": "25f85ee81144d0b5ebdde57a95c0dace1f1ee986062510ac96bde7781fd09539",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:30:28.450353+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5f719911db23415092651083ab92a959",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:50.125766+00:00",
+      "stage": "compile",
+      "key": "afa48a5f706e3022a20ccb642c1843b1888612e59c5c078f150bd54688ae9cbd",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-14T03:48:43.258460+00:00",
+      "original_invocation_id": "20260914T034707Z_90e9df5b",
+      "attempt_id": "c239eced0e24475eaeca7e9dea4ad89c"
+    },
+    {
+      "utc": "2026-10-19T00:17:50.362571+00:00",
+      "stage": "select_physical_circuit",
+      "key": "5f0236557a954e3b371de1b36648ccb5ffd8dd697ab780042b6ea5c14d155f44",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:56:16.061671+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "7d68c04973af48ffa938edb046f76e93",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:50.904111+00:00",
+      "stage": "snapshot_samples",
+      "key": "6b0827189f54e8bf07e851207ae029f0dcacce3852650e649e0d006e4f0c928b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:56:35.141741+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "c7adda8b4f3a4a6ab3e6683b55cdc49d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:51.087180+00:00",
+      "stage": "distribution_analysis",
+      "key": "dada651d945bb31621da3348e6df74b1857623a94d8cda039fe0a9e819282db4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:56:45.797446+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "e10175d317f9417389f57447d8466f32",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:51.623315+00:00",
+      "stage": "snapshot_samples",
+      "key": "4e1ef54b5a51fdd2a77fac787e5c26e527eb198b76fdd0b166346b091bcf2db5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:57:06.880046+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "0cedaca0d296400ab0f71893e9bb488f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:51.800539+00:00",
+      "stage": "distribution_analysis",
+      "key": "5fc18592c7b78f5fd67efed9dce7f1bf1e9c700a2328b785c3428c321d5f0650",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:57:18.014432+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "3a6116497e7c4d459777b3d3daa795aa",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:51.977744+00:00",
+      "stage": "select_physical_circuit",
+      "key": "af30ed96484f51d58734d3d46a36b30a9560a68040c67ab9855631911fb53276",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:57:28.729003+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "f7059f9834a14e4fbbbf0cf85d31e436",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:52.307380+00:00",
+      "stage": "snapshot_samples",
+      "key": "93b922200c7c8e8847dbf9e89279883e1fbaac9235932791bed562683b0a3223",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:57:39.486694+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "2afc43a8085847e2a4fc8cc17da6eb20",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:52.496603+00:00",
+      "stage": "distribution_analysis",
+      "key": "7e09c30a08a4144946b26cb26411223827dd0559a18c0774d985e2afe5cb98ca",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:57:51.097116+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "3efaa40835544325afc095161638888f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:53.081160+00:00",
+      "stage": "snapshot_samples",
+      "key": "b90a1ea609f686b1791a98effbe44f4f6feca84952689772d6a88568669039ea",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:02.427371+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "c303913dd23f445d82f6c97d468b2631",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:53.265022+00:00",
+      "stage": "distribution_analysis",
+      "key": "33caf316b4d725dbb610ad51bf50fbe07e99cdd970754a50a4445cd4db4832c2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:12.774095+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "be02a72de79b4bc2a9bf901afdaf03d7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:53.463107+00:00",
+      "stage": "select_physical_circuit",
+      "key": "28338505ac5dfc7dad7a5013eae708de20285aa5fc3e1663c6ab632da0fe56d9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:23.612734+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "87caf1ca3f8644e786f6d8cd9ad58a8b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:53.763164+00:00",
+      "stage": "snapshot_samples",
+      "key": "268b8df9a31a3c795b5be5b261e6774735e8aeb3283d3f68b9db1d85d70408f9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:33.829352+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "cc0e6c930f2641e9a0f30c46b586aaed",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:53.944250+00:00",
+      "stage": "distribution_analysis",
+      "key": "634a6789713c903b885c77b5c81d14581d086e84bb2b5e9a42aba6498e6e865d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:43.486540+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "801017931c4e4fa0ad2f0542d45db6b5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:54.417612+00:00",
+      "stage": "snapshot_samples",
+      "key": "066c6c69526fafca9bf9f33166a023fdf4c102bd7aafa0271c0cba5f7824b08d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:58:54.368812+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "8ad1de89f9b34f2aa98c6afe474f3a9a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:54.704135+00:00",
+      "stage": "distribution_analysis",
+      "key": "563b7d336b3f2e779e43a71d04cb3a33a6c26230cb7ce9d36bcf614af5e3cc74",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-09-17T02:59:03.603828+00:00",
+      "original_invocation_id": "20260917T025546Z_4ef3e59f",
+      "attempt_id": "6c334d347a674242ae1c27071352e3e8",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:54.842065+00:00",
+      "stage": "confirmation_preparation",
+      "key": "d4714d81c793d356e2ab066600df55dc6d2dafafdccb17151704ed7e7a9d6ba7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:43:26.252948+00:00",
+      "original_invocation_id": "20261005T034306Z_46e1bc77",
+      "attempt_id": "c5416cec5ef14299a68767390a0c8c98"
+    },
+    {
+      "utc": "2026-10-19T00:17:55.083419+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "4cea28df9e768966930fde67557f49f48b06b5ac794744b73478e3aac1a29587",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:30:40.601000+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9e32be28343541038515324ab8253c9f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:55.385846+00:00",
+      "stage": "snapshot_samples",
+      "key": "895782fa3ee8b80c625df2c4ece6066de7ef3e45a08ebd6e39962477962d17c7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:30:51.444544+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c222cd1615114cdf9f1972cc9941d5da",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:55.591260+00:00",
+      "stage": "distribution_analysis",
+      "key": "ee6e843c30548e30f52cc2c37da6e47b74ab8988f9264c5dc86d204c1404b518",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:31:03.089038+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6de9e6539d2a4ca6ac48fe6871420943",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:56.014465+00:00",
+      "stage": "snapshot_samples",
+      "key": "e751c63ec0fe956289dd659177b2bfa917959b923cc911926595346b24ad5145",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:31:15.148935+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "42f86d7a0e4a4cb789d65aafdd30c108",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:56.202446+00:00",
+      "stage": "distribution_analysis",
+      "key": "322fe7661465287d9185895665821e4dd3a9b0c9a633a53e5f51ac7af8059327",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:31:27.307228+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "50363a4302ae46f7a9db474cfbc2d57a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:56.388814+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "2ce2a65f03e3f14a992c40129f8b3d9a5a1d8a1bca14b11bfe3205cd7c7c7bd8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:31:38.859810+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "4a6871cd9dd548969a61a8dca8746e76",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:56.696380+00:00",
+      "stage": "snapshot_samples",
+      "key": "f59e0fc7834865bf650bac67a67d0b3f91bab2b7aaae4215cb21cab28870a2f1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:31:50.497069+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8e0e361fbf0a462fa08f6273c5a2060c",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:56.888576+00:00",
+      "stage": "distribution_analysis",
+      "key": "588f2c2364ef2cf06008915ddde66b13bfa27504397fb9987f85cb1a2dcb14ec",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:00.899075+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9fc4036f1f7244218ca88cd3044373f3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:57.307748+00:00",
+      "stage": "snapshot_samples",
+      "key": "f94785d6335cb8519540d8714d1b7596356d55f6af2bdf077361ac8ea0eb8274",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:11.527467+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8293850e7aad4d799aa1aa6924ebafe4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:57.499508+00:00",
+      "stage": "distribution_analysis",
+      "key": "1ffd37f9420ddfd4b9fd9788aae2def03ab6f99e05efc92f4dea9d9dd33d5ccf",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:22.325266+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "dac9c1ded69a4dbe831a15a56ac3be79",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:57.687833+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "a9c57f9f2ffb40dd5a0c12eaf724271d1d01f569cb828f62b7f8af857ae71b52",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:31.685870+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b91981f4b53541a7a78f69aeb5f46431",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:57.998454+00:00",
+      "stage": "snapshot_samples",
+      "key": "ed8ed0e3f5f57fc4a702713aecb58c976db889d7ed1a21ceded9dc7e7f8fcb8e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:41.587746+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3afded5716a042faaf02c47140c17863",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:58.188283+00:00",
+      "stage": "distribution_analysis",
+      "key": "d831a3674b12e86b9eca035606ff0e6114f01d157cc985432b1f3df71c713448",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:32:51.291757+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "066074715c434c7c95ce560b062758d3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:58.760824+00:00",
+      "stage": "snapshot_samples",
+      "key": "7512015a4187e1bedf4dd4f0b7351d9991c14a33e8fcc4ae305181d56dbeea39",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:01.760073+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5e6880da35a946f1a31d4de842ae7267",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:58.987173+00:00",
+      "stage": "distribution_analysis",
+      "key": "e404ca079c75784572b9b848bb8a6418385e80fb7805b99e93da3c90a801a967",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:12.824646+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5ab0a5ab98b0479cbb764782fab6c8b3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:59.201296+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "77009f3ba71c28cccc5a3daaf0c00c63ea14f6fc638e1ab086e1d72c466e27d8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:23.677188+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "ced89b4b93ec4eb5a13ecc898bb5e498",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:59.691789+00:00",
+      "stage": "snapshot_samples",
+      "key": "e0256209e0e8aeba87e1a67749c8876c0b12ffcfb0fd4c718f4035784d16c83b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:34.167599+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "031541f2ad1a421692dc29f449150efd",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:17:59.878956+00:00",
+      "stage": "distribution_analysis",
+      "key": "cd1e5191fc784b343dc403507936c055986a141fd92afd7efc2c00a2f9295b28",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:44.913960+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "90a16f174be84d53a9ed66ecf2e59f90",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:00.293821+00:00",
+      "stage": "snapshot_samples",
+      "key": "578d605437d16e5bee2658b21005b45be316d6236e1a13e793e2438ece20c8a8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:33:56.404405+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5881614090354ef3a05bf3211518ba0f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:00.482119+00:00",
+      "stage": "distribution_analysis",
+      "key": "ed330c4a2e8e2ff615c6acb11d72220bf0701363c30efed6130d4cff0c80f318",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:34:08.019483+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "2b37ff8fe6ea4beaa6955de1490de58f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:00.673934+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "e54e1c07b36723b5d6948ffc40aaa1379160bbd76d4895cf19485d2290cf26fa",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:34:20.767246+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3edc7b6a074c4ce5b284014d48dc1ec9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:00.974031+00:00",
+      "stage": "snapshot_samples",
+      "key": "7eb57ff35df8388902703d1de3d2f2de96914b771e348063d84930a29ce95adc",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:34:32.615652+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d919c9a474624d868df6d226049d6db4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:01.206276+00:00",
+      "stage": "distribution_analysis",
+      "key": "a48c5ad8f654dea7fb87c9e4784a8d887237aba3f2e74194597d4e4a5c1d3519",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:34:44.647186+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5929193611c24497a3a5dc7d2ae0633e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:01.693379+00:00",
+      "stage": "snapshot_samples",
+      "key": "4e9242c9203baa47b4e8816083d85117a8362a7366e5de392f1eedfd294ad97c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:34:57.586504+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c3f2702ba517473ea35c8251fc09e3bb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:01.890352+00:00",
+      "stage": "distribution_analysis",
+      "key": "d3f99d6dba3d91ea6c77e9fd3f2c13d61ca6e7101ac0dc0edf99a904245ffa5d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:35:09.594567+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "43a98eeb3b524b59b6e9944b2ec4ee9a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:02.254078+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "12f512ffd9ab4aabc3b07e0ae9356062da3e8ed38132efd913fbcfbfa3489af8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:35:21.033086+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e91b3186ff6d4304816f67e917ccb4f6",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:02.627721+00:00",
+      "stage": "snapshot_samples",
+      "key": "6ecedf4c9ca32518688a5ee30fa5e116767c5ff596440e5b7e0a13fbbdc059f8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:35:32.592712+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3d69b5b1d9f341f9ac4c19b8f97586e7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:02.942473+00:00",
+      "stage": "distribution_analysis",
+      "key": "edcbb9f5cba2303deafb4d1873a5bbf2bfdd87092b9ccdcf9b5db10c48aba9d8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:35:45.010797+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d75e7203e5a04bfeb735192afda7fea2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:03.461933+00:00",
+      "stage": "snapshot_samples",
+      "key": "2ebd2027c8a9b8d2f86cc4e5c563a65d52415ef9e3b12076c5f82479c4854603",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:35:57.390720+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "03bd7ad250d14870bb31d256ae54ef21",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:03.703554+00:00",
+      "stage": "distribution_analysis",
+      "key": "d52d26fa567078c483b8b48929947fb9324a038ebf6868702094297bf086e8b4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:36:08.320672+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c0c8764765364737a235f918280b140f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:03.911097+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "0d8eb9b8880f2f1dbfae706b848f9b31f734b2a3067595552c92a6991b6a792a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:36:20.207824+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c886810dd1e9430fa8d4a5233d5b8f48",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:04.225916+00:00",
+      "stage": "snapshot_samples",
+      "key": "569be64c52cbba86f0fd30fde7652e5da9e37df8a95bfa8c47b94627018d3a69",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:36:30.479611+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "820526ef8c1f4e99939359c41249e953",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:04.442087+00:00",
+      "stage": "distribution_analysis",
+      "key": "d8f0bd8efdd1e921180fbe2b66ffc5205e6421abdfcd026afb500c55e1c8d7c2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:36:40.568238+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7b28dfb69ae44b6eac66d536c75efd38",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:05.003130+00:00",
+      "stage": "snapshot_samples",
+      "key": "29bc7d866a9297bbd106665386e6b41f1d9f71d86b64052b3ee3bdaef5487efb",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:36:52.169736+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e3082cf5df074789802576c6fe775641",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:05.198848+00:00",
+      "stage": "distribution_analysis",
+      "key": "bd61b7f51b4519effa4a110d0d75f035833bea2af6487b5323489f6de984597a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:02.950912+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f068e034ae6c4bbda9859190b1c23029",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:05.558304+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "6f9ff352fc6469a85ce9c114a15b35da4f270df1d50d42546f3cd8f6fa8ea132",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:13.968075+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6f973e25b4834112ab9087d4a6a19a57",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:05.939004+00:00",
+      "stage": "snapshot_samples",
+      "key": "253263314542910fc596b2b779928f69e6d226c320113c8ea1fd4d070708ffdd",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:24.385512+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "4a3b0c6c95614033816e1ed846e5348d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:06.142183+00:00",
+      "stage": "distribution_analysis",
+      "key": "8eff6bfb64262220f604daa5636fc2545d00a22533a88b7b1c5efb3cc31b8570",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:35.505181+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3beab96c0f074025854902a010273bb7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:06.598210+00:00",
+      "stage": "snapshot_samples",
+      "key": "df6584d873a0c8bad05b7615b5baeea7ece2faade6f0af4c1cb078ea74bb706a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:47.103285+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6abe2e9a961a46529e68b14c493415db",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:06.800002+00:00",
+      "stage": "distribution_analysis",
+      "key": "b19cf8fdf15de5b656f5d2c282681b5cc3cc06b1d26613f3177058710259daa4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:37:58.965074+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6ba05759632b468c879f4edd6382dcb9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:07.043599+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "487496f45dd3040b6924e7ab8db0dbbaca365ca8d917e6810cad6f6ab44de707",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:38:10.678614+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7e12541a78044e609a8f4c176e4bd881",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:07.385973+00:00",
+      "stage": "snapshot_samples",
+      "key": "d32e0ed82ed3e50a2de780cbf76c5149b1a4d87fca2d54318698f0e2fe8379f5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:38:23.033025+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b79ea7164e2c410394f03626d574614f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:07.589358+00:00",
+      "stage": "distribution_analysis",
+      "key": "6168bacba6b50e1da9e7dcb0c1dac4e9b5f7eaabcb9d633a4215a5363fe593ce",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:38:35.515823+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e5ae42d58bb94d228d7d907963dae521",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:08.045313+00:00",
+      "stage": "snapshot_samples",
+      "key": "600efa55aa8985a449058cfd3ae870af215b6d51c2f63c0eb6a36dc69abe7431",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:38:46.755843+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "dd96f6ba7de94dbf940af7712cd75b4d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:08.247390+00:00",
+      "stage": "distribution_analysis",
+      "key": "15d0abbb594d6c6548671b86bda87bc164c095bb4af58edde44183f75ab4f9c2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:38:58.728921+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b04c884cc4624b00b71703c9b6d4eb0f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:08.451731+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "412f09fe2a91f99090a823eb1cd80520e6602bed821582f53ab5c2d3f0b73b36",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:39:10.124373+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b1fa4f0ca5a14a63a77ca876d2beda7a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:08.797948+00:00",
+      "stage": "snapshot_samples",
+      "key": "7a11d860c25d47c42d536954f96e15a60dde5ec0e65a3baffad4e750a18e2e8d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:39:21.484138+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "30c75cd1cad648c498cf520ab9c04a4a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:09.004564+00:00",
+      "stage": "distribution_analysis",
+      "key": "9ca589bba39b6284f14001c413f8a7436fa2ef4e6e828c383407b3c839b1f144",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:39:32.922705+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f2313bc4aa5e4fab87aa25596955ad28",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:09.444516+00:00",
+      "stage": "snapshot_samples",
+      "key": "3b0df31c973bbeebb00e3e3e0ef8bca54a329d9beca8b56468f90ca317b9cb0e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:39:45.429300+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f2aa3453834e48b19da853e86b4995c5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:09.648071+00:00",
+      "stage": "distribution_analysis",
+      "key": "0e5c46cb54c8cf73cab73d15c7e814b9ed64b6f3f02ad90c631664754f292026",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:39:56.986853+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "a3cc580aed2b43df8e40163591f88b02",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:09.856033+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "450522245ed72e55ed768bb56ad5a3946cef56e4c2a5ed3be51da03b550fec0a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:40:08.605194+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "fed8ff2481a746d5aa1fc93c3ed779a4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:10.181170+00:00",
+      "stage": "snapshot_samples",
+      "key": "ded1a3c0f575c3ab7ed23b4dec3b396b0da13cb3f59848084cde4cd20cc56b4a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:40:19.269481+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bc551b7312e84a098080b6862de04933",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:10.380323+00:00",
+      "stage": "distribution_analysis",
+      "key": "a95a1323e05aa0283812b28fccb8c33b3cf48e96d36fcd65564e5de3f280e4b5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:40:29.733481+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "27e5ae4b240548c8ac56c2c0cc187a91",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:10.820427+00:00",
+      "stage": "snapshot_samples",
+      "key": "a5ef16df6c89081d4304681b93ec24237986ec77e3d0ad1cf98f97966c849d6c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:40:39.555953+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e07d52ecb10f4a90b054f8d609cc3d72",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:11.026977+00:00",
+      "stage": "distribution_analysis",
+      "key": "7cc1c1d59f4f0658812f0b78846bf8335ac0fba6b119b4722271c120684efde7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:40:49.560476+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f025c105175c44f88e04f71a4d57444f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:11.224716+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "78c0b6b871948d74ca683b0de121d57e66aa3b6723f670d200dca36661e45de9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:00.369476+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8d28c0e44d744fc1937daef6cbb71c1e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:11.539562+00:00",
+      "stage": "snapshot_samples",
+      "key": "51ccab509e70a8553f68a7cb6ed44bd47be5fb472efb1574a1b640a150e2005e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:10.926708+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "581382c9acd14b9ab8fcb062a9278456",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:11.734434+00:00",
+      "stage": "distribution_analysis",
+      "key": "309b7130d6f6fa31ecdde6ae48d6160f7f98c3b8293e6421001f4b32b71ba0af",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:21.363798+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b076b7143d944ae3a82f2dfe00f0caf3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:12.166322+00:00",
+      "stage": "snapshot_samples",
+      "key": "2dd4efab97cbfb2549f114909e8eb23306c43c5695d14803125f0f50b9da0f30",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:32.350513+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "fa74a44fa4d442ebb0f2a8da855cca50",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:12.393368+00:00",
+      "stage": "distribution_analysis",
+      "key": "e48ba12da44fc63d9f037f512b407a160de51d2e24ea85ee5c4d7b631f8c18d5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:42.696310+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6a8d13fc778b453f8fdcb797f860729c",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:12.596817+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "f757f1c90eb146474e1d7d3cf87b50b1a06530b6a4fc147a3f66f2585f0da10a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:41:53.793721+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "ae25c35d44d243e387c7d9dd4f9526b5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:12.926482+00:00",
+      "stage": "snapshot_samples",
+      "key": "1a2e4734637ea0ad4f2d5574152a99fc40bdf5e565698243872fe203d2618b2e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:42:05.499755+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b424bb91be1a416bb07752bb7f7c05a8",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:13.135466+00:00",
+      "stage": "distribution_analysis",
+      "key": "4f0a64785fbb52bf3c6457dcb23888b4a827a517fadadd119a1e08b1064ccb7f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:42:17.783943+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "ad99363f125942a18a46d95e3a63a6ba",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:13.655951+00:00",
+      "stage": "snapshot_samples",
+      "key": "d2ae7dfeecd2fa8a501d659eb6aba075ade9b066f8f49c5ced40214165b791cd",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:42:29.951122+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "0f494a52c1344c38b29308586477da6b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:13.864036+00:00",
+      "stage": "distribution_analysis",
+      "key": "e8a9da61bba627349cb39082ddb1b486aa3072b99591227811a4cc6c6ba17228",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:42:41.952442+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8dc2699d7c964320ab1e71361375a5d4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:14.152892+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "5e38ae9d2a6cc76d23367213cc88b1c318f0f12df0f3872c0104b819e5ea0e86",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:42:53.866051+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "32e2562fef104763885014b8c395926d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:14.522702+00:00",
+      "stage": "snapshot_samples",
+      "key": "274ed744669d03badf65f0312b4de3d51afc9e4ba0d08d99bbc08b0c7066c3d1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:43:05.110072+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d712fb4cb117420789a94a3704b96c33",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:14.745977+00:00",
+      "stage": "distribution_analysis",
+      "key": "63dac3da6ad8a5292442309c3b9ea414d6d1042153e65ea86dd64facd07eb03a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:43:17.412730+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "ca6c2d7fa2e94fa190edf51273bbcc14",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:15.257782+00:00",
+      "stage": "snapshot_samples",
+      "key": "f6a60ca91f6fc4495c23e0d65acdf0cc87912982c1d4ebfd10f1e7ad4bcbce7e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:43:28.231664+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "13389314236042e3b93c25d93982e539",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:15.491324+00:00",
+      "stage": "distribution_analysis",
+      "key": "1f15d2a49673bfef53847cd9363e362e17e35faa322a5392e8f30ea2dfb99e76",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:43:38.452004+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b8d751c7a30d4f42a00703409fd47192",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:15.697230+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "4bf960881db0a8f4c6205ac6df65b24d5fb86a8d0432202b8f0bd310732fe372",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:43:49.349702+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f4d248ff26da4611bf501fe907fa7a88",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:16.028470+00:00",
+      "stage": "snapshot_samples",
+      "key": "1d90462331e4da044e8a74428de9e6e03a62428d0bad95b8beb9362d2ff978dc",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:00.166609+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "468668580d50460bae2c4e023e1e07ab",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:16.230525+00:00",
+      "stage": "distribution_analysis",
+      "key": "fd7a4b51e3c73d7e0275c5c34262d8254a864308b7b7fda60f909a7563ad82f2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:10.516786+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3b4680f04bcc4f209001eb944a28c14a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:16.576472+00:00",
+      "stage": "snapshot_samples",
+      "key": "375b8daed2d0f75358c03564ced63bb7a1d5b48fe052d48263df34f27223121e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:20.212576+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e089f54cb1ba4384921b5fc2b95f6521",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:16.987035+00:00",
+      "stage": "distribution_analysis",
+      "key": "5ab653cd1963077a83abfc9f820d0750160702c56def48b88eb18754b2696cb0",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:30.024972+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3539d62741034562a50a4f6d2b050b27",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:17.187712+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "e6fced7a5daef151cd64a113a9dfa5418f1c752176aebd83f719e1e70edaeeb3",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:39.260951+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "899cc61e9d9b47c1948f98fd98c0da93",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:17.503655+00:00",
+      "stage": "snapshot_samples",
+      "key": "d497af703dcfec05230df4de4ad34bdc9651ae6abd4fcb68f85ccc9aca8e3012",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:48.644740+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "93a3f04d954643bdbb9afd4e44f19db0",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:17.718908+00:00",
+      "stage": "distribution_analysis",
+      "key": "f2f5a75c99e38ed34c3589ec71a2afcff9b639a79333926c229953ac9fab4c5d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:44:59.440076+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f3a17cf2c9144473bf492671d3daca1e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:18.028230+00:00",
+      "stage": "snapshot_samples",
+      "key": "d005fa7a2463ec78619f4f368b2b296f6c185c0da79808c45192a68c9458450c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:45:10.198198+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "feef861c147640299b301d5448526fa5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:18.327856+00:00",
+      "stage": "distribution_analysis",
+      "key": "3a42bd47e23847e2e5072611045b3c711173f1909abcd573a65ac008a55126cc",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:45:21.543591+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "439f5d9a1d0f4f8a9fb9e53b68afacf7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:18.529836+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "5dc132ce6afbe11b9a65939eba385f452ceb8b4f9280a86395c94537787377d6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:45:32.911748+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e39100adb62144ddbd0a28f5c2222352",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:18.843180+00:00",
+      "stage": "snapshot_samples",
+      "key": "734b756adffdfd575966b0b915dc8c0ac9412bf15326c4de919d2f12c2666dd9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:45:43.575987+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "eb4765d4929848a38b84a48ca3227d48",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:19.033423+00:00",
+      "stage": "distribution_analysis",
+      "key": "9518f0fe139bf8f4aeb52f294f83fed13da612161b505f7438530dc8af002954",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:45:55.360732+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f150dd2b37bc45d0a35241045d121e82",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:19.366822+00:00",
+      "stage": "snapshot_samples",
+      "key": "13cb48d01124e963b3aaae26111e3c79a7f4636b6df127fe33c3c0ecd9e62fa2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:46:07.128997+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "aac2518fd97e4aee81c5e97aa8ce6024",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:19.719174+00:00",
+      "stage": "distribution_analysis",
+      "key": "f94ecf20273afe4264384ead2d8de4e988d0d007dd14896334e5981e3805c2a1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:46:19.479455+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "90b26c1b8f294a8f8e844185c4bb0d3a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:19.922910+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "9148ba4ac577ae67bdad1f438f605f56dff7a132cdbacee74ab64df82dfe6b76",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:46:31.464894+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "0efab68f2b1f43f4af657340a27f58a2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:20.254228+00:00",
+      "stage": "snapshot_samples",
+      "key": "96d5a4b217ebc56c519e84e6acbbc496a205bd2f676b20f5425264d711b24c22",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:46:42.916779+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6fffbf9da1834509b4a9abf6633f52ef",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:20.466301+00:00",
+      "stage": "distribution_analysis",
+      "key": "bcebb907a4ff19244fcb4c5e544b6b2fb86d92a83bfeafb177826e7ff90bc7d3",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:46:55.088535+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "11dad9c344584c458b27abb5fba00191",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:20.796739+00:00",
+      "stage": "snapshot_samples",
+      "key": "0f39028cb164e5bcba97e3c9be2d55be963a13392961c72d270690ec315ef895",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:47:07.087027+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6c7cfd1402a14303af0c50267ff9c040",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:21.109711+00:00",
+      "stage": "distribution_analysis",
+      "key": "cc8ef27588d014af26c4955b729e37dcfb34cf3bf2372f46daec312049235a96",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:47:19.603351+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "be7a8286207b4d6fa5c1bdfa0e4040fe",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:21.307902+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "6f5042ac70bae5ac63520371788fe3ad1574d46090047e59d7073d2408c1418e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:47:29.660630+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "11021f1cd64b4a2982eb7a8b7a34f3ea",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:21.631127+00:00",
+      "stage": "snapshot_samples",
+      "key": "d5c3de92a1efa5cfda14f8e239148dbdb6f4cc6d5908fe09be5302566aed16ed",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:47:40.125292+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "cdf348b0c7cc4dc3980d86109ef18d95",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:21.824820+00:00",
+      "stage": "distribution_analysis",
+      "key": "b34e8163d342e7775b8d3d34e6525184751d4fa9eefd9a907d80f00dd51fa734",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:47:51.866969+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "68a4bf7d2fd448b0b747de72121eb36e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:22.147075+00:00",
+      "stage": "snapshot_samples",
+      "key": "dd348b583d5345b20f6bd4adfcb1b411c8914eefaaadc0622342090599abf962",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:01.795091+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7920508beba1484f92e0a8156771f3f4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:22.516563+00:00",
+      "stage": "distribution_analysis",
+      "key": "40002a14231ec40ac3aac41633165fe7491bed97e8c6a3b7ca3000ba13dfca77",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:10.990184+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "531e83cb4bcc42a4a1064f33ed770403",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:22.814647+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "4501869fd32c3e44848dc2677b5796814381f3651aaa8f95b08e0db9da7b3efe",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:21.120354+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "2b24b76609ea4f0ebace896d2ff28ce9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:23.162627+00:00",
+      "stage": "snapshot_samples",
+      "key": "04c68b6fe86ace8763d17b4de8cc49d7b32a62fabfad417a782a69ab0a129c85",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:31.749566+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8b87d0c0112c435390a5a42d65515c99",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:23.391168+00:00",
+      "stage": "distribution_analysis",
+      "key": "5ecbc3b38f2bf159ebbe5bbcbf27b28795c0a80de88ba711f94a69a0c950854b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:41.642316+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "8d097ecd302b4b7ca3b20b9cc0f4a698",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:23.776196+00:00",
+      "stage": "snapshot_samples",
+      "key": "2a78d29e10a69a87e1b60bdbd702f92af5b59fb77c748ce3086096cb2a87bbb8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:48:52.000807+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5c9920ff22544a19a319f4e9129dc7a3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:24.109618+00:00",
+      "stage": "distribution_analysis",
+      "key": "67c6f89843c04bb870a77f1754964c5a8b347687ebc5d1ed415b0f45f9eeb402",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:02.710191+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3883f8dbcf8242bf8a90ce0315d94a56",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:24.312974+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "a9bc7622fa29527cff5f8cf10d715a96379614266f76205c53056902fe690424",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:13.288322+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c035dfb1e6604aaea2c84211c2cdc2e1",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:24.646251+00:00",
+      "stage": "snapshot_samples",
+      "key": "bddc47aedbe59fa226268e2f7690f7cb4d3b6f47a526d21253f1e635a3345f81",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:21.747309+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "86c17b45023a4ca69958159926d02e58",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:24.854237+00:00",
+      "stage": "distribution_analysis",
+      "key": "1689c33a3c10bb59683a2daa4ace8e4ce080505ffd6ece4a97bb6432e575013a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:30.875635+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b9d67d346961468aa6f4bd4687ef3fbb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:25.190282+00:00",
+      "stage": "snapshot_samples",
+      "key": "3a21267781be39334d5a8663216760b394b7a4ff6287ef4dbf7b421567ab1060",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:40.459382+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c67013c6442c48e59ee3f4e6817a7a7d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:25.504757+00:00",
+      "stage": "distribution_analysis",
+      "key": "8a0b8cdb2ec16c0fa5cd3134577a5bdbc7cf0a92806c4f7909120da8fca39c15",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:48.868501+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "64571ec619ae437882886ba6ef1ea8f5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:25.713698+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "e05dc2bde1a355332112d2d4dce1a72750b9f80a8da9b84d74dedb92848d21a6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:49:57.499896+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9bac73a8dfd34044b7b6f2d5c1c9f28e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:26.081500+00:00",
+      "stage": "snapshot_samples",
+      "key": "eea1475abc5365bc6a80fc3efa41004baefa7f104b3c9dd7427a75f7462bdf9b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:06.179719+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "937e620002ec433ba56b0c0c5ecdf07c",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:26.284522+00:00",
+      "stage": "distribution_analysis",
+      "key": "1c32dbf7362e5072339e51a476d14019774ba23f97c2b0da2f70e55db280e774",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:15.277812+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5f577d79149d41579adabd5bdca99bdb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:26.699435+00:00",
+      "stage": "snapshot_samples",
+      "key": "5a29ca4343db0846f3f8b3b2bff4292890fe4159a0955fc02752bca203be9a24",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:24.315590+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "a3458d2f35ec4cc795c923bbb560c3bc",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:27.047783+00:00",
+      "stage": "distribution_analysis",
+      "key": "747904d261f8fc814fa9caae580ac9c0c74344578f7ba615e1b30441f30adf48",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:33.282147+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6c53adc3bc214b9697a439b6a345f272",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:27.268089+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "fecb2531b9d173b93bf1a39b4b1bb149f7eb51c5624c92e7a658567880146b22",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:42.225982+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9f46c209226f4a759a5d1ef9fb0bc4a3",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:27.611498+00:00",
+      "stage": "snapshot_samples",
+      "key": "5048cfbb942bc666542477f24df06bbab99979ed1cbe15f82bb67f78f95de9c4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:50.389444+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "00aeb536f77849a1961a519dcff72141",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:27.811809+00:00",
+      "stage": "distribution_analysis",
+      "key": "8c5bdcaf682c1b0358ad64d3547fac6619a4691e9d2f1699ae6316874fcf74ec",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:50:59.132886+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "21c55d808ba24b8c9d7aa5c1c1311df4",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:28.137319+00:00",
+      "stage": "snapshot_samples",
+      "key": "f03f5b8f4f5bce9793955e52217ee5759fd55d8fff18ea4a77215a74c243d950",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:08.165149+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "79fec95c7b264d9a82a23dbed895e733",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:28.456420+00:00",
+      "stage": "distribution_analysis",
+      "key": "db43574539834d6242d364b53d46fa99c8086ffac6af73cbd194a69ba3f21249",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:17.482975+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f037bf14ba3a4f5aaff37f259246d943",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:28.662754+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "3b50cbeb03c8191d1249388c3c45cb943a5737383da30704ef4ebe609d7aa2c4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:26.731299+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d1103368b7e9450b9317b4d88050da45",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:29.008735+00:00",
+      "stage": "snapshot_samples",
+      "key": "17b8396eb7e856beeebe7899423bcf95d0687ab48e05b76ad5d7dcc27cb74e2a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:35.442415+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "82dc00fd4da44022967f7fea9f82a036",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:29.226786+00:00",
+      "stage": "distribution_analysis",
+      "key": "a1a6152f6de53236845a1f7bc9aa69310479fc27954dd562bdf46ef4c879caaf",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:44.322916+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "942b20cb333a4bc5afc8594862a36a7b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:29.551141+00:00",
+      "stage": "snapshot_samples",
+      "key": "9ac23890481130a7fb1b335c39422ee59c2534d97de3fee58a55a56fc1af3a80",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:51:53.396107+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "fda6645656124d43bad7e44c3b5968b6",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:29.866125+00:00",
+      "stage": "distribution_analysis",
+      "key": "548ea34f252fcdbe96f70b26141be2fb2b27df947e37ab3aca7f54a08ff4adf2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:02.296628+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "080eb9797d5246d08509a65ef311e4bc",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:29.969852+00:00",
+      "stage": "coherent_confirmation_preparation",
+      "key": "468fb5c4f69aeef9923343814aadd37921563a01cc2bd2dfb241f241bddd130a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-05T03:43:54.407330+00:00",
+      "original_invocation_id": "20261005T034306Z_46e1bc77",
+      "attempt_id": "24e869b6b4f84660a7a2eb25b8081d71"
+    },
+    {
+      "utc": "2026-10-19T00:18:30.192058+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "1058551bf9af141c0bf55f1ff0523541e51969cb9b9eaa66d76d1036b855624a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:10.645451+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "24963d775ea34e41bb050d7600e43794",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:30.597994+00:00",
+      "stage": "snapshot_samples",
+      "key": "2b3fc6c8869898d2e7ee9389afb4ec145151a5993b2c4ac87a7a2ba08145684c",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:15.245689+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c538b64f93694819a3345b19275c438d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:30.841683+00:00",
+      "stage": "distribution_analysis",
+      "key": "d6f496290dbe46c520e9a97996b2278ce4bbc090e79e2fb059dbc577790b3166",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:20.122023+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "78ac93ba736d4d17b64052590493f03a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:31.391988+00:00",
+      "stage": "snapshot_samples",
+      "key": "1dfa3343eb46d9259021cc0af458577044be634b3a851e9c7687dd9318ce707e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:24.715145+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "96b321620cd14a3fb16484e428aef83d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:31.639786+00:00",
+      "stage": "distribution_analysis",
+      "key": "7d182a65fa527752b248094445ae2b3fca1511170f89c224286a8bfea12073e9",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:29.208053+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3e85ace3692747ae95b46b16d4e6744b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:31.857932+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "ec4ac8fa2866dbc63ba9c45391395c920c7e5a6284c159e1489b83d3b80903a5",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:33.720843+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b6c7b90282d942aabe3c0f97c29b2699",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:32.201526+00:00",
+      "stage": "snapshot_samples",
+      "key": "a8072a4ec257407a5ea572343f8a03e1a5bcd7f9be57d5f1b1552ecadf5b0d96",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:38.314504+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "a059be866d5e4566a75549de703738ca",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:32.416979+00:00",
+      "stage": "distribution_analysis",
+      "key": "ee0e6cbf8c4cafcf990f8499afc111e4d9f6f23dc39408578fb9778e6422c1f7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:43.166539+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f9978bfb40b54c7382a67769b4d427e7",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:32.914912+00:00",
+      "stage": "snapshot_samples",
+      "key": "403234e28d735ecdd0a734e81bb9bc93403c4f7aedf0ebbd5f88b9b84790ca75",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:48.171783+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "4ebfa61c804d4c0abbe3d451bdad2ecc",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:33.161663+00:00",
+      "stage": "distribution_analysis",
+      "key": "74ceb60ecc6edac3b10211293d213d4971cb1003989d6f8ba0a535ab6b1c2789",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:53.294780+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9ba2ac79172642aa83ea51fae5547e0d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:33.433727+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "1e038fb5f49eca8fa9651c73b52739880a0fcf699a425884b5774ccd97b949b6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:52:58.065536+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f1eb1c0906f44daa868c1af740dc2038",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:34.079419+00:00",
+      "stage": "snapshot_samples",
+      "key": "06c887c2aaa94ff0d86c10eaf1a827720c712d6deef584690f30bd9fef0952f6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:02.588212+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "1afccc44d45f4fe38663aea99bc4e85d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:34.453857+00:00",
+      "stage": "distribution_analysis",
+      "key": "b7f8196ab2ba880807f685be7874087cc3aaaf24e1982191a77c5185124021f1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:07.506419+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f00394befcff4da9a302e681ca54e9dd",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:35.035075+00:00",
+      "stage": "snapshot_samples",
+      "key": "8f746e5cec5b2dfce36df5a64a160ce2667d38fbb97332cae206d22183359ed3",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:12.501821+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c32bec38ea814c469f6d22aa226481a6",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:35.247871+00:00",
+      "stage": "distribution_analysis",
+      "key": "89fd6613714634385298016fed5e734e2d7ddbb111e683c4b9bfc820da81d4b6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:17.431949+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "97371cc342684fbfaddd87f358bb413f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:35.536236+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "83e79596764ebbdc543d77ab11aff80796f1a082831867896169b5d7e8f71403",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:22.093263+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "dae33aacf7be42a9877c895bf6685d95",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:35.950083+00:00",
+      "stage": "snapshot_samples",
+      "key": "cbf4eef29ad4f52d8cc2c2480197d21c61de960f7e860aab3888bb5b1dab8d4e",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:26.178520+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "2be222105a43441b97331785f44369fa",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:36.170197+00:00",
+      "stage": "distribution_analysis",
+      "key": "9d7acd1a2675d1b36caa71d5861021733cdfb21b4f2cf5e96d7b0d165af377ca",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:30.774834+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "aeb105f28ce445fbb5672ee14a85d2e2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:36.802626+00:00",
+      "stage": "snapshot_samples",
+      "key": "b728ec2ae56d22e338a8dc896f5734ba12a3c30884edd31eeef2b61831a9500a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:36.081021+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "82c8bfb5fe9745f7af5f113b85c76a45",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:37.004857+00:00",
+      "stage": "distribution_analysis",
+      "key": "965b485390e4e61d4ab327a34f79e2b1b62ddc79688f044e64311e395770e9b7",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:40.842952+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7f8861a8d146413083790cb5a0527438",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:37.211240+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "f4abd78b5ca56973bd6c44c1e3e4d2ac5e9506cb1d215d42c19ccd4120abd142",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:45.531762+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d18a78dae9c24f39ab129fbb986200b0",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:37.562888+00:00",
+      "stage": "snapshot_samples",
+      "key": "2fa94ebda7e3179e57bd6bcc82d4305b4fb995e1dabdef5a6a9b4baa77f61661",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:50.308940+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "a2691bdf4c00459b9665f4f7309dec23",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:37.764892+00:00",
+      "stage": "distribution_analysis",
+      "key": "ca51d26eefc00851a69f5627ef4da0d8fdcec40c190f81676745f5bef46b2a07",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:53:55.446643+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c451f153d1c34a03ad6f31cd64d11c7b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:38.236796+00:00",
+      "stage": "snapshot_samples",
+      "key": "c49f149cea581c2ac525b170d9fda02908ab49e09929819ff34934ba13f85ea8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:00.617724+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "92718b3913744470920c29fea9c94a4f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:38.438311+00:00",
+      "stage": "distribution_analysis",
+      "key": "a659424f11bd9a1bb12386b70549f92863c6e32030f6312cc474e915c034fdd4",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:05.684679+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "5a7d6f96bb494963a0f13135f44e504b",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:38.633949+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "0b0cc2aec27e07dcfc45269bd13b51a3e6004563478ec7b90895fa8256dc9a0a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:10.267791+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "1561312ff78e46bb84632e85305e4371",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:39.097832+00:00",
+      "stage": "snapshot_samples",
+      "key": "dba1167d5785ad8cb7bd8562d803e72ed7de7fb1cdac961030b4456856569c2b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:14.784151+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "444a761659f64dd182fca71cdee374d9",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:39.325144+00:00",
+      "stage": "distribution_analysis",
+      "key": "ea805b74678f17bcf306449f1b8782544352c04301493c51fc8b924d62c7ceef",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:19.107059+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bfcd936ca5e74a77b9654a6916d2c17d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:39.878447+00:00",
+      "stage": "snapshot_samples",
+      "key": "7f8cb29fcc682edbccf901734140cfadfe4aa3d403509c546fe08c0f4125be75",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:24.150218+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "4a51b874dd4e4e8ba7c57f582853b6d2",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:40.094610+00:00",
+      "stage": "distribution_analysis",
+      "key": "2f0ae318fecc422addf8e64c0fca626184b730be5c742c71f400faac7b81eda8",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:28.934452+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "d69805c001b84ac1848872b6391b3d98",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:40.322159+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "60b0ce7ffbc33b8a10f5a16f865ac3a577a1879710eef0753f1630bbbdc82f9f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:33.819636+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9e43d734ec5947169b37366437b13e2a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:40.724740+00:00",
+      "stage": "snapshot_samples",
+      "key": "e12c756e6776a52e42cd451be49a13b0911b6b51d4e2dfa7d2dfe8c72a5d94e2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:38.366579+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "dca365aca9c5432ca2185ffdcbb79cbd",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:41.049296+00:00",
+      "stage": "distribution_analysis",
+      "key": "70d699a426fb99b4d297ae483e25a8f8687cff9cdab7ee95862d64a640e94301",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:43.321395+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "09dc018ade2e4445b12ed06d9e48b1d8",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:41.484982+00:00",
+      "stage": "snapshot_samples",
+      "key": "f2dd4f2eeadbfc211f85578476cd74d73e4fb989b75f35546fd5b6ec3b6b5e98",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:48.907627+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bc7690ff884e4edaa7f71e4a466d8edb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:41.722164+00:00",
+      "stage": "distribution_analysis",
+      "key": "db393f2afa82e1217e55209a871ba12c3435b7e1daa3561cb8a64b14b8036409",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:53.159140+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "98bc303e43304f8baf9185e6b69f5c9c",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:41.967662+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "c1516a431c43ccf8473071ea930c5eb5b11595c80c5fcce04e153044a73d6516",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:54:57.624384+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "62059aac1ccb4008b5bf981b34f342bb",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:42.374930+00:00",
+      "stage": "snapshot_samples",
+      "key": "490a5664f652bafdc8f52575a1fc4a88e6ad15ad3b110613d796701dab788b03",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:02.232592+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bfcec28ebf5d4b15ae308428a8d4a00e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:42.690856+00:00",
+      "stage": "distribution_analysis",
+      "key": "a4ad424d8e106eb1f2b5549eef231f7ebb7d327039fdac06866835b77eb61801",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:07.191143+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "1df07e5e412d41f0b3e0d05c7055544a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:43.309505+00:00",
+      "stage": "snapshot_samples",
+      "key": "490f97f003dc89cf8b26a97dda3868182e1d0888df619fee4db5e738d2269274",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:12.180902+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "b36cb098a4094e0980247a80ef231f45",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:43.676869+00:00",
+      "stage": "distribution_analysis",
+      "key": "4c62945f27456cad7f4e754f4a3ef85c0f2fb3a844ee1df16490a4cb72ecbeb6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:17.160878+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bc75a5609f2640d29a34674e791794c0",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:44.039810+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "18ceca2222af6babb35a6091ee329a581527189846d7ce4a0dad378491fd65d2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:21.911935+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "c6f78627535c4713bc66a85cd7efc16e",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:44.642989+00:00",
+      "stage": "snapshot_samples",
+      "key": "872e7fd65cf6022c21a1353e0647e7bcfcba23aea5f49a5598c6922feecaad7d",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:26.431150+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "0eee8db42b95485abcf2c67432737956",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:44.887662+00:00",
+      "stage": "distribution_analysis",
+      "key": "e113410b4c49a82175a6c876b350bd8baba089b166a4b1cbda2fd7cc0de8bf35",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:31.208085+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7c74440b37004d0e87b5443d53209e63",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:45.339111+00:00",
+      "stage": "snapshot_samples",
+      "key": "39fca914a086b02d9fd1476a81cfa00f85ad6ba839c371be29d16be438f425e0",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:36.285108+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7b1f3d86012d475dadb2ceeb52e3011d",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:45.552633+00:00",
+      "stage": "distribution_analysis",
+      "key": "c19c87e99a5e7cfda175ac76e2a0ba439226a783a2c5363f5e36cbe296e729df",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:41.074658+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3d61d45038af4719b4612ec5861d1f32",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:45.751005+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "07988915d4a123995c0da8f7d5601003524200e914e50f7d32be4ed948035283",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:45.650064+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "e8585395ac4449368f8d0acab6116b51",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:46.273075+00:00",
+      "stage": "snapshot_samples",
+      "key": "ee723a3d3943563a68f6dffc0e5b8155edda74973a625dc50d9abb7fea743130",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:50.471580+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3da98af2181d4263b75778198d66f280",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:46.503689+00:00",
+      "stage": "distribution_analysis",
+      "key": "5516638b5625456ef7e9737cc08fa7141e958a634ea64199b6d4bd3b101f663a",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:55:55.347409+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "a22633c5450c46c8aeed1d8602db250a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:46.909910+00:00",
+      "stage": "snapshot_samples",
+      "key": "029140697d87f083741bb4606e4f193d690bbfad8ba084d8b16f1499a4567701",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:00.703178+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "6211ce471ed647fa8507fc29d6d68117",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:47.118808+00:00",
+      "stage": "distribution_analysis",
+      "key": "7f0331837043c78257939fe35fe2f99dbb1fbdfe30b319c9f9c41a1b847be472",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:05.946596+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "9afeb79cbf20403393425fad57868298",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:47.328144+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "b498baa9168c7e157793343c71a9a7fc9383bf1d3fa409dbc0d22a5bddfbf6e6",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:10.612102+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "63bbe2f1cce340e0af58716945e67b01",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:47.820818+00:00",
+      "stage": "snapshot_samples",
+      "key": "f640735f93f2c22338a10b0068a39a721b620c9b690fd365f759ccf6dc015eaa",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:15.101035+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "bc11f7f4ceba40ceb09223381e177474",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:48.020657+00:00",
+      "stage": "distribution_analysis",
+      "key": "ae48f68c86d63ac20274331dae30051741b945d17bbc4352c0f7017d6162f447",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:20.068276+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "7ca34a96934542b09620cddb71bb02de",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:48.379932+00:00",
+      "stage": "snapshot_samples",
+      "key": "4ced8e85c9e8fdd3d0ec9b5891a31177ed07dd4917c2c72ba6dedba4cf65108b",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:25.192345+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "f13c8c2c40da423e9db28f36ac4ab604",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:48.581505+00:00",
+      "stage": "distribution_analysis",
+      "key": "5295ef6b727e778e0f5f0d2f7093313e52259e96c64eb9547db768e2257a8a5f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:30.093634+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "714704b38e92417aa43a4495ed25175a",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:48.793354+00:00",
+      "stage": "select_confirmation_circuit",
+      "key": "ca732c35129fbeaf83da90db3f25df43214b618d1491eadfa34469af57712643",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:34.632140+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "901b3d03a1a84d7787784caf5fb6bb21",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:49.329909+00:00",
+      "stage": "snapshot_samples",
+      "key": "16f7625428c74bd86e6622ca3d44c5890d7a3878c3a161836eb73d98d41dfe3f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:39.030949+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "3b4085e9b8af4ac785623b0c3ea05be5",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:49.535133+00:00",
+      "stage": "distribution_analysis",
+      "key": "eabf353df02b4fce902a1bbc60bdabc13357330070de3d0f22b063280fc37473",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:43.934374+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "2c36da3fac9b443aa07b76a6105ec45f",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:49.905800+00:00",
+      "stage": "snapshot_samples",
+      "key": "0389d2fa99e58b69eaa44e54de55a771725d78b9dd6531739de72433203b0337",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:49.013870+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "186aa155a50d4170bc4356bf1fe74d93",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:50.132269+00:00",
+      "stage": "distribution_analysis",
+      "key": "4a0e8f16a34af5bb90b0bd0cf1451a209aa4523b11f97f7a7416b50b55532df2",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T03:56:53.725896+00:00",
+      "original_invocation_id": "20261006T032901Z_1e4b0adc",
+      "attempt_id": "fcb3df253d6f4d958b9917cd12289c84",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:51.177336+00:00",
+      "stage": "confirmation_publication",
+      "key": "ab29541ec013f3bc42d0f37df4edf265c449c92bcdba1411e54825bb4776408f",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T06:06:21.161107+00:00",
+      "original_invocation_id": "20261006T060501Z_c634a736",
+      "attempt_id": "da7b3d87cb1846a1829dfbd445dc3cc1",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    },
+    {
+      "utc": "2026-10-19T00:18:53.064159+00:00",
+      "stage": "hardware_analysis",
+      "key": "cf1e1f4ac0c94b09d9d53c437c4ddee172dfa0e8c4842b141478b94c362391c1",
+      "action": "loaded_existing",
+      "original_completed_utc": "2026-10-06T06:07:10.075223+00:00",
+      "original_invocation_id": "20261006T060501Z_c634a736",
+      "attempt_id": "166b78f0176a4b6f8409685a9eced937",
+      "environment_equivalence": {
+        "computed_in": {
+          "python": "3.13.5",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "reused_in": {
+          "python": "3.13.16",
+          "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+        }
+      }
+    }
+  ]
+}

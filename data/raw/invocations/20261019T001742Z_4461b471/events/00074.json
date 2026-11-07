@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-19T00:17:54.842065+00:00",
+  "stage": "confirmation_preparation",
+  "key": "d4714d81c793d356e2ab066600df55dc6d2dafafdccb17151704ed7e7a9d6ba7",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-05T03:43:26.252948+00:00",
+  "original_invocation_id": "20261005T034306Z_46e1bc77",
+  "attempt_id": "c5416cec5ef14299a68767390a0c8c98"
+}

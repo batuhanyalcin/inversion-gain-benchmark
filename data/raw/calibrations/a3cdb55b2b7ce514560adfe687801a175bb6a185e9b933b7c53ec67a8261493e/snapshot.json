@@ -1,0 +1,10 @@
+{
+  "first_archived_utc": "2026-09-14T03:43:58.906338+00:00",
+  "payload": {
+    "kind": "ideal",
+    "noise_mode": "ideal",
+    "backend_name": "local ideal sampler",
+    "device_calibration_required": false,
+    "declaration": "No physical device or noise channels; all stochastic seeds saved."
+  }
+}

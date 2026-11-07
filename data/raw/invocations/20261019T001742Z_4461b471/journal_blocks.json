@@ -1,0 +1,431 @@
+{
+  "invocation_id": "20261019T001742Z_4461b471",
+  "started_utc": "2026-10-19T00:31:53.248540+00:00",
+  "design_id": "journal_confirmation_v1",
+  "rule": "at least one provider calibration update between consecutive blocks; otherwise the blocks are reported as time blocks",
+  "configuration": {
+    "enabled": true,
+    "submit": true,
+    "collect_existing": true,
+    "devices": [
+      "ibm_rensselaer",
+      "ibm_kingston",
+      "ibm_boston"
+    ],
+    "transfer_submit": true,
+    "wait_minutes": 30,
+    "allow_time_block": false,
+    "approval_note": "Batuhan, 15 Oct 2026: run B1-B3 automatically on Run All, each job once, one block per provider calibration"
+  },
+  "devices": {
+    "ibm_rensselaer": {
+      "account": "lab_zhang",
+      "blocks": {
+        "B1": {
+          "expected_jobs": 7,
+          "submissions": [],
+          "checked_utc": "2026-10-19T00:31:53.249017+00:00",
+          "registered_before_run": 7,
+          "collected_this_run": 0,
+          "jobs": [
+            {
+              "job": [
+                "B1",
+                "A",
+                "mitigation"
+              ],
+              "status": "completed",
+              "job_id": "db77utur6oqs7386v4jg",
+              "compile_calibration_id": "cffcf72611a150276fe00a5fb6ec45829ae6848dbce697636cd4e43aea2605fb",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "A",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db77upiraffc73f9un40",
+              "compile_calibration_id": "cffcf72611a150276fe00a5fb6ec45829ae6848dbce697636cd4e43aea2605fb",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "B",
+                "mitigation"
+              ],
+              "status": "completed",
+              "job_id": "db77vfmr6oqs7386v5v0",
+              "compile_calibration_id": "cffcf72611a150276fe00a5fb6ec45829ae6848dbce697636cd4e43aea2605fb",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "B",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db77v58r1c5c738juigg",
+              "compile_calibration_id": "cffcf72611a150276fe00a5fb6ec45829ae6848dbce697636cd4e43aea2605fb",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db86o4uil99s73fpead0",
+              "compile_calibration_id": "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "D",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db86ob8r1c5c738ls2qg",
+              "compile_calibration_id": "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B1",
+                "E",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db86ocqraffc73fbri10",
+              "compile_calibration_id": "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "cffcf72611a150276fe00a5fb6ec45829ae6848dbce697636cd4e43aea2605fb": "2026-10-13 14:34:17-04:00",
+            "9e1dc8f8f8402be0453548365e4a99f745e163b1d0e555ccf2217f595d635015": "2026-10-13 14:34:17-04:00",
+            "555703f0d0c6135a73e25693bc18a2693a6c9ac3fae79263002320d492a308cd": "2026-10-13 14:34:17-04:00",
+            "8e90c246ec35fe2b043e87d226010cec5cd73d2e1e1a207520860905221c2a63": "2026-10-13 14:34:17-04:00",
+            "5b4a3481caacbeec9adcfcd4b8cb91943a54a46fd23e2a5c34f49eb516315f1c": "2026-10-13 14:34:17-04:00",
+            "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38": "2026-10-14 19:46:52-04:00",
+            "74fb2ab144ecc117ef6fbb618fe3eb793b933d87e0b8efc8e14fb4757fd5b1e7": "2026-10-14 19:46:52-04:00",
+            "f1fc50bfafb2eb7be27f7f5301d2d5779f407082ee5593eb712ad278bf76730b": "2026-10-14 19:46:52-04:00",
+            "17c804574fedb63003582802411205acb442af3b423d79c8ec8f96df10552a07": "2026-10-14 19:46:52-04:00"
+          }
+        },
+        "B2": {
+          "expected_jobs": 5,
+          "submissions": [],
+          "checked_utc": "2026-10-19T00:32:12.804843+00:00",
+          "registered_before_run": 5,
+          "collected_this_run": 0,
+          "jobs": [
+            {
+              "job": [
+                "B2",
+                "A",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8plsob3g5c73egovqg",
+              "compile_calibration_id": "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B2",
+                "B",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8pm68b3g5c73egp0dg",
+              "compile_calibration_id": "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B2",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8pmllckpjs73b1g1ng",
+              "compile_calibration_id": "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B2",
+                "D",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8pmvm94fic73etsvog",
+              "compile_calibration_id": "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B2",
+                "E",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8pn1tckpjs73b1g2cg",
+              "compile_calibration_id": "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "54a1af981af8d7f069d52ca5baccbffe1b23673e452a0305250c968f86d61187": "2026-10-15 22:34:30-04:00",
+            "c1e2cdf50f0ec72435a2b5855c0e9a2bca6e17c8aedab140ddb135d289547b9d": "2026-10-15 22:34:30-04:00",
+            "62d6a656f4b066e5ad343ff52589317a7827ce1a614f15e9bbde1b50f6e4cb1d": "2026-10-15 22:34:30-04:00",
+            "a113acacd2c8a8b0df9519eb365c17d3b90d958bc48f9a089254e9b5018b1e97": "2026-10-15 22:34:30-04:00",
+            "c7f95d82f9f34916d8dad2600c60fc6e5547cbfa8acd7f9da5de946f382c56d8": "2026-10-15 22:34:30-04:00",
+            "dbefd4ae89f44246e1173f5fbfbe80906f4a821828f2050fec54729c986b346c": "2026-10-15 22:34:30-04:00"
+          }
+        },
+        "B3": {
+          "expected_jobs": 5,
+          "submissions": [],
+          "checked_utc": "2026-10-19T00:32:23.835430+00:00",
+          "registered_before_run": 5,
+          "collected_this_run": 0,
+          "jobs": [
+            {
+              "job": [
+                "B3",
+                "A",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db9ae4c24mrc7383nni0",
+              "compile_calibration_id": "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B3",
+                "B",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db9aec1gv2cc73e576hg",
+              "compile_calibration_id": "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B3",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db9aenvi0auc7390bl80",
+              "compile_calibration_id": "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B3",
+                "D",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db9aeuk24mrc7383nofg",
+              "compile_calibration_id": "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "B3",
+                "E",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db9af0424mrc7383noh0",
+              "compile_calibration_id": "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "47ebdf5e82458898b2c157eb4332042f58e76c34d2a04e8663ca8fae51982474": "2026-10-16 13:43:16-04:00",
+            "3801cd087085e6a5165c3b80954ed679dfb95ae99b86cca40b120969568278bf": "2026-10-16 13:43:16-04:00",
+            "90bbcf21d7763d971a424b861c7f05d77e558dc9f2a779c2c7d5b197e268291a": "2026-10-16 13:43:16-04:00",
+            "3ff26781587a24da20db643e22ff607d12655dc64bcd557258c26f2242ba3c00": "2026-10-16 13:43:16-04:00",
+            "d6270fb7e15420e5f50e26f691b9541e7bd73ebed26fb18b4f8955e0736e0fa8": "2026-10-16 13:43:16-04:00",
+            "307930292e03129a59ec8e21a9299cc8f0532845b912b0fadb15bcddab9ae887": "2026-10-16 13:43:16-04:00"
+          }
+        }
+      },
+      "calibrations_archived": []
+    },
+    "ibm_kingston": {
+      "account": "lab_premium",
+      "blocks": {
+        "T1": {
+          "expected_jobs": 5,
+          "submissions": [],
+          "checked_utc": "2026-10-19T00:32:35.551508+00:00",
+          "registered_before_run": 5,
+          "collected_this_run": 0,
+          "jobs": [
+            {
+              "job": [
+                "T1",
+                "A",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8q48tckpjs73b1gimg",
+              "compile_calibration_id": "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "B",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8q4j5ckpjs73b1gj2g",
+              "compile_calibration_id": "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8q51gb3g5c73egpk0g",
+              "compile_calibration_id": "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "D",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8q5a9eukqs73ar46i0",
+              "compile_calibration_id": "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "E",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8q5cgb3g5c73egpki0",
+              "compile_calibration_id": "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "6ab30d397c500684821cc657fc6eee96f9ca18116887cd444ffe4f03e22ffeee": "2026-10-15 23:35:33-04:00",
+            "2391a75d8e000bec87bea8d473e6168d912c3327d95f1181b2c3410fffa368df": "2026-10-15 23:35:33-04:00",
+            "534efb01f2a0c5b67d5ddff00a1105b5e756bdcd7e88ea4e6805bcd2539ebdaf": "2026-10-15 23:35:33-04:00",
+            "096eeef73a25f29f426c5f3728aee3882946f35210fb5c21e6058563e65effbf": "2026-10-16 00:01:01-04:00",
+            "9e7f515d3508cde4633c141c90202a86226912022e422c1c2ab10f50e4d8a310": "2026-10-16 00:01:01-04:00",
+            "bb841ca1ce158d82a3393b054bb4af7836d179444c338d87291b8a8d1daaed7a": "2026-10-16 00:01:01-04:00"
+          }
+        }
+      },
+      "calibrations_archived": []
+    },
+    "ibm_boston": {
+      "account": "lab_premium",
+      "blocks": {
+        "T1": {
+          "expected_jobs": 5,
+          "submissions": [],
+          "checked_utc": "2026-10-19T00:32:51.615227+00:00",
+          "registered_before_run": 5,
+          "collected_this_run": 0,
+          "jobs": [
+            {
+              "job": [
+                "T1",
+                "A",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8qcom94fic73ettvc0",
+              "compile_calibration_id": "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "B",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8qd3m94fic73etu060",
+              "compile_calibration_id": "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8qdk8b3g5c73egq3i0",
+              "compile_calibration_id": "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "D",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8qdv9eukqs73ar4m1g",
+              "compile_calibration_id": "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "T1",
+                "E",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "db8qe1lckpjs73b1h3tg",
+              "compile_calibration_id": "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "bc70301b3ab8405db61d4946e1e298baa2b75a06b46fc0541b8482f7fc7adc4b": "2026-10-15 22:41:06-04:00",
+            "f256354f6b8815ecc8548c450addd5bc567fbe2a59886bca5f8fbb59a438747a": "2026-10-15 22:41:06-04:00",
+            "418a74cb97e41b270d06d6c47b5c653acf167fbd8c177ac3edb0ac705c890da4": "2026-10-15 22:41:06-04:00",
+            "c2526bd1bf746ad51d364e2034d47288bf6d59a7bfd7590512028e1bedecb1a6": "2026-10-15 22:41:06-04:00",
+            "64cea0f316a9a49df81093065bd6d8809c9fdf592a64877d2b101684faa2c0b8": "2026-10-15 22:41:06-04:00",
+            "6a52aeeb47480c13fb615d6023a06430276734987e4fc7a279f5b95a08e41c98": "2026-10-15 22:41:06-04:00"
+          }
+        }
+      },
+      "calibrations_archived": []
+    }
+  },
+  "finished_utc": "2026-10-19T00:33:06.388994+00:00"
+}

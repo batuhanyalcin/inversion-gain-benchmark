@@ -1,0 +1,451 @@
+{
+ "date": "2026-10-18/19",
+ "purpose": "Offline reproduction from the published material: restore the archive into an empty folder, then Run All without IBM access.",
+ "environment": {
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "packages": {
+   "numpy": "2.3.2",
+   "scipy": "1.16.1",
+   "qiskit": "2.5.2",
+   "qiskit-aer": "0.17.2",
+   "qiskit-ibm-runtime": "0.49.0",
+   "matplotlib": "3.10.6",
+   "nbformat": "5.10.4",
+   "ipykernel": "6.30.1"
+  }
+ },
+ "source_records": {
+  "run": "20261018T164724Z_3437a605",
+  "archive_sha256": "132c15af738a81091f573b6bd376c2cc0ec8dd02a3777db1a5d9305518532aa3",
+  "note": "Derived from the portable archive of the 18 October 2026 run. In 215 archived notebook snapshots one statement of the journal_paper cell (manuscript text; no stage depends on this cell) was removed to match the published notebook, and the 214 affected stage manifests and completion pointers were re-hashed. Every result, count, circuit and calibration artifact is byte-identical to the original records."
+ },
+ "restore": {
+  "seconds": 4559,
+  "archive_members_verified": 24555,
+  "stages_restored": 879,
+  "note": "restore_run_export verified every member checksum, wrote all members and rebuilt 807 stage bundles before a 60-minute job limit stopped it; the remaining 72 bundles were rebuilt by repeating its rebuild loop with the same StageStore code, and all 879 stages were then loaded with full checksum verification."
+ },
+ "run_all_1": {
+  "invocation": "20261018T232827Z_0a7d93b8",
+  "seconds": 2848,
+  "stages_loaded": 647,
+  "stages_computed": 35,
+  "computed_by_stage": {
+   "snapshot_samples": 1,
+   "distribution_analysis": 1,
+   "solver": 4,
+   "journal_vqls_selection": 2,
+   "journal_job_analysis": 27
+  },
+  "loaded_by_computing_platform": {
+   "Windows-11-10.0.26200-SP0": 285,
+   "current environment": 181,
+   "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39": 181
+  },
+  "hardware_blocks": {
+   "ibm_rensselaer B1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_rensselaer B2": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_rensselaer B3": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_kingston T1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_boston T1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   }
+  },
+  "recomputed_stages_vs_archived_originals": [
+   {
+    "stage": "snapshot_samples",
+    "twin": "cache/snapshot_samples/fe66fe94054f5328d1ab5e764d5703cb128fa77b89f3074bb93c92894e79caeb/attempts/d092f97cfd1c4a69b699efe953a05bd8",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "noise_model_sha256"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "distribution_analysis",
+    "twin": "cache/distribution_analysis/28d1e6bd4642f9489a7658d25224baafb005d769fb46828613cfd68cae081b1f/attempts/d5c5404d217e45688d9bbbd81634c00e",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "solver",
+    "key": "82573b9fdd6c05bf1be77a713d66d0175771c520988a086f24002529c3271151",
+    "twin": null
+   },
+   {
+    "stage": "solver",
+    "key": "3d848f5f408dfaebc92b87f3b26604af033940752e8833b055fc9ddeb94315e7",
+    "twin": null
+   },
+   {
+    "stage": "journal_vqls_selection",
+    "key": "217bb088ffa70da0930432a70309dee2e21dc9a3b7c6c8d829bc714aa46b809a",
+    "twin": null
+   },
+   {
+    "stage": "solver",
+    "key": "23712e068c5514b1242e6551da40bc5d955d39d1460c7c3d13b38c45bcb93394",
+    "twin": null
+   },
+   {
+    "stage": "solver",
+    "key": "77480ea0dec7987d1689bf41e70158a96cfef28fa71411d21312de0a6f9753a0",
+    "twin": null
+   },
+   {
+    "stage": "journal_vqls_selection",
+    "key": "f8025e46fb345cfbdbfb185717c62e2f4149e32570bc8022ee486f761a91f7a4",
+    "twin": null
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/b9ebd96b3be2f95a10e944001785f46d4856a02a6e930351c02ab42cbade690f/attempts/8795ec64db6b4eb987d35278c92e2193",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 9.769962616701378e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/a63b3bfa82d8877cfaf5e9a5f4336a47ab5fcc6fb8e334a858d6963f77d7e980/attempts/109ca6f6610d451b8305c8bbe6045974",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 4.9404924595819466e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/419b256889fac4bab1cb326dfbacd37bee32eb83002c26c4167e318a70289e1b/attempts/d9cc28e5f07b4531ab445deaa919c2ef",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.220446049250313e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/f59267d8e7068f40c67eee93c11f5eff23bc2d98fad4be4f51500d8348fef195/attempts/7d2e7c80af754b50a840e13e9cd083a9",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 1.1102230246251565e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/4d5d8c26b9f44a7996ba26821bcfc627727ca788ef283eec33c3e1cfe0c8d7ff/attempts/2050c765455d4e5997762c2ee43602fa",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.4424906541753444e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/79339f2368c58c22c21d29e998435e98023fbbca1d2a54dd6390537d0df4ffe4/attempts/a532c7b82f954ce4a0cc7c33797f524f",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/6d456d27ff9e2ea494074f7dc4f4d3a055496d4b6ed5ea333f20df6d7f2e5f1f/attempts/46c485a1210645399b85329ae84a946a",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 1.1102230246251565e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/6171e002a0199e538355a8ac8b01022dabba2eda5c6520c8f46eae0ec4a0b643/attempts/628183589edd439c933d98f757d68aa8",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 7.105427357601002e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/8076fcc349e980f7671b078937af5adae5f6a699bbc72f735d79d342bc5358e6/attempts/c97510ffcbb9446fa2e20897b7ebc009",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 3.3306690738754696e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/b63ac5c657f182d1c466903ba15be1b952ade0e420a3beb081a7f91633572d47/attempts/6ee25821922f4ba5b3b6cbf350b73eec",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.4424906541753444e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/74c00d85e983235d133a86ebd2bdf451247becde78799c37fcb26815571247c6/attempts/0706796fc1c340a5a1a88fc6f4070a55",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/5f996fd5d3b09dddd3cb3529c9f07d42355a49123f75464b3e5d3c57454d252e/attempts/01e202749a3d4871ab8b521fb2746ed4",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 1.1102230246251565e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/d8429ce4789a592aa58410de596d10707d1b091889417dad30b6f583f06b39ff/attempts/035f5ecfc58441389eea81a459dcd481",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 9.992007221626409e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/c219c3cc007f4c88850f819a1012c51442bb4ce359407691d7d10832968fea8d/attempts/7d067b77df47425db5eb46025b67c083",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.220446049250313e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/ed5fd6624cb09ea540d22e404048e380b45be9fd149ae80717d1dccc1ce84982/attempts/fc68922849f54ab295cf836889f7006f",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.6645352591003757e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/08a6f4835011513a388daa8ba26c5a019694dae7a3977ded013a1deb1d7f98d1/attempts/2dee7e2fdc454e40a65501bde13ddd82",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/3abaeb212c4ff092ae8bebc16739c308ab9578917379847f8ab0f3a3551c8e5b/attempts/e27410d88db041369150e7bc0bb577d9",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 5.551115123125783e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/56c2b6ac6ae9ba5e94f73ce74c5f7cc8a4be908ed6ac754a3495df20a2a23ade/attempts/0ae6f9ed7f754477ad4102e46c5d5d0b",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 7.105427357601002e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/843fbecfa4389c6790c1063844d745a6e600654ffb8783c2c3816ad2f9f651c5/attempts/3e80ec6f484e4890a01a52e43a488979",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.220446049250313e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/c6ae7a6b818597e0d305a0d79e06ee873ccb74937ac6bb3183197963744ad367/attempts/7b2eab55c3de40afb2d1ee945af17f15",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.4424906541753444e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/2b24e62aaa158d31a958dce2a9553882fc7a7e136125f60126dfb9057341022a/attempts/043de6426aef441f8180319731625e90",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/b164cd4618f2bb45a11f649fc2c84fef823cae34548dbedacacdb353270ee72e/attempts/b74b492e5a844a2fba28f6ce598a50f4",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/cb6dc8b239bbb47e5c9e4518523cb7f1db82777e8f8b6879f8a45d86e5a81bdc/attempts/1edce3a2db5a4cfcb591e94f2935549a",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 1.0658141036401503e-14
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/14887909bda2a4dc13070f664a5f7111016ab5a8077b32c18c8f38b6e2923132/attempts/413919cb31a040e59d6d7a069a1a7f54",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.220446049250313e-16
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/72ab01601b36c165b6a67b53a1edd6a69cc4871020894890c54ba7fac03f526d/attempts/7ecee304669244c2a4546a3ed1388abd",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 2.220446049250313e-15
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/b2aec54edec2bd7e88d287afff061d637825be710c8fb539cf2c6a08a76519ce/attempts/9fc840a0900c48f0aeb77bef60bb3f3d",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   },
+   {
+    "stage": "journal_job_analysis",
+    "twin": "cache/journal_job_analysis/252be9c02663b74b12b13ebeffb9c7118d5e3da402e6a8d19ade204a4a05f812/attempts/d917e7142e5647668a09bb6415f28150",
+    "twin_platform": "Windows-11-10.0.26200-SP0",
+    "specification_fields_differing_by_roundoff": [
+     "input_fidelities"
+    ],
+    "largest_result_difference": 0.0
+   }
+  ]
+ },
+ "run_all_2": {
+  "invocation": "20261019T001742Z_4461b471",
+  "seconds": 1853,
+  "stages_loaded": 682,
+  "stages_computed": 0,
+  "computed_by_stage": {},
+  "loaded_by_computing_platform": {
+   "Windows-11-10.0.26200-SP0": 285,
+   "current environment": 216,
+   "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39": 181
+  },
+  "hardware_blocks": {
+   "ibm_rensselaer B1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_rensselaer B2": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_rensselaer B3": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_kingston T1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   },
+   "ibm_boston T1": {
+    "decision": "complete",
+    "submissions": 0,
+    "collected_this_run": 0
+   }
+  }
+ },
+ "regenerated_manuscript_inputs_vs_submitted": {
+  "numbers.tex": {
+   "differing_macros": [
+    "ManuscriptDate",
+    "ReproLoaded",
+    "ReproComputed"
+   ]
+  },
+  "table_d0.tex": "identical",
+  "table_hardware.tex": "identical",
+  "table_instances.tex": "identical",
+  "table_optimizer.tex": "identical",
+  "table_prereg.tex": "identical",
+  "table_retro.tex": "identical",
+  "table_screening.tex": "identical"
+ },
+ "report_tables_vs_original_run": {
+  "block_reproducibility.json": "equal up to floating-point roundoff (largest absolute difference 1.1e-14)",
+  "coherent_screening.json": "identical",
+  "hardware_cells.json": "equal up to floating-point roundoff (largest absolute difference 1.1e-14)",
+  "instances.json": "equal up to floating-point roundoff (largest absolute difference 3.3e-16)",
+  "optimizer_study.json": "equal up to floating-point roundoff (largest absolute difference 3.3e-16)",
+  "planned_jobs.json": "identical",
+  "prediction_endpoints.json": "equal up to floating-point roundoff (largest absolute difference 1.1e-16)",
+  "preregistered_predictions.json": "equal up to floating-point roundoff (largest absolute difference 2.2e-15)",
+  "retrospective_predictions.json": "identical",
+  "vqls_checkpoints.json": "equal up to floating-point roundoff (largest absolute difference 3.3e-16)"
+ },
+ "figures_vs_original_run": {
+  "journal_d0_vqls_paulis.pdf": "pixel-identical",
+  "journal_hardware_gain.pdf": "pixel-identical",
+  "journal_optimizer_study.pdf": "pixel-identical",
+  "journal_preregistered_gain.pdf": "pixel-identical",
+  "journal_resource_frontier.pdf": "pixel-identical",
+  "journal_retrospective_tv.pdf": "pixel-identical"
+ },
+ "published_archive": {
+  "file": "portable_code_and_outputs.zip",
+  "exported_by": "20261019T001742Z_4461b471",
+  "sha256": "8649d08198bc4e8e876e30190bd5052ca314c56fddda3046d7152ae903d65af1",
+  "bytes": 179872059,
+  "members": 24663,
+  "stages": 885,
+  "environment_records": 15,
+  "stages_used_by_exporting_run_but_missing": []
+ },
+ "readme_paragraph": "**Verification (18\u201319 October 2026; Linux, Python 3.13.16 with the versions in `code/requirements.txt`).** The archive of the 18 October run was restored into an empty folder (all 24,555 member checksums verified, 879 stage bundles rebuilt, about 76 minutes) and the notebook was run top to bottom without IBM access (47 minutes). All five hardware blocks were reported complete; nothing was submitted or collected. 647 stages loaded and 35 were recomputed: the 27 hardware-job analyses and one fake-backend simulation with its analysis, whose specifications hold floating-point values computed at run time (input-state fidelities, a noise-model digest) that differ between Windows and Linux in the last digits, plus four VQLS seed runs and two checkpoint selections that the 18 October archive did not contain. Every recomputed stage with an archived original agrees with it to within 1.1 \u00d7 10\u207b\u00b9\u2074 (the simulated counts are identical); the ten report tables agree to the same precision, the six figures are pixel-identical, and the regenerated `numbers.tex` and `table_*.tex` equal those in `manuscript/` except the three macros that describe the date and the reproducing run (`\\ManuscriptDate`, `\\ReproLoaded`, `\\ReproComputed`). A second Run All then loaded all 682 stages it needed and computed none. Its export is the archive published here (885 stages, 24,663 members); it also carries the environment record of every invocation and the VQLS selections, so on Linux with these versions it reloads without recomputation, and on another platform only stages of the kind above are recomputed from the archived raw data. Details, including how the archive was derived from the original records: `reproducibility/verification.json`."
+}

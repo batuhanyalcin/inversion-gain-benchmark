@@ -1,0 +1,287 @@
+{
+  "valid": true,
+  "errors": [],
+  "pub_checks": [
+    {
+      "pub_index": 0,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "164f7e13f2bfe7c774a206ebe3d68cb74a8b35b1b436a114b14d559404797656"
+    },
+    {
+      "pub_index": 1,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "6b3d90b6d80d2405f5db51b1324e54c774c261cc168f537f5611c57ca74e654c"
+    },
+    {
+      "pub_index": 2,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "cc18474f1f781be19d33ec830089eaaa0c478871f597051008a87c291268a811"
+    },
+    {
+      "pub_index": 3,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "931a0c59308a947ae04629e1c36e71b7dfc8ce2a6b0f4da11d06ab51de7044e5"
+    },
+    {
+      "pub_index": 4,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "b3b09274705c313630d790109d841f1bf24f1baa40d5df4084242e17e2d9572f"
+    },
+    {
+      "pub_index": 5,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "3c27018aff5a7cb0b28c6f238a2e5038a0d70d46f0653b542d66f583161873c3"
+    },
+    {
+      "pub_index": 6,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "fb308d00caf0d9ff04bc30cfdad8c470c15a8555fa84e138738106a0f9fdaa83"
+    },
+    {
+      "pub_index": 7,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "59fbc7434febe07f14c23af303e738b2282030d22c9b6d1cb4fe3a7f33ad3beb"
+    },
+    {
+      "pub_index": 8,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "20be30660178d5d80be159a1b496d00d7a22c782d8d360387f3c10d7a6f5e283"
+    },
+    {
+      "pub_index": 9,
+      "valid": true,
+      "errors": [],
+      "classical_width": 7,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 76,
+        "1": 66,
+        "2": 77,
+        "3": 65,
+        "4": 85,
+        "5": 75,
+        "6": 86
+      },
+      "final_logical_to_physical": [
+        76,
+        66,
+        77,
+        65,
+        85,
+        75,
+        86
+      ],
+      "counts_sha256": "1b6c1096590b2488a38d4058e63a135ea948ce05748b67e8de94c887a58ef626"
+    },
+    {
+      "pub_index": 10,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "22051e820e2341c550d1d433c09ae299d46527ba373ccea42dda15631b4abfe4"
+    },
+    {
+      "pub_index": 11,
+      "valid": true,
+      "errors": [],
+      "classical_width": 4,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 0,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      },
+      "final_logical_to_physical": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "counts_sha256": "c658a978d1389a297693062147f260ad0c932ae7d1f9386c2fe29f5e5748fdfd"
+    }
+  ],
+  "submitted_circuit_count": 12,
+  "returned_pub_count": 12,
+  "submitted_qpy_sha256": "b23c8e32f21eefce601cd30bc5ae744bbb70088fe45e8895a459f6e54b8fa3a9",
+  "observed_qpy_sha256": "b23c8e32f21eefce601cd30bc5ae744bbb70088fe45e8895a459f6e54b8fa3a9",
+  "scope": "raw count integrity, exact classical widths and physical measurement maps; does not certify a shared preparation across VQLS bases"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "submitting_or_unknown",
+  "written_before_remote_submission_utc": "2026-09-14T03:48:51.025614+00:00",
+  "request_id": "722f735c8a63d02bbb963a5d50b091d451260c39c510bee44838439f9ec974fc",
+  "limits": {
+    "max_jobs": 1,
+    "max_execution_time_seconds": 60,
+    "max_circuits": 8,
+    "max_two_qubit_gates_per_circuit": 1500
+  },
+  "calibration_ids": [
+    "9dd98adf1d0e0eb434d02c16f482766ffff14a5c0cb5a7a927b66c1fd2127919",
+    "9dd98adf1d0e0eb434d02c16f482766ffff14a5c0cb5a7a927b66c1fd2127919"
+  ]
+}

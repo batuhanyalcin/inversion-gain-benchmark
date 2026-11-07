@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T00:18:08.247390+00:00",
+  "stage": "distribution_analysis",
+  "key": "15d0abbb594d6c6548671b86bda87bc164c095bb4af58edde44183f75ab4f9c2",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-06T03:38:58.728921+00:00",
+  "original_invocation_id": "20261006T032901Z_1e4b0adc",
+  "attempt_id": "b04c884cc4624b00b71703c9b6d4eb0f",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "reused_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+    }
+  }
+}

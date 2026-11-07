@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T00:31:30.018122+00:00",
+  "stage": "journal_archived_tomography",
+  "key": "a9733ac87b3fd872a5d865d58a7f1de404d89f08d988aae98c1f0f494ca3a45d",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-12T02:32:39.128729+00:00",
+  "original_invocation_id": "20261012T022448Z_bd2f645d",
+  "attempt_id": "96eabe20a2314c20aa569c8a35707cb7",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39"
+    },
+    "reused_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Notebook run outputs and restored archives (the full archive is a release asset, not part of git)
+outputs/
+outputs_*/
+paper/
+*.zip
+
+# Editor and system files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini

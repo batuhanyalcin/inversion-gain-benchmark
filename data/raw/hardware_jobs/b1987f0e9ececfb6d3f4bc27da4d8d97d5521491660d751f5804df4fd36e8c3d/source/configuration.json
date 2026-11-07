@@ -1,0 +1,89 @@
+{
+  "replication_id": "pilot_v1",
+  "coherent_screening": {
+    "enabled": true
+  },
+  "confirmation": {
+    "prepare": true,
+    "submit": true,
+    "protocol": "vqls_tomography",
+    "account": "lab_zhang",
+    "backend": "ibm_rensselaer",
+    "campaign_id": "common_preparation_tomography_2026_10_04",
+    "replication_id": "block_0"
+  },
+  "coherent_confirmation": {
+    "prepare": true,
+    "submit": true,
+    "protocol": "coherent_bias",
+    "account": "lab_zhang",
+    "backend": "ibm_rensselaer",
+    "campaign_id": "coherent_bias_2026_10_04",
+    "replication_id": "block_0"
+  },
+  "problem": {
+    "n": 4,
+    "family": "cycle",
+    "gamma": 8.0,
+    "seed": 17
+  },
+  "solvers": {
+    "hhl": {
+      "n_qpe": 5
+    },
+    "qsvt": {
+      "degree": 15,
+      "phase_tolerance": 0.02,
+      "seed": 11
+    },
+    "vqls_statevector": {
+      "reps": 2,
+      "max_evals": 250,
+      "seed": 11
+    },
+    "vqls_measured": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    }
+  },
+  "ideal_samples": {
+    "shots": 4096,
+    "seed": 901
+  },
+  "analysis": {
+    "bootstrap_samples": 400,
+    "seed": 1911
+  },
+  "fake_backend": {
+    "enabled": true,
+    "class_name": "FakeGuadalupeV2"
+  },
+  "transpile": {
+    "optimization_level": 2,
+    "seed_transpiler": 1729,
+    "max_two_qubit_gates_per_circuit": 1500
+  },
+  "snapshot_simulation": {
+    "shots": 4096,
+    "seed": 1701,
+    "max_active_qubits": 12,
+    "method": "density_matrix"
+  },
+  "hardware": {
+    "enabled": true,
+    "mode": "collect_only",
+    "archive_job_metadata": true,
+    "account": "lab_zhang",
+    "backend": "ibm_rensselaer",
+    "shots": 4096,
+    "max_execution_time_seconds": 60,
+    "max_jobs": 1,
+    "max_circuits_per_job": 8,
+    "max_two_qubit_gates_per_circuit": 1500,
+    "campaign_id": "notebook_pilot_v1",
+    "replication_id": "pilot_v1"
+  }
+}

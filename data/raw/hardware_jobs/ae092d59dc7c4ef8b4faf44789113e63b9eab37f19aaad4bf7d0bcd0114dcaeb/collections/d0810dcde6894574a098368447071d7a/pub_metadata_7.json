@@ -1,0 +1,12 @@
+{
+  "circuit_metadata": {
+    "kind": "future_common_preparation_cost",
+    "setting": "XX",
+    "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+    "preparation_layout": [
+      1,
+      0
+    ],
+    "historical_hardware_result": false
+  }
+}

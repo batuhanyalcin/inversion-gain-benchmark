@@ -1,0 +1,3 @@
+# Store every file byte for byte (no line-ending conversion), so that the data files keep the
+# SHA-256 values recorded in data/raw/portable_manifest.json on every operating system.
+* -text

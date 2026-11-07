@@ -1,0 +1,1842 @@
+[
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m4_bounded_support:primary",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.8284722071842482,
+    "G_raw_T1": -6.655733145077146,
+    "F_raw_mean": 0.8284722071842482,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m5_bin_spacing:historical_ablation",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "historical_ablation",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.26845558278774845,
+    "G_raw_T1": -31.650736944792488,
+    "F_raw_mean": 0.26845558278774845,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:input_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9728398853839335,
+    "G_raw_T1": -0.21222681337516575,
+    "F_raw_mean": 0.9728398853839335,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d15:historical_ablation",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "historical_ablation",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.47457917353293266,
+    "G_raw_T1": -22.450903030149412,
+    "F_raw_mean": 0.47457917353293266,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d5:primary",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.8803675088660217,
+    "G_raw_T1": -4.339510364867464,
+    "F_raw_mean": 0.8803675088660217,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:solution_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 1.003264562259055,
+    "G_raw_T1": 1.1457059353504393,
+    "F_raw_mean": 1.003264562259055,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "D0:vqls_vqls_measured:vqls",
+    "instance": "D0",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9654719974046077,
+    "G_raw_T1": -0.5410748868365326,
+    "F_raw_mean": 0.9654719974046077,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H1:hhl_m5_bounded_support:primary",
+    "instance": "H1",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.6265980843847991,
+    "G_raw_T1": -7.881573794254696,
+    "F_raw_mean": 0.6265980843847991,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H1:input_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.957865892464655,
+    "G_raw_T1": -0.0021833570770120863,
+    "F_raw_mean": 0.957865892464655,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H1:qsvt_d15:depth_probe",
+    "instance": "H1",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.37297082536082576,
+    "G_raw_T1": -13.914240267174817,
+    "F_raw_mean": 0.37297082536082576,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H1:solution_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 1.0044956348292258,
+    "G_raw_T1": 1.106931193488941,
+    "F_raw_mean": 1.0044956348292258,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H1:vqls_vqls_measured:vqls",
+    "instance": "H1",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9641956950427801,
+    "G_raw_T1": 0.14837454407370468,
+    "F_raw_mean": 0.9641956950427801,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H2:hhl_m5_bounded_support:primary",
+    "instance": "H2",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.2596766660727324,
+    "G_raw_T1": -46.70131411099783,
+    "F_raw_mean": 0.2596766660727324,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H2:input_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.969481704138536,
+    "G_raw_T1": -0.9663878609600618,
+    "F_raw_mean": 0.969481704138536,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H2:qsvt_d15:primary",
+    "instance": "H2",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.4796251031868298,
+    "G_raw_T1": -32.52935841787446,
+    "F_raw_mean": 0.4796251031868298,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H2:solution_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.992409608392339,
+    "G_raw_T1": 0.5109276748285119,
+    "F_raw_mean": 0.992409608392339,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H2:vqls_vqls_measured:vqls",
+    "instance": "H2",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9654599078653849,
+    "G_raw_T1": -1.2255245901758196,
+    "F_raw_mean": 0.9654599078653849,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H3:hhl_m5_bounded_support:depth_probe",
+    "instance": "H3",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.1775511001666124,
+    "G_raw_T1": -9.336024308720008,
+    "F_raw_mean": 0.1775511001666124,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H3:solution_state:control",
+    "instance": "H3",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9662729928788285,
+    "G_raw_T1": 0.5761400306627905,
+    "F_raw_mean": 0.9662729928788285,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H3:vqls_vqls_statevector:vqls",
+    "instance": "H3",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9735005687761575,
+    "G_raw_T1": 0.6669716922809718,
+    "F_raw_mean": 0.9735005687761575,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H4:hhl_m6_bounded_support:depth_probe",
+    "instance": "H4",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.6306041891568342,
+    "G_raw_T1": 0.13807644136594643,
+    "F_raw_mean": 0.6306041891568342,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H4:input_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.5716901506696429,
+    "G_raw_T1": 0.0006103515624999261,
+    "F_raw_mean": 0.5716901506696429,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H4:qsvt_d21:depth_probe",
+    "instance": "H4",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.2721584567045462,
+    "G_raw_T1": -0.6982969343560592,
+    "F_raw_mean": 0.2721584567045462,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H4:solution_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9855869838169644,
+    "G_raw_T1": 0.9663696289062503,
+    "F_raw_mean": 0.9855869838169644,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H4:vqls_vqls_measured:vqls",
+    "instance": "H4",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9801199776785716,
+    "G_raw_T1": 0.9536132812500004,
+    "F_raw_mean": 0.9801199776785716,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H5:hhl_m6_bounded_support:depth_probe",
+    "instance": "H5",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.5316724723744455,
+    "G_raw_T1": -0.4232432536949695,
+    "F_raw_mean": 0.5316724723744455,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H5:input_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.6662882049623866,
+    "G_raw_T1": -0.014147221654381387,
+    "F_raw_mean": 0.6662882049623866,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H5:qsvt_d25:depth_probe",
+    "instance": "H5",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.2922230968381857,
+    "G_raw_T1": -1.1509278082657894,
+    "F_raw_mean": 0.2922230968381857,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H5:solution_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9910484014851528,
+    "G_raw_T1": 0.9727961705333954,
+    "F_raw_mean": 0.9910484014851528,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H5:vqls_vqls_measured:vqls",
+    "instance": "H5",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.7637524198118,
+    "G_raw_T1": 0.2820456734427711,
+    "F_raw_mean": 0.7637524198118,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H6:solution_state:control",
+    "instance": "H6",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9270713669069374,
+    "G_raw_T1": 0.6386606883909824,
+    "F_raw_mean": 0.9270713669069374,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_boston",
+    "job_arm": "raw",
+    "cell_label": "H6:vqls_vqls_statevector:vqls",
+    "instance": "H6",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.967528505981112,
+    "G_raw_T1": 0.8391135717472064,
+    "F_raw_mean": 0.967528505981112,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m4_bounded_support:primary",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.6821780913187285,
+    "G_raw_T1": -13.185221418528327,
+    "F_raw_mean": 0.6821780913187285,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m5_bin_spacing:historical_ablation",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "historical_ablation",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.20167361985967217,
+    "G_raw_T1": -34.63139027617982,
+    "F_raw_mean": 0.20167361985967217,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:input_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9739148539243719,
+    "G_raw_T1": -0.16424816134534784,
+    "F_raw_mean": 0.9739148539243719,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d15:historical_ablation",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "historical_ablation",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.45034957293080985,
+    "G_raw_T1": -23.532333353344352,
+    "F_raw_mean": 0.45034957293080985,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d5:primary",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.7405207605472706,
+    "G_raw_T1": -10.58123579466502,
+    "F_raw_mean": 0.7405207605472706,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:solution_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9915770297997728,
+    "G_raw_T1": 0.6240608528604892,
+    "F_raw_mean": 0.9915770297997728,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "D0:vqls_vqls_measured:vqls",
+    "instance": "D0",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9689277034975544,
+    "G_raw_T1": -0.386837703222589,
+    "F_raw_mean": 0.9689277034975544,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H1:hhl_m5_bounded_support:primary",
+    "instance": "H1",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.24562541499435125,
+    "G_raw_T1": -16.94322220923598,
+    "F_raw_mean": 0.24562541499435125,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H1:input_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9525418297430058,
+    "G_raw_T1": -0.1288191721870161,
+    "F_raw_mean": 0.9525418297430058,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H1:qsvt_d15:depth_probe",
+    "instance": "H1",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.2445659054228827,
+    "G_raw_T1": -16.96842323807702,
+    "F_raw_mean": 0.2445659054228827,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H1:solution_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 1.0019559065600767,
+    "G_raw_T1": 1.046522333500533,
+    "F_raw_mean": 1.0019559065600767,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H1:vqls_vqls_measured:vqls",
+    "instance": "H1",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9520514185399543,
+    "G_raw_T1": -0.14048387744771323,
+    "F_raw_mean": 0.9520514185399543,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H2:hhl_m5_bounded_support:primary",
+    "instance": "H2",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.17189134883368554,
+    "G_raw_T1": -52.35759265856116,
+    "F_raw_mean": 0.17189134883368554,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H2:input_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9412503724769123,
+    "G_raw_T1": -2.7854195700094606,
+    "F_raw_mean": 0.9412503724769123,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H2:qsvt_d15:primary",
+    "instance": "H2",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.28329306251821085,
+    "G_raw_T1": -45.1796369013392,
+    "F_raw_mean": 0.28329306251821085,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H2:solution_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.966832169352477,
+    "G_raw_T1": -1.137105553197806,
+    "F_raw_mean": 0.966832169352477,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H2:vqls_vqls_measured:vqls",
+    "instance": "H2",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9422353459834848,
+    "G_raw_T1": -2.721954691253337,
+    "F_raw_mean": 0.9422353459834848,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H3:hhl_m5_bounded_support:depth_probe",
+    "instance": "H3",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.1188855774588489,
+    "G_raw_T1": -10.073295972545015,
+    "F_raw_mean": 0.1188855774588489,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H3:solution_state:control",
+    "instance": "H3",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9215582476373065,
+    "G_raw_T1": 0.014193028401348314,
+    "F_raw_mean": 0.9215582476373065,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H3:vqls_vqls_statevector:vqls",
+    "instance": "H3",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9167599197249567,
+    "G_raw_T1": -0.04610936114930263,
+    "F_raw_mean": 0.9167599197249567,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H4:hhl_m6_bounded_support:depth_probe",
+    "instance": "H4",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.25201447179017794,
+    "G_raw_T1": -0.7452995658229185,
+    "F_raw_mean": 0.25201447179017794,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H4:input_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.5756399972098215,
+    "G_raw_T1": 0.009826660156250002,
+    "F_raw_mean": 0.5756399972098215,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H4:qsvt_d21:depth_probe",
+    "instance": "H4",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.252801375107166,
+    "G_raw_T1": -0.7434634580832796,
+    "F_raw_mean": 0.252801375107166,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H4:solution_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9872349330357144,
+    "G_raw_T1": 0.9702148437500003,
+    "F_raw_mean": 0.9872349330357144,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H4:vqls_vqls_measured:vqls",
+    "instance": "H4",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.972324916294643,
+    "G_raw_T1": 0.9354248046875003,
+    "F_raw_mean": 0.972324916294643,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H5:hhl_m6_bounded_support:depth_probe",
+    "instance": "H5",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.2925369813051022,
+    "G_raw_T1": -1.1499739161205988,
+    "F_raw_mean": 0.2925369813051022,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H5:input_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.65475470768296,
+    "G_raw_T1": -0.04919741884795241,
+    "F_raw_mean": 0.65475470768296,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H5:qsvt_d25:depth_probe",
+    "instance": "H5",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.23563109597902,
+    "G_raw_T1": -1.3229104031054966,
+    "F_raw_mean": 0.23563109597902,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H5:solution_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9861582957856129,
+    "G_raw_T1": 0.9579351821520116,
+    "F_raw_mean": 0.9861582957856129,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H5:vqls_vqls_measured:vqls",
+    "instance": "H5",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.7563322156945904,
+    "G_raw_T1": 0.25949573813488575,
+    "F_raw_mean": 0.7563322156945904,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H6:solution_state:control",
+    "instance": "H6",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.8810738751540614,
+    "G_raw_T1": 0.4107570338069683,
+    "F_raw_mean": 0.8810738751540614,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_kingston",
+    "job_arm": "raw",
+    "cell_label": "H6:vqls_vqls_statevector:vqls",
+    "instance": "H6",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "T1"
+    ],
+    "F_raw_T1": 0.9039871777870643,
+    "G_raw_T1": 0.5242855156795557,
+    "F_raw_mean": 0.9039871777870643,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "D0:hhl_m4_bounded_support:primary",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.5641541380488676,
+    "G_raw_B1": -18.45293853963463,
+    "F_raw_mean": 0.5641541380488676,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "D0:qsvt_d5:primary",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.6334430358326714,
+    "G_raw_B1": -15.360394161598329,
+    "F_raw_mean": 0.6334430358326714,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "D0:vqls_vqls_measured:vqls",
+    "instance": "D0",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.955232839142343,
+    "G_raw_B1": -0.9980752481150765,
+    "F_raw_mean": 0.955232839142343,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "H1:hhl_m5_bounded_support:primary",
+    "instance": "H1",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.5084221855330374,
+    "G_raw_B1": -10.69245376691109,
+    "F_raw_mean": 0.5084221855330374,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "H1:vqls_vqls_measured:vqls",
+    "instance": "H1",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.9417229629752976,
+    "G_raw_B1": -0.3861519804809945,
+    "F_raw_mean": 0.9417229629752976,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "H2:hhl_m5_bounded_support:primary",
+    "instance": "H2",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.518710633414234,
+    "G_raw_B1": -30.010957242158614,
+    "F_raw_mean": 0.518710633414234,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "mitigation",
+    "cell_label": "H2:vqls_vqls_measured:vqls",
+    "instance": "H2",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1"
+    ],
+    "F_raw_B1": 0.9479486685441878,
+    "G_raw_B1": -2.353827709979072,
+    "F_raw_mean": 0.9479486685441878,
+    "F_raw_spread": null,
+    "F_raw_sd": null
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m4_bounded_support:primary",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.637479407598038,
+    "G_raw_B1": -15.180240353269646,
+    "F_raw_B2": 0.6915349870378129,
+    "G_raw_B2": -12.767598737587223,
+    "F_raw_B3": 0.5576000926736837,
+    "G_raw_B3": -18.745462693239475,
+    "F_raw_mean": 0.6288714957698449,
+    "F_raw_spread": 0.1339348943641292,
+    "F_raw_sd": 0.06738108853093777
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:hhl_m5_bin_spacing:historical_ablation",
+    "instance": "D0",
+    "algorithm": "hhl",
+    "arm": "historical_ablation",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.422105860015109,
+    "G_raw_B1": -24.792923987429145,
+    "F_raw_B2": 0.5262189072514237,
+    "G_raw_B2": -20.14608691526902,
+    "F_raw_B3": 0.2658532594427702,
+    "G_raw_B3": -31.766885428716357,
+    "F_raw_mean": 0.404726008903101,
+    "F_raw_spread": 0.2603656478086535,
+    "F_raw_sd": 0.13105003646779967
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:input_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9831619925089295,
+    "G_raw_B1": 0.24847577217464517,
+    "F_raw_B2": 0.9731831359665555,
+    "G_raw_B2": -0.19690664386031195,
+    "F_raw_B3": 0.9789111315470312,
+    "G_raw_B3": 0.05874875110770797,
+    "F_raw_mean": 0.9784187533408387,
+    "F_raw_spread": 0.00997885654237407,
+    "F_raw_sd": 0.005007616368769721
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d15:historical_ablation",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "historical_ablation",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.28184722671327417,
+    "G_raw_B1": -31.05303291919563,
+    "F_raw_B2": 0.44846477795559014,
+    "G_raw_B2": -23.61645667310842,
+    "F_raw_B3": 0.3857453503770463,
+    "G_raw_B3": -26.41578844710901,
+    "F_raw_mean": 0.3720191183486368,
+    "F_raw_spread": 0.16661755124231598,
+    "F_raw_sd": 0.08415259461103827
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:qsvt_d5:primary",
+    "instance": "D0",
+    "algorithm": "qsvt",
+    "arm": "primary",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.7278368388805898,
+    "G_raw_B1": -11.14735232842976,
+    "F_raw_B2": 0.7538413448938497,
+    "G_raw_B2": -9.986703343568635,
+    "F_raw_B3": 0.8223712267698693,
+    "G_raw_B3": -6.928035826812218,
+    "F_raw_mean": 0.7680164701814363,
+    "F_raw_spread": 0.09453438788927948,
+    "F_raw_sd": 0.048835317712586555
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:solution_state:control",
+    "instance": "D0",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 1.0012949861608302,
+    "G_raw_B1": 1.0577986127562053,
+    "F_raw_B2": 0.9894331274246392,
+    "G_raw_B2": 0.5283728934710133,
+    "F_raw_B3": 0.9936595173779281,
+    "G_raw_B3": 0.7170077095452273,
+    "F_raw_mean": 0.9947958769877991,
+    "F_raw_spread": 0.011861858736191055,
+    "F_raw_sd": 0.00601202195950312
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "D0:vqls_vqls_measured:vqls",
+    "instance": "D0",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9772995461099822,
+    "G_raw_B1": -0.01318051378869978,
+    "F_raw_B2": 0.9762827627839379,
+    "G_raw_B2": -0.058562207814929,
+    "F_raw_B3": 0.9814083291657222,
+    "G_raw_B3": 0.17020519944990511,
+    "F_raw_mean": 0.9783302126865475,
+    "F_raw_spread": 0.005125566381784297,
+    "F_raw_sd": 0.002713772812443204
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H1:hhl_m5_bounded_support:primary",
+    "instance": "H1",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.46999865861337164,
+    "G_raw_B1": -11.60637888486421,
+    "F_raw_B2": 0.5745922715848719,
+    "G_raw_B2": -9.118561192543089,
+    "F_raw_B3": 0.31058726744739823,
+    "G_raw_B3": -15.398068148034548,
+    "F_raw_mean": 0.45172606588188063,
+    "F_raw_spread": 0.2640050041374737,
+    "F_raw_sd": 0.13294764490676425
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H1:input_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9669484512826574,
+    "G_raw_B1": 0.21385039371358694,
+    "F_raw_B2": 0.960185823186016,
+    "G_raw_B2": 0.0529974950762995,
+    "F_raw_B3": 0.961100086524263,
+    "G_raw_B3": 0.07474376087315449,
+    "F_raw_mean": 0.9627447869976454,
+    "F_raw_spread": 0.00676262809664141,
+    "F_raw_sd": 0.003669068605072578
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H1:qsvt_d15:depth_probe",
+    "instance": "H1",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.34927195935704425,
+    "G_raw_B1": -14.477931074454034,
+    "F_raw_B2": 0.3945597720075589,
+    "G_raw_B2": -13.400735074071351,
+    "F_raw_B3": 0.35756056748415066,
+    "G_raw_B3": -14.280781885727276,
+    "F_raw_mean": 0.36713076628291796,
+    "F_raw_spread": 0.045287812650514625,
+    "F_raw_sd": 0.02411302599121423
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H1:solution_state:control",
+    "instance": "H1",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 1.0002651960159334,
+    "G_raw_B1": 1.006307835838428,
+    "F_raw_B2": 1.0000712307235637,
+    "G_raw_B2": 1.001694262673257,
+    "F_raw_B3": 0.9950909634267519,
+    "G_raw_B3": 0.8832358143847088,
+    "F_raw_mean": 0.998475796722083,
+    "F_raw_spread": 0.005174232589181593,
+    "F_raw_sd": 0.002932955499414852
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H1:vqls_vqls_measured:vqls",
+    "instance": "H1",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.957798324257413,
+    "G_raw_B1": -0.003790504747310623,
+    "F_raw_B2": 0.9631217119187484,
+    "G_raw_B2": 0.12282925367486856,
+    "F_raw_B3": 0.9632565092817814,
+    "G_raw_B3": 0.12603548448671686,
+    "F_raw_mean": 0.9613921818193143,
+    "F_raw_spread": 0.005458185024368456,
+    "F_raw_sd": 0.0031131016227705336
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H2:hhl_m5_bounded_support:primary",
+    "instance": "H2",
+    "algorithm": "hhl",
+    "arm": "primary",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.48367000839484586,
+    "G_raw_B1": -32.26873270876269,
+    "F_raw_B2": 0.5560730717316459,
+    "G_raw_B2": -27.603580188841608,
+    "F_raw_B3": 0.1621184366844695,
+    "G_raw_B3": -52.98729150884046,
+    "F_raw_mean": 0.40062050560365375,
+    "F_raw_spread": 0.39395463504717637,
+    "F_raw_sd": 0.20969734989786268
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H2:input_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9503123002671241,
+    "G_raw_B1": -2.2015316332629755,
+    "F_raw_B2": 0.9684007688270012,
+    "G_raw_B2": -1.0360358545680195,
+    "F_raw_B3": 0.9641771074999564,
+    "G_raw_B3": -1.3081793713623047,
+    "F_raw_mean": 0.9609633921980273,
+    "F_raw_spread": 0.018088468559877113,
+    "F_raw_sd": 0.009462776983624103
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H2:qsvt_d15:depth_probe",
+    "instance": "H2",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.26328190707270105,
+    "G_raw_B1": -46.46901732187319,
+    "F_raw_B2": 0.32931746417827296,
+    "G_raw_B2": -42.214142853338494,
+    "F_raw_B3": 0.31378461785114553,
+    "G_raw_B3": -43.21497201504766,
+    "F_raw_mean": 0.3021279963673732,
+    "F_raw_spread": 0.06603555710557191,
+    "F_raw_sd": 0.034526530652134305
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H2:solution_state:control",
+    "instance": "H2",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9799004701612568,
+    "G_raw_B1": -0.2950746550634272,
+    "F_raw_B2": 0.9863679520224979,
+    "G_raw_B2": 0.12164513429357435,
+    "F_raw_B3": 0.9812321204058578,
+    "G_raw_B3": -0.20927232560457873,
+    "F_raw_mean": 0.9825001808632042,
+    "F_raw_spread": 0.006467481861241131,
+    "F_raw_sd": 0.003415122750207503
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H2:vqls_vqls_measured:vqls",
+    "instance": "H2",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9419427741519154,
+    "G_raw_B1": -2.740805996079415,
+    "F_raw_B2": 0.9533943537892744,
+    "G_raw_B2": -2.0029454258188615,
+    "F_raw_B3": 0.9531204152689513,
+    "G_raw_B3": -2.020596128972732,
+    "F_raw_mean": 0.9494858477367137,
+    "F_raw_spread": 0.011451579637358988,
+    "F_raw_sd": 0.006533929132420289
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H3:hhl_m5_bounded_support:depth_probe",
+    "instance": "H3",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.11833293834301427,
+    "G_raw_B1": -10.080241195933816,
+    "F_raw_B2": 0.12812628126723352,
+    "G_raw_B2": -9.957164576159789,
+    "F_raw_B3": 0.1246016375179785,
+    "G_raw_B3": -10.001460098324458,
+    "F_raw_mean": 0.12368695237607542,
+    "F_raw_spread": 0.009793342924219253,
+    "F_raw_sd": 0.004960330441558557
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H3:solution_state:control",
+    "instance": "H3",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9634433017382359,
+    "G_raw_B1": 0.5405782390168172,
+    "F_raw_B2": 0.9759130355866892,
+    "G_raw_B2": 0.6972900690247266,
+    "F_raw_B3": 0.9763427550359899,
+    "G_raw_B3": 0.7026905147847021,
+    "F_raw_mean": 0.9718996974536384,
+    "F_raw_spread": 0.012899453297753993,
+    "F_raw_sd": 0.007326604675624598
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H3:vqls_vqls_statevector:vqls",
+    "instance": "H3",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9522630512111591,
+    "G_raw_B1": 0.4000718303525757,
+    "F_raw_B2": 0.9687670662610156,
+    "G_raw_B2": 0.6074839878511821,
+    "F_raw_B3": 0.964926389446762,
+    "G_raw_B3": 0.5592167594287178,
+    "F_raw_mean": 0.9619855023063123,
+    "F_raw_spread": 0.016504015049856546,
+    "F_raw_sd": 0.00863610103409635
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H4:hhl_m6_bounded_support:depth_probe",
+    "instance": "H4",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.25369344698958113,
+    "G_raw_B1": -0.741381957024311,
+    "F_raw_B2": 0.3640245330021235,
+    "G_raw_B2": -0.48394275632837874,
+    "F_raw_B3": 0.28143806081969464,
+    "G_raw_B3": -0.6766445247540461,
+    "F_raw_mean": 0.2997186802704664,
+    "F_raw_spread": 0.11033108601254238,
+    "F_raw_sd": 0.057392272309124574
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H4:input_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.5833042689732143,
+    "G_raw_B1": 0.027709960937499858,
+    "F_raw_B2": 0.5757707868303572,
+    "G_raw_B2": 0.010131835937499965,
+    "F_raw_B3": 0.5847603934151787,
+    "G_raw_B3": 0.03110758463541682,
+    "F_raw_mean": 0.5812784830729169,
+    "F_raw_spread": 0.008989606584821508,
+    "F_raw_sd": 0.004825050572051018
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H4:qsvt_d21:depth_probe",
+    "instance": "H4",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.2624822363082399,
+    "G_raw_B1": -0.7208747819474405,
+    "F_raw_B2": 0.2695128789856452,
+    "G_raw_B2": -0.7044699490334949,
+    "F_raw_B3": 0.2901563138897679,
+    "G_raw_B3": -0.6563019342572085,
+    "F_raw_mean": 0.274050476394551,
+    "F_raw_spread": 0.02767407758152801,
+    "F_raw_sd": 0.014384226958063804
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H4:solution_state:control",
+    "instance": "H4",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9933471679687501,
+    "G_raw_B1": 0.984476725260417,
+    "F_raw_B2": 0.9913417271205359,
+    "G_raw_B2": 0.9797973632812504,
+    "F_raw_B3": 0.9973842075892858,
+    "G_raw_B3": 0.9938964843750002,
+    "F_raw_mean": 0.9940243675595241,
+    "F_raw_spread": 0.006042480468749889,
+    "F_raw_sd": 0.003077635783863022
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H4:vqls_vqls_measured:vqls",
+    "instance": "H4",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.975620814732143,
+    "G_raw_B1": 0.9431152343750003,
+    "F_raw_B2": 0.9719063895089287,
+    "G_raw_B2": 0.9344482421875003,
+    "F_raw_B3": 0.9818638392857144,
+    "G_raw_B3": 0.957682291666667,
+    "F_raw_mean": 0.9764636811755953,
+    "F_raw_spread": 0.009957449776785698,
+    "F_raw_sd": 0.005031949860186001
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H5:hhl_m6_bounded_support:depth_probe",
+    "instance": "H5",
+    "algorithm": "hhl",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.2705029416495593,
+    "G_raw_B1": -1.2169351696057287,
+    "F_raw_B2": 0.31789159962431146,
+    "G_raw_B2": -1.0729214531663447,
+    "F_raw_B3": 0.3149089558590995,
+    "G_raw_B3": -1.0819856814395274,
+    "F_raw_mean": 0.30110116571099005,
+    "F_raw_spread": 0.04738865797475217,
+    "F_raw_sd": 0.02654077104649903
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H5:input_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.6516143023283663,
+    "G_raw_B1": -0.05874108320920394,
+    "F_raw_B2": 0.6486060839635653,
+    "G_raw_B2": -0.06788303246649248,
+    "F_raw_B3": 0.6534470100302763,
+    "G_raw_B3": -0.05317150055844045,
+    "F_raw_mean": 0.651222465440736,
+    "F_raw_spread": 0.004840926066710938,
+    "F_raw_sd": 0.0024441344901050773
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H5:qsvt_d25:depth_probe",
+    "instance": "H5",
+    "algorithm": "qsvt",
+    "arm": "depth_probe",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.282221156072941,
+    "G_raw_B1": -1.1813236186298832,
+    "F_raw_B2": 0.21893677036019743,
+    "G_raw_B2": -1.373644312411322,
+    "F_raw_B3": 0.19092532558794698,
+    "G_raw_B3": -1.4587708476813777,
+    "F_raw_mean": 0.2306944173403618,
+    "F_raw_spread": 0.09129583048499404,
+    "F_raw_sd": 0.04676979648094289
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H5:solution_state:control",
+    "instance": "H5",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9845756766890766,
+    "G_raw_B1": 0.9531256165820907,
+    "F_raw_B2": 0.9835506318124633,
+    "G_raw_B2": 0.9500105141819154,
+    "F_raw_B3": 0.9868264099729775,
+    "G_raw_B3": 0.959965575314433,
+    "F_raw_mean": 0.9849842394915059,
+    "F_raw_spread": 0.0032757781605142755,
+    "F_raw_sd": 0.001675671003470598
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H5:vqls_vqls_measured:vqls",
+    "instance": "H5",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.7411219955904029,
+    "G_raw_B1": 0.2132720124866067,
+    "F_raw_B2": 0.7369469139195458,
+    "G_raw_B2": 0.20058397586445903,
+    "F_raw_B3": 0.734847267044816,
+    "G_raw_B3": 0.1942031674060029,
+    "F_raw_mean": 0.7376387255182548,
+    "F_raw_spread": 0.006274728545586972,
+    "F_raw_sd": 0.0031940580843626363
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H6:solution_state:control",
+    "instance": "H6",
+    "algorithm": "control",
+    "arm": "control",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9265238648280657,
+    "G_raw_B1": 0.635947981243002,
+    "F_raw_B2": 0.9018955019666369,
+    "G_raw_B2": 0.5139218948490654,
+    "F_raw_B3": 0.9053122765663124,
+    "G_raw_B3": 0.5308509792073922,
+    "F_raw_mean": 0.9112438811203383,
+    "F_raw_spread": 0.024628362861428776,
+    "F_raw_sd": 0.013342676408710397
+  },
+  {
+    "device": "ibm_rensselaer",
+    "job_arm": "raw",
+    "cell_label": "H6:vqls_vqls_statevector:vqls",
+    "instance": "H6",
+    "algorithm": "vqls",
+    "arm": "vqls",
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "F_raw_B1": 0.9519794706178322,
+    "G_raw_B1": 0.7620728060553255,
+    "F_raw_B2": 0.9245450505292641,
+    "G_raw_B2": 0.6261435551046616,
+    "F_raw_B3": 0.9591245769556636,
+    "G_raw_B3": 0.7974746461280803,
+    "F_raw_mean": 0.9452163660342533,
+    "F_raw_spread": 0.0345795264263995,
+    "F_raw_sd": 0.01825487879102008
+  }
+]

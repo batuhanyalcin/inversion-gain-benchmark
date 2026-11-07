@@ -1,0 +1,14 @@
+{
+  "status": "submitting_or_unknown",
+  "request_id": "8ad1f5f71355bcaf01a299d0666ba676c651ddc8d91fb38ad08f28d1bb6a0254",
+  "written_before_remote_submission_utc": "2026-10-15T06:00:57.197963+00:00",
+  "calibration_ids": [
+    "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38",
+    "bfa1f7968eaed627b73e86d57f8b6b6fd49248b1dd76e777309e64e5983a4f38"
+  ],
+  "limits": {
+    "circuits": 82,
+    "shots_per_circuit": 4096,
+    "max_execution_time_seconds": 143
+  }
+}

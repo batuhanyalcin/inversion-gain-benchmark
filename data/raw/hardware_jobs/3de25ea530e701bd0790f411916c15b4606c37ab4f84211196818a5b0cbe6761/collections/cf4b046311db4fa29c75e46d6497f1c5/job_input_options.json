@@ -1,0 +1,23 @@
+{
+  "selected_inputs": {
+    "version": 2,
+    "options": {
+      "default_shots": 4096,
+      "dynamical_decoupling": {
+        "enable": true,
+        "sequence_type": "XY4"
+      },
+      "twirling": {
+        "enable_gates": true,
+        "enable_measure": true,
+        "num_randomizations": 32,
+        "shots_per_randomization": 128
+      },
+      "execution": {
+        "init_qubits": true,
+        "meas_type": "classified"
+      }
+    }
+  },
+  "scope": "explicit primitive options allowlist; accounts, service objects, PUBs and circuits excluded"
+}

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Inversion Gain: code and data for a verification-first hardware benchmark of HHL, QSVT and VQLS"
+type: software
+version: "1.0"
+license: MIT
+repository-code: "https://github.com/batuhanyalcin/inversion-gain-benchmark"
+authors:
+  - family-names: Yalcin
+    given-names: Batuhan
+    email: yalcib@rpi.edu
+    affiliation: Rensselaer Polytechnic Institute
+  - family-names: Agirsoy
+    given-names: Mehtap
+    affiliation: Rensselaer Polytechnic Institute
+  - family-names: Patterson
+    given-names: Stacy
+    affiliation: Rensselaer Polytechnic Institute
+  - family-names: Zhang
+    given-names: Lucy T.
+    affiliation: Rensselaer Polytechnic Institute
+  - family-names: Oehlschlaeger
+    given-names: Matthew A.
+    affiliation: Rensselaer Polytechnic Institute
+preferred-citation:
+  type: article
+  title: "Inversion Gain: A Verification-First Hardware Benchmark of HHL, QSVT, and VQLS for Regularized Graph Diffusion"
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: Yalcin
+      given-names: Batuhan
+    - family-names: Agirsoy
+      given-names: Mehtap
+    - family-names: Patterson
+      given-names: Stacy
+    - family-names: Zhang
+      given-names: Lucy T.
+    - family-names: Oehlschlaeger
+      given-names: Matthew A.

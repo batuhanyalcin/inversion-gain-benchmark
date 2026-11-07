@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T00:17:47.465361+00:00",
+  "stage": "hardware_evidence_audit",
+  "key": "5c7a35c1ea4f2a66ba04d2ef274d3622fb1bcdbcce120d05950ee180bca09e3e",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-06T03:29:37.963093+00:00",
+  "original_invocation_id": "20261006T032901Z_1e4b0adc",
+  "attempt_id": "d947c812f9f240ab9aa88f866547579e",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "reused_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T00:32:42.272699+00:00",
+  "stage": "journal_prediction",
+  "key": "a8798d53bfe3b9d3cea5e16a3d828d8903e829110c38bc68e2069f85915d07bb",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-16T04:14:57.308088+00:00",
+  "original_invocation_id": "20261016T031503Z_96dec40e",
+  "attempt_id": "f750242c82274ad7a555bf19313246d6",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "reused_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+    }
+  }
+}

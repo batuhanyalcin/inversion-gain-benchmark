@@ -1,0 +1,395 @@
+{
+  "valid": true,
+  "errors": [],
+  "pub_checks": [
+    {
+      "pub_index": 0,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "27da9ab4fc313892f40e37013a63c6f0c4613216b9fea82f1e929e1f927abee3"
+    },
+    {
+      "pub_index": 1,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "c3605176262b11c616c76dd8edc3716c6a7f7b3545b696b748b3b804a606324f"
+    },
+    {
+      "pub_index": 2,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "772164c1964820f3970426f8dd39f3cf1d7901008fffff0e71e29944765c164f"
+    },
+    {
+      "pub_index": 3,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "820cdbc543cdd6b3370d4b88f4ceb7819b5b4e32f43677ba477954ef3143203c"
+    },
+    {
+      "pub_index": 4,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "1101bd12a615530c367577c61f4f7f9183b42a198fb41e3c9e8eb540b8125314"
+    },
+    {
+      "pub_index": 5,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "4bc88d2586485ff15e689ebc23b4c3d9b0cf9de173def40d800991002e827c41"
+    },
+    {
+      "pub_index": 6,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "8c9bdf85a0c4cd10d0ad1cc5818f20ddd3d2de71a0246b166808d18c4ed64f6d"
+    },
+    {
+      "pub_index": 7,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "683d26be5c740bb36e070b19a6bed2705773e00bd7c7fe7229eaaedf2d54f9dd"
+    },
+    {
+      "pub_index": 8,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "aedb66bd16c344e78ab158e4aab8ff3d1d4bd981bbbab4092e987732f1c66242"
+    },
+    {
+      "pub_index": 9,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "a7582106f6d9e4f21406c9ec89a611c1aa4e44b0c13bba7c2568ca68d22827ca"
+    },
+    {
+      "pub_index": 10,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "8ee0540a3b112bda75deff3d5399c4b2e402ec34c45803242c9f79df7536a7a4"
+    },
+    {
+      "pub_index": 11,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "7c5ddc56ac1c1bec260eba92acfa0b9183bb1c1dc5507a58da9b10145837070c"
+    },
+    {
+      "pub_index": 12,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "55e0f267444b2e8e2918267b8f6925c263fd99549a9233ca0346e0eb3869222c"
+    },
+    {
+      "pub_index": 13,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "2c4f4e923675ab12f140fdd99bb59b5834a588c4a76fac1b8db4e5f52c246341"
+    },
+    {
+      "pub_index": 14,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "dd75d048fbe12ff4a46fe98108a1a7a6ffca817923c81ddddcb002a10d3c3afc"
+    },
+    {
+      "pub_index": 15,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "9edfeb4c4fe0997ec2d30171ee5fc2267d11bbe70d3d46779f25fc8222c31987"
+    },
+    {
+      "pub_index": 16,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "cddaf83ac02ba07cff2687cb0c76c2d289f475c98cdf7fc3418299974cc31a04"
+    },
+    {
+      "pub_index": 17,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "d3344b1fd927931f4b641a01519077ee0d3c57bb161c26ac338f44a4e41983ee"
+    },
+    {
+      "pub_index": 18,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "c12185e50eaadfb4f461e657376f3efe3acbb021715e53de5f775c585f0d96ae"
+    },
+    {
+      "pub_index": 19,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "b728eef26c8bcdc2780729c3da11ea5aaf6c68b01e36579d9128c3ed1a67d30a"
+    },
+    {
+      "pub_index": 20,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "cada4684f1846f4427dc4c85bfe49f525379b51495fdc4b165ddbb5e4f2de660"
+    },
+    {
+      "pub_index": 21,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "9064417d0ab28afe000f9280f9fa6e7db27d8d2181d3b40270bb2281a368fe06"
+    },
+    {
+      "pub_index": 22,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "4b930a72553b0817af87d54a1f82177e5c9a69b0e8c4bcd7dbcd4f0477aa21e0"
+    },
+    {
+      "pub_index": 23,
+      "valid": true,
+      "errors": [],
+      "classical_width": 2,
+      "shots": 4096,
+      "classical_to_physical": {
+        "0": 1,
+        "1": 0
+      },
+      "final_logical_to_physical": [
+        1,
+        0
+      ],
+      "counts_sha256": "e7be6cb1320bbd4ca4a5c5aaea75f447e62def434a92a8d3fbe8e1e67c00956f"
+    }
+  ],
+  "submitted_circuit_count": 24,
+  "returned_pub_count": 24,
+  "submitted_qpy_sha256": "81cef89cc665062a9754b26b5074ef266e7a74f90861d7ee2199629c77a1764a",
+  "observed_qpy_sha256": "81cef89cc665062a9754b26b5074ef266e7a74f90861d7ee2199629c77a1764a",
+  "scope": "raw count integrity, exact classical widths and physical measurement maps; does not certify a shared preparation across VQLS bases"
+}

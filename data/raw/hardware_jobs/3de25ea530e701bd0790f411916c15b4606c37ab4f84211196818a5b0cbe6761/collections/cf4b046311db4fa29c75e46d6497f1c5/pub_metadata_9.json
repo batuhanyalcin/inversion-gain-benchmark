@@ -1,0 +1,8 @@
+{
+  "circuit_metadata": {},
+  "num_randomizations": 32,
+  "compilation": {
+    "scheduler_timing": null,
+    "stretch_values": null
+  }
+}

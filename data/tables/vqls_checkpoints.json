@@ -1,0 +1,96 @@
+[
+  {
+    "instance": "D0",
+    "treatment": "vqls_measured",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    },
+    "exact_state_fidelity": 0.9867606101551868,
+    "residual": 0.13788029730916515,
+    "F_in": 0.9775948574009468
+  },
+  {
+    "instance": "H1",
+    "treatment": "vqls_measured",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    },
+    "exact_state_fidelity": 0.9722346646927993,
+    "residual": 0.1991699968861339,
+    "F_in": 0.957957685848791
+  },
+  {
+    "instance": "H2",
+    "treatment": "vqls_measured",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    },
+    "exact_state_fidelity": 0.976505564780138,
+    "residual": 0.0879301060870186,
+    "F_in": 0.9844800222441549
+  },
+  {
+    "instance": "H4",
+    "treatment": "vqls_measured",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    },
+    "exact_state_fidelity": 0.9908812870616168,
+    "residual": 0.10456858773161362,
+    "F_in": 0.5714285714285715
+  },
+  {
+    "instance": "H5",
+    "treatment": "vqls_measured",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 60,
+      "seed": 11,
+      "shots": 2048,
+      "tol": 0.001
+    },
+    "exact_state_fidelity": 0.7656637573654458,
+    "residual": 0.3332484247054315,
+    "F_in": 0.6709434410388382
+  },
+  {
+    "instance": "H3",
+    "treatment": "vqls_statevector",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 1000,
+      "seed": 11
+    },
+    "exact_state_fidelity": 0.9999999997499851,
+    "residual": 1.4053704663604352e-05,
+    "F_in": 0.9204288926507722
+  },
+  {
+    "instance": "H6",
+    "treatment": "vqls_statevector",
+    "parameters": {
+      "reps": 2,
+      "max_evals": 1000,
+      "seed": 22
+    },
+    "exact_state_fidelity": 0.9998649068556749,
+    "residual": 0.009747511117061899,
+    "F_in": 0.7981713288589698
+  }
+]

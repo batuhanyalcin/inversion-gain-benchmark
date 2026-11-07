@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T00:31:27.308439+00:00",
+  "stage": "coherent_candidate",
+  "key": "0db39ca261721a6066f1f0b1fd0bc73d704b23bca6b17e113fa144ce6af00454",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-12T01:29:03.956802+00:00",
+  "original_invocation_id": "20261012T012611Z_4c0234f8",
+  "attempt_id": "825ced3f9f9946898336341d815310c1",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39"
+    },
+    "reused_in": {
+      "python": "3.13.16",
+      "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+    }
+  }
+}

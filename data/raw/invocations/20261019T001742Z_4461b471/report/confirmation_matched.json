@@ -1,0 +1,3026 @@
+[
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 0,
+    "algorithm": "vqls_measured",
+    "setting": "XZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1994,
+        403,
+        1699,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.09793155280144492,
+      "classical_distribution_fidelity": 0.9903593035525501,
+      "tv_plugin_bootstrap95": [
+        0.08156802741081992,
+        0.11160342780144492
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "895782fa3ee8b80c625df2c4ece6066de7ef3e45a08ebd6e39962477962d17c7"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ee6e843c30548e30f52cc2c37da6e47b74ab8988f9264c5dc86d204c1404b518"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 0,
+    "algorithm": "vqls_measured",
+    "setting": "XZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1986,
+        400,
+        1695,
+        15
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.09988467780144492,
+      "classical_distribution_fidelity": 0.9866993899968328,
+      "tv_plugin_bootstrap95": [
+        0.08327701178581992,
+        0.11404483405144492
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "e751c63ec0fe956289dd659177b2bfa917959b923cc911926595346b24ad5145"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "322fe7661465287d9185895665821e4dd3a9b0c9a633a53e5f51ac7af8059327"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 1,
+    "algorithm": "vqls_measured",
+    "setting": "YX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1459,
+        548,
+        1514,
+        575
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.011912176951049597,
+      "classical_distribution_fidelity": 0.999763744272934,
+      "tv_plugin_bootstrap95": [
+        0.0053191122342010864,
+        0.02783559908192748
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f59e0fc7834865bf650bac67a67d0b3f91bab2b7aaae4215cb21cab28870a2f1"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "588f2c2364ef2cf06008915ddde66b13bfa27504397fb9987f85cb1a2dcb14ec"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 1,
+    "algorithm": "vqls_measured",
+    "setting": "YX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1457,
+        556,
+        1510,
+        573
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.010935614451049597,
+      "classical_distribution_fidelity": 0.999827785810339,
+      "tv_plugin_bootstrap95": [
+        0.00443660572462764,
+        0.02754454830852335
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f94785d6335cb8519540d8714d1b7596356d55f6af2bdf077361ac8ea0eb8274"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "1ffd37f9420ddfd4b9fd9788aae2def03ab6f99e05efc92f4dea9d9dd33d5ccf"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 2,
+    "algorithm": "vqls_measured",
+    "setting": "ZX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2856,
+        1033,
+        125,
+        82
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.05400927183895946,
+      "classical_distribution_fidelity": 0.9865794517169054,
+      "tv_plugin_bootstrap95": [
+        0.03862230894833447,
+        0.06892016051083444
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "ed8ed0e3f5f57fc4a702713aecb58c976db889d7ed1a21ceded9dc7e7f8fcb8e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "d831a3674b12e86b9eca035606ff0e6114f01d157cc985432b1f3df71c713448"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 2,
+    "algorithm": "vqls_measured",
+    "setting": "ZX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2824,
+        1029,
+        150,
+        93
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.04888231871395946,
+      "classical_distribution_fidelity": 0.9865896843033632,
+      "tv_plugin_bootstrap95": [
+        0.03395922301083447,
+        0.06572802183895946
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "7512015a4187e1bedf4dd4f0b7351d9991c14a33e8fcc4ae305181d56dbeea39"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "e404ca079c75784572b9b848bb8a6418385e80fb7805b99e93da3c90a801a967"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 3,
+    "algorithm": "vqls_measured",
+    "setting": "ZY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1922,
+        1944,
+        110,
+        120
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.00390625,
+      "classical_distribution_fidelity": 0.9999635437226735,
+      "tv_plugin_bootstrap95": [
+        0.002193436790071843,
+        0.02051619069632183
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "e0256209e0e8aeba87e1a67749c8876c0b12ffcfb0fd4c718f4035784d16c83b"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "cd1e5191fc784b343dc403507936c055986a141fd92afd7efc2c00a2f9295b28"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 3,
+    "algorithm": "vqls_measured",
+    "setting": "ZY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1903,
+        1926,
+        129,
+        138
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.00836294741925278,
+      "classical_distribution_fidelity": 0.9996686895802669,
+      "tv_plugin_bootstrap95": [
+        0.003964587334324624,
+        0.021645906593448318
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "578d605437d16e5bee2658b21005b45be316d6236e1a13e793e2438ece20c8a8"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ed330c4a2e8e2ff615c6acb11d72220bf0701363c30efed6130d4cff0c80f318"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 4,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        0,
+        4096,
+        0,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0,
+      "classical_distribution_fidelity": 1.0,
+      "tv_plugin_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "7eb57ff35df8388902703d1de3d2f2de96914b771e348063d84930a29ce95adc"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "a48c5ad8f654dea7fb87c9e4784a8d887237aba3f2e74194597d4e4a5c1d3519"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 4,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        15,
+        4069,
+        0,
+        12
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.006591796875,
+      "classical_distribution_fidelity": 0.9934082031249999,
+      "tv_plugin_bootstrap95": [
+        0.004150390625,
+        0.00927734375
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "4e9242c9203baa47b4e8816083d85117a8362a7366e5de392f1eedfd294ad97c"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "d3f99d6dba3d91ea6c77e9fd3f2c13d61ca6e7101ac0dc0edf99a904245ffa5d"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 5,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        4096,
+        0,
+        0,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0,
+      "classical_distribution_fidelity": 1.0,
+      "tv_plugin_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "6ecedf4c9ca32518688a5ee30fa5e116767c5ff596440e5b7e0a13fbbdc059f8"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "edcbb9f5cba2303deafb4d1873a5bbf2bfdd87092b9ccdcf9b5db10c48aba9d8"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 5,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        4076,
+        5,
+        15,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0048828125,
+      "classical_distribution_fidelity": 0.9951171875,
+      "tv_plugin_bootstrap95": [
+        0.002685546875,
+        0.0068420410156249944
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "2ebd2027c8a9b8d2f86cc4e5c563a65d52415ef9e3b12076c5f82479c4854603"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "d52d26fa567078c483b8b48929947fb9324a038ebf6868702094297bf086e8b4"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 6,
+    "algorithm": "reference_control",
+    "setting": "ZZ",
+    "kind": "control",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3988,
+        35,
+        40,
+        33
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.002815913228155334,
+      "classical_distribution_fidelity": 0.9998838384030954,
+      "tv_plugin_bootstrap95": [
+        0.0011069288531553338,
+        0.007397697967233005
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "569be64c52cbba86f0fd30fde7652e5da9e37df8a95bfa8c47b94627018d3a69"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "d8f0bd8efdd1e921180fbe2b66ffc5205e6421abdfcd026afb500c55e1c8d7c2"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 6,
+    "algorithm": "reference_control",
+    "setting": "ZZ",
+    "kind": "control",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3950,
+        49,
+        60,
+        37
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.007193852396844666,
+      "classical_distribution_fidelity": 0.9993532468834696,
+      "tv_plugin_bootstrap95": [
+        0.0032274561020934536,
+        0.012138233369993933
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "29bc7d866a9297bbd106665386e6b41f1d9f71d86b64052b3ee3bdaef5487efb"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "bd61b7f51b4519effa4a110d0d75f035833bea2af6487b5323489f6de984597a"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 7,
+    "algorithm": "vqls_measured",
+    "setting": "XX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2102,
+        255,
+        873,
+        866
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.08867872751514508,
+      "classical_distribution_fidelity": 0.9858427440774281,
+      "tv_plugin_bootstrap95": [
+        0.07427443064014508,
+        0.10382154978077007
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "253263314542910fc596b2b779928f69e6d226c320113c8ea1fd4d070708ffdd"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "8eff6bfb64262220f604daa5636fc2545d00a22533a88b7b1c5efb3cc31b8570"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 7,
+    "algorithm": "vqls_measured",
+    "setting": "XX",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2080,
+        270,
+        886,
+        860
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.09038771189014508,
+      "classical_distribution_fidelity": 0.9867141609726297,
+      "tv_plugin_bootstrap95": [
+        0.07500685251514508,
+        0.10581129587452004
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "df6584d873a0c8bad05b7615b5baeea7ece2faade6f0af4c1cb078ea74bb706a"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "b19cf8fdf15de5b656f5d2c282681b5cc3cc06b1d26613f3177058710259daa4"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 8,
+    "algorithm": "vqls_measured",
+    "setting": "YZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1861,
+        221,
+        1821,
+        193
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.021703997161299768,
+      "classical_distribution_fidelity": 0.998431710527888,
+      "tv_plugin_bootstrap95": [
+        0.014621173759283521,
+        0.03380732084627487
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "d32e0ed82ed3e50a2de780cbf76c5149b1a4d87fca2d54318698f0e2fe8379f5"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "6168bacba6b50e1da9e7dcb0c1dac4e9b5f7eaabcb9d633a4215a5363fe593ce"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 8,
+    "algorithm": "vqls_measured",
+    "setting": "YZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1858,
+        231,
+        1806,
+        201
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.026098528411299768,
+      "classical_distribution_fidelity": 0.997805618975047,
+      "tv_plugin_bootstrap95": [
+        0.01875599911442477,
+        0.03746943022127487
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "600efa55aa8985a449058cfd3ae870af215b6d51c2f63c0eb6a36dc69abe7431"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "15d0abbb594d6c6548671b86bda87bc164c095bb4af58edde44183f75ab4f9c2"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 9,
+    "algorithm": "vqls_measured",
+    "setting": "XY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1188,
+        1216,
+        882,
+        810
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.07720411814014502,
+      "classical_distribution_fidelity": 0.9934466290857417,
+      "tv_plugin_bootstrap95": [
+        0.06182325876514502,
+        0.09209669626514502
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "7a11d860c25d47c42d536954f96e15a60dde5ec0e65a3baffad4e750a18e2e8d"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "9ca589bba39b6284f14001c413f8a7436fa2ef4e6e828c383407b3c839b1f144"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 9,
+    "algorithm": "vqls_measured",
+    "setting": "XY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1191,
+        1213,
+        884,
+        808
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.07720411814014502,
+      "classical_distribution_fidelity": 0.9934354890990016,
+      "tv_plugin_bootstrap95": [
+        0.06182325876514502,
+        0.09185865915577002
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "3b0df31c973bbeebb00e3e3e0ef8bca54a329d9beca8b56468f90ca317b9cb0e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "0e5c46cb54c8cf73cab73d15c7e814b9ed64b6f3f02ad90c631664754f292026"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 10,
+    "algorithm": "vqls_measured",
+    "setting": "ZZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3675,
+        222,
+        2,
+        197
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.022924700286299737,
+      "classical_distribution_fidelity": 0.9866609989199056,
+      "tv_plugin_bootstrap95": [
+        0.016643103895771928,
+        0.032208147551924735
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "ded1a3c0f575c3ab7ed23b4dec3b396b0da13cb3f59848084cde4cd20cc56b4a"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "a95a1323e05aa0283812b28fccb8c33b3cf48e96d36fcd65564e5de3f280e4b5"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 10,
+    "algorithm": "vqls_measured",
+    "setting": "ZZ",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3625,
+        239,
+        30,
+        202
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.028295794036299737,
+      "classical_distribution_fidelity": 0.9955390093540912,
+      "tv_plugin_bootstrap95": [
+        0.01925648739567474,
+        0.037579241301924735
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "a5ef16df6c89081d4304681b93ec24237986ec77e3d0ad1cf98f97966c849d6c"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "7cc1c1d59f4f0658812f0b78846bf8335ac0fba6b119b4722271c120684efde7"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 11,
+    "algorithm": "vqls_measured",
+    "setting": "YY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        596,
+        1418,
+        1462,
+        620
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.039849115588959594,
+      "classical_distribution_fidelity": 0.9980947047225718,
+      "tv_plugin_bootstrap95": [
+        0.025682855823334592,
+        0.05474779722958459
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "51ccab509e70a8553f68a7cb6ed44bd47be5fb472efb1574a1b640a150e2005e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "309b7130d6f6fa31ecdde6ae48d6160f7f98c3b8293e6421001f4b32b71ba0af"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 11,
+    "algorithm": "vqls_measured",
+    "setting": "YY",
+    "kind": "tomography",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        616,
+        1401,
+        1446,
+        633
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.031792474963959594,
+      "classical_distribution_fidelity": 0.9987829063483983,
+      "tv_plugin_bootstrap95": [
+        0.017872730159722603,
+        0.04693529722958459
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "2dd4efab97cbfb2549f114909e8eb23306c43c5695d14803125f0f50b9da0f30"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "e48ba12da44fc63d9f037f512b407a160de51d2e24ea85ee5c4d7b631f8c18d5"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 12,
+    "algorithm": "vqls_measured",
+    "setting": "XX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2115,
+        256,
+        847,
+        878
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.08526075876514508,
+      "classical_distribution_fidelity": 0.9863709071243971,
+      "tv_plugin_bootstrap95": [
+        0.07085035837452008,
+        0.10069044626514503
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "1a2e4734637ea0ad4f2d5574152a99fc40bdf5e565698243872fe203d2618b2e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "4f0a64785fbb52bf3c6457dcb23888b4a827a517fadadd119a1e08b1064ccb7f"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 12,
+    "algorithm": "vqls_measured",
+    "setting": "XX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2104,
+        266,
+        853,
+        873
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.08550489939014508,
+      "classical_distribution_fidelity": 0.9871356600349629,
+      "tv_plugin_bootstrap95": [
+        0.06986769235889508,
+        0.09991529978077007
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "d2ae7dfeecd2fa8a501d659eb6aba075ade9b066f8f49c5ced40214165b791cd"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "e8a9da61bba627349cb39082ddb1b486aa3072b99591227811a4cc6c6ba17228"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 13,
+    "algorithm": "vqls_measured",
+    "setting": "YX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1420,
+        580,
+        1511,
+        585
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.01171875,
+      "classical_distribution_fidelity": 0.9998261940870079,
+      "tv_plugin_bootstrap95": [
+        0.003662109375,
+        0.029602668488351632
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "274ed744669d03badf65f0312b4de3d51afc9e4ba0d08d99bbc08b0c7066c3d1"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "63dac3da6ad8a5292442309c3b9ea414d6d1042153e65ea86dd64facd07eb03a"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 13,
+    "algorithm": "vqls_measured",
+    "setting": "YX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1424,
+        585,
+        1495,
+        592
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.010060479298950403,
+      "classical_distribution_fidelity": 0.9998823340366804,
+      "tv_plugin_bootstrap95": [
+        0.003464878898403886,
+        0.02784423828124999
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f6a60ca91f6fc4495c23e0d65acdf0cc87912982c1d4ebfd10f1e7ad4bcbce7e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "1f15d2a49673bfef53847cd9363e362e17e35faa322a5392e8f30ea2dfb99e76"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 14,
+    "algorithm": "vqls_measured",
+    "setting": "YY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        600,
+        1472,
+        1417,
+        607
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.042046381213959594,
+      "classical_distribution_fidelity": 0.9978889195566174,
+      "tv_plugin_bootstrap95": [
+        0.027153803088959594,
+        0.05670092222958459
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "1d90462331e4da044e8a74428de9e6e03a62428d0bad95b8beb9362d2ff978dc"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "fd7a4b51e3c73d7e0275c5c34262d8254a864308b7b7fda60f909a7563ad82f2"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 14,
+    "algorithm": "vqls_measured",
+    "setting": "YY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        625,
+        1454,
+        1398,
+        619
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.033013178088959594,
+      "classical_distribution_fidelity": 0.9986807417615434,
+      "tv_plugin_bootstrap95": [
+        0.019662106622604612,
+        0.04840624449520958
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "375b8daed2d0f75358c03564ced63bb7a1d5b48fe052d48263df34f27223121e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "5ab653cd1963077a83abfc9f820d0750160702c56def48b88eb18754b2696cb0"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 15,
+    "algorithm": "vqls_measured",
+    "setting": "ZY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1923,
+        1956,
+        107,
+        110
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.005950362227873512,
+      "classical_distribution_fidelity": 0.9999090602997848,
+      "tv_plugin_bootstrap95": [
+        0.0022859781721766745,
+        0.0215875692591235
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "d497af703dcfec05230df4de4ad34bdc9651ae6abd4fcb68f85ccc9aca8e3012"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "f2f5a75c99e38ed34c3589ec71a2afcff9b639a79333926c229953ac9fab4c5d"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 15,
+    "algorithm": "vqls_measured",
+    "setting": "ZY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1902,
+        1929,
+        131,
+        134
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.00787466616925278,
+      "classical_distribution_fidelity": 0.9997144953861224,
+      "tv_plugin_bootstrap95": [
+        0.003809159256501483,
+        0.02124406320992816
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "d005fa7a2463ec78619f4f368b2b296f6c185c0da79808c45192a68c9458450c"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "3a42bd47e23847e2e5072611045b3c711173f1909abcd573a65ac008a55126cc"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 16,
+    "algorithm": "vqls_measured",
+    "setting": "YZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1835,
+        204,
+        1852,
+        205
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.020483294036299768,
+      "classical_distribution_fidelity": 0.9987058732929721,
+      "tv_plugin_bootstrap95": [
+        0.013140764739424769,
+        0.030981340911299768
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "734b756adffdfd575966b0b915dc8c0ac9412bf15326c4de919d2f12c2666dd9"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "9518f0fe139bf8f4aeb52f294f83fed13da612161b505f7438530dc8af002954"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 16,
+    "algorithm": "vqls_measured",
+    "setting": "YZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1842,
+        217,
+        1824,
+        213
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.025610247161299768,
+      "classical_distribution_fidelity": 0.9980253294502086,
+      "tv_plugin_bootstrap95": [
+        0.017309465911299768,
+        0.03587025692692476
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "13cb48d01124e963b3aaae26111e3c79a7f4636b6df127fe33c3c0ecd9e62fa2"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "f94ecf20273afe4264384ead2d8de4e988d0d007dd14896334e5981e3805c2a1"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 17,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        0,
+        0,
+        0,
+        4096
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0,
+      "classical_distribution_fidelity": 1.0,
+      "tv_plugin_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "96d5a4b217ebc56c519e84e6acbbc496a205bd2f676b20f5425264d711b24c22"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "bcebb907a4ff19244fcb4c5e544b6b2fb86d92a83bfeafb177826e7ff90bc7d3"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 17,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        0,
+        31,
+        26,
+        4039
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.013916015625,
+      "classical_distribution_fidelity": 0.986083984375,
+      "tv_plugin_bootstrap95": [
+        0.010491943359375,
+        0.017578125
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "0f39028cb164e5bcba97e3c9be2d55be963a13392961c72d270690ec315ef895"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "cc8ef27588d014af26c4955b729e37dcfb34cf3bf2372f46daec312049235a96"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 18,
+    "algorithm": "reference_control",
+    "setting": "ZZ",
+    "kind": "control",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3679,
+        177,
+        68,
+        172
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.005834856536299737,
+      "classical_distribution_fidelity": 0.9998802673681514,
+      "tv_plugin_bootstrap95": [
+        0.0022563234857903036,
+        0.014356547562402806
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "d5c3de92a1efa5cfda14f8e239148dbdb6f4cc6d5908fe09be5302566aed16ed"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "b34e8163d342e7775b8d3d34e6525184751d4fa9eefd9a907d80f00dd51fa734"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 18,
+    "algorithm": "reference_control",
+    "setting": "ZZ",
+    "kind": "control",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3646,
+        184,
+        90,
+        176
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.013355570999902828,
+      "classical_distribution_fidelity": 0.999422851460927,
+      "tv_plugin_bootstrap95": [
+        0.004807903847886581,
+        0.02289536592177781
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "dd348b583d5345b20f6bd4adfcb1b411c8914eefaaadc0622342090599abf962"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "40002a14231ec40ac3aac41633165fe7491bed97e8c6a3b7ca3000ba13dfca77"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 19,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        0,
+        0,
+        4096,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0,
+      "classical_distribution_fidelity": 1.0,
+      "tv_plugin_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "04c68b6fe86ace8763d17b4de8cc49d7b32a62fabfad417a782a69ab0a129c85"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "5ecbc3b38f2bf159ebbe5bbcbf27b28795c0a80de88ba711f94a69a0c950854b"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 19,
+    "algorithm": "readout_control",
+    "setting": null,
+    "kind": "readout_calibration",
+    "repeat": null,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        30,
+        0,
+        4062,
+        4
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.00830078125,
+      "classical_distribution_fidelity": 0.99169921875,
+      "tv_plugin_bootstrap95": [
+        0.005615234375,
+        0.01123046875
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "2a78d29e10a69a87e1b60bdbd702f92af5b59fb77c748ce3086096cb2a87bbb8"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "67c6f89843c04bb870a77f1754964c5a8b347687ebc5d1ed415b0f45f9eeb402"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 20,
+    "algorithm": "vqls_measured",
+    "setting": "XY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1093,
+        1202,
+        911,
+        890
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.10381544626514502,
+      "classical_distribution_fidelity": 0.9882885911441566,
+      "tv_plugin_bootstrap95": [
+        0.08867872751514502,
+        0.11677320993702
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "bddc47aedbe59fa226268e2f7690f7cb4d3b6f47a526d21253f1e635a3345f81"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "1689c33a3c10bb59683a2daa4ace8e4ce080505ffd6ece4a97bb6432e575013a"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 20,
+    "algorithm": "vqls_measured",
+    "setting": "XY",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1106,
+        1196,
+        908,
+        886
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.10210646189014502,
+      "classical_distribution_fidelity": 0.9887592290042448,
+      "tv_plugin_bootstrap95": [
+        0.08599318064014502,
+        0.11724318064014502
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "3a21267781be39334d5a8663216760b394b7a4ff6287ef4dbf7b421567ab1060"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "8a0b8cdb2ec16c0fa5cd3134577a5bdbc7cf0a92806c4f7909120da8fca39c15"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 21,
+    "algorithm": "vqls_measured",
+    "setting": "ZZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3671,
+        225,
+        1,
+        199
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.024145403411299737,
+      "classical_distribution_fidelity": 0.9850646823852108,
+      "tv_plugin_bootstrap95": [
+        0.016891543952019496,
+        0.033428850676924735
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "eea1475abc5365bc6a80fc3efa41004baefa7f104b3c9dd7427a75f7462bdf9b"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "1c32dbf7362e5072339e51a476d14019774ba23f97c2b0da2f70e55db280e774"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 21,
+    "algorithm": "vqls_measured",
+    "setting": "ZZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        3634,
+        235,
+        25,
+        202
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.027319231536299737,
+      "classical_distribution_fidelity": 0.994997937968449,
+      "tv_plugin_bootstrap95": [
+        0.018530169036299737,
+        0.036846819426924735
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "5a29ca4343db0846f3f8b3b2bff4292890fe4159a0955fc02752bca203be9a24"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "747904d261f8fc814fa9caae580ac9c0c74344578f7ba615e1b30441f30adf48"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 22,
+    "algorithm": "vqls_measured",
+    "setting": "ZX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2784,
+        1089,
+        145,
+        78
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.03545458433895947,
+      "classical_distribution_fidelity": 0.9895555045162701,
+      "tv_plugin_bootstrap95": [
+        0.020317865588959465,
+        0.04917528746395942
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "5048cfbb942bc666542477f24df06bbab99979ed1cbe15f82bb67f78f95de9c4"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "8c5bdcaf682c1b0358ad64d3547fac6619a4691e9d2f1699ae6316874fcf74ec"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 22,
+    "algorithm": "vqls_measured",
+    "setting": "ZX",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        2743,
+        1085,
+        174,
+        94
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.029351068713959465,
+      "classical_distribution_fidelity": 0.9883351187965138,
+      "tv_plugin_bootstrap95": [
+        0.020068988945874392,
+        0.04307177183895942
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f03f5b8f4f5bce9793955e52217ee5759fd55d8fff18ea4a77215a74c243d950"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "db43574539834d6242d364b53d46fa99c8086ffac6af73cbd194a69ba3f21249"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 23,
+    "algorithm": "vqls_measured",
+    "setting": "XZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1934,
+        423,
+        1739,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.11257999030144492,
+      "classical_distribution_fidelity": 0.9872688268075247,
+      "tv_plugin_bootstrap95": [
+        0.09646060553581992,
+        0.12625186530144492
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "17b8396eb7e856beeebe7899423bcf95d0687ab48e05b76ad5d7dcc27cb74e2a"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "a1a6152f6de53236845a1f7bc9aa69310479fc27954dd562bdf46ef4c879caaf"
+    }
+  },
+  {
+    "protocol": "vqls_tomography",
+    "pub_index": 23,
+    "algorithm": "vqls_measured",
+    "setting": "XZ",
+    "kind": "tomography",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 4096,
+      "postselection_rate": 1.0,
+      "postselection_wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ],
+      "conditional_counts": [
+        1931,
+        429,
+        1719,
+        17
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.11331241217644492,
+      "classical_distribution_fidelity": 0.9834061451846194,
+      "tv_plugin_bootstrap95": [
+        0.09694888678581992,
+        0.12698428717644492
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "9ac23890481130a7fb1b335c39422ee59c2534d97de3fee58a55a56fc1af3a80"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "548ea34f252fcdbe96f70b26141be2fb2b27df947e37ab3aca7f54a08ff4adf2"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 0,
+    "algorithm": "qsvt",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 789,
+      "postselection_rate": 0.192626953125,
+      "postselection_wilson95": [
+        0.18084004821263353,
+        0.2049898612384762
+      ],
+      "conditional_counts": [
+        459,
+        53,
+        277,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.015195493694644513,
+      "classical_distribution_fidelity": 0.9993197465933964,
+      "tv_plugin_bootstrap95": [
+        0.005056076711121064,
+        0.05321830738285741
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "2b3fc6c8869898d2e7ee9389afb4ec145151a5993b2c4ac87a7a2ba08145684c"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "d6f496290dbe46c520e9a97996b2278ce4bbc090e79e2fb059dbc577790b3166"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 0,
+    "algorithm": "qsvt",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 806,
+      "postselection_rate": 0.19677734375,
+      "postselection_wilson95": [
+        0.18488871482402724,
+        0.20923419823258776
+      ],
+      "conditional_counts": [
+        381,
+        104,
+        266,
+        55
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.11790024987531954,
+      "classical_distribution_fidelity": 0.9213886032261089,
+      "tv_plugin_bootstrap95": [
+        0.09432704888276373,
+        0.14929510545342997
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "1dfa3343eb46d9259021cc0af458577044be634b3a851e9c7687dd9318ce707e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "7d182a65fa527752b248094445ae2b3fca1511170f89c224286a8bfea12073e9"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 1,
+    "algorithm": "qsvt",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 730,
+      "postselection_rate": 0.17822265625,
+      "postselection_wilson95": [
+        0.16680579291439793,
+        0.19024251578819348
+      ],
+      "conditional_counts": [
+        663,
+        28,
+        10,
+        29
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.004767804935199099,
+      "classical_distribution_fidelity": 0.9997901665860092,
+      "tv_plugin_bootstrap95": [
+        0.004053239955905929,
+        0.026644696551467038
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "a8072a4ec257407a5ea572343f8a03e1a5bcd7f9be57d5f1b1552ecadf5b0d96"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ee0e6cbf8c4cafcf990f8499afc111e4d9f6f23dc39408578fb9778e6422c1f7"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 1,
+    "algorithm": "qsvt",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 747,
+      "postselection_rate": 0.182373046875,
+      "postselection_wilson95": [
+        0.17084677377141225,
+        0.19449453853668444
+      ],
+      "conditional_counts": [
+        557,
+        74,
+        44,
+        72
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.15784302602834996,
+      "classical_distribution_fidelity": 0.9547327533213897,
+      "tv_plugin_bootstrap95": [
+        0.13103579711268734,
+        0.19134369537239276
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "403234e28d735ecdd0a734e81bb9bc93403c4f7aedf0ebbd5f88b9b84790ca75"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "74ceb60ecc6edac3b10211293d213d4971cb1003989d6f8ba0a535ab6b1c2789"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 2,
+    "algorithm": "hhl",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 731,
+      "postselection_rate": 0.178466796875,
+      "postselection_wilson95": [
+        0.16704343331087437,
+        0.19049269913321734
+      ],
+      "conditional_counts": [
+        648,
+        31,
+        17,
+        35
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.01703538140516959,
+      "classical_distribution_fidelity": 0.9990236836678155,
+      "tv_plugin_bootstrap95": [
+        0.005458528056539051,
+        0.03892320630257041
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "06c887c2aaa94ff0d86c10eaf1a827720c712d6deef584690f30bd9fef0952f6"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "b7f8196ab2ba880807f685be7874087cc3aaaf24e1982191a77c5185124021f1"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 2,
+    "algorithm": "hhl",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 600,
+      "postselection_rate": 0.146484375,
+      "postselection_wilson95": [
+        0.135987088017803,
+        0.15764413428974813
+      ],
+      "conditional_counts": [
+        439,
+        71,
+        48,
+        42
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.17182562308323615,
+      "classical_distribution_fidelity": 0.9434513429828562,
+      "tv_plugin_bootstrap95": [
+        0.1401589564165695,
+        0.21182562308323616
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "8f746e5cec5b2dfce36df5a64a160ce2667d38fbb97332cae206d22183359ed3"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "89fd6613714634385298016fed5e734e2d7ddbb111e683c4b9bfc820da81d4b6"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 3,
+    "algorithm": "hhl",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 782,
+      "postselection_rate": 0.19091796875,
+      "postselection_wilson95": [
+        0.17917357083383417,
+        0.20324157242677338
+      ],
+      "conditional_counts": [
+        436,
+        82,
+        118,
+        146
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.028812065698774578,
+      "classical_distribution_fidelity": 0.9986894387334959,
+      "tv_plugin_bootstrap95": [
+        0.01558118771225208,
+        0.05950260278317351
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "cbf4eef29ad4f52d8cc2c2480197d21c61de960f7e860aab3888bb5b1dab8d4e"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "9d7acd1a2675d1b36caa71d5861021733cdfb21b4f2cf5e96d7b0d165af377ca"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 3,
+    "algorithm": "hhl",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 566,
+      "postselection_rate": 0.13818359375,
+      "postselection_wilson95": [
+        0.12795385511303053,
+        0.14909135998351009
+      ],
+      "conditional_counts": [
+        266,
+        88,
+        101,
+        111
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.07752788460701923,
+      "classical_distribution_fidelity": 0.9930152982244255,
+      "tv_plugin_bootstrap95": [
+        0.040425411108786,
+        0.11997488107345029
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "b728ec2ae56d22e338a8dc896f5734ba12a3c30884edd31eeef2b61831a9500a"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "965b485390e4e61d4ab327a34f79e2b1b62ddc79688f044e64311e395770e9b7"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 4,
+    "algorithm": "qsvt",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 792,
+      "postselection_rate": 0.193359375,
+      "postselection_wilson95": [
+        0.18155436437511646,
+        0.20573901630049418
+      ],
+      "conditional_counts": [
+        416,
+        113,
+        135,
+        128
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.028564771729213734,
+      "classical_distribution_fidelity": 0.9983881051228843,
+      "tv_plugin_bootstrap95": [
+        0.012637024482220188,
+        0.06521220858317515
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "2fa94ebda7e3179e57bd6bcc82d4305b4fb995e1dabdef5a6a9b4baa77f61661"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ca51d26eefc00851a69f5627ef4da0d8fdcec40c190f81676745f5bef46b2a07"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 4,
+    "algorithm": "qsvt",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 799,
+      "postselection_rate": 0.195068359375,
+      "postselection_wilson95": [
+        0.18322136030319566,
+        0.20748678656291716
+      ],
+      "conditional_counts": [
+        381,
+        104,
+        172,
+        142
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.07064649134600835,
+      "classical_distribution_fidelity": 0.9941257528116424,
+      "tv_plugin_bootstrap95": [
+        0.04206049239014094,
+        0.10697314966891194
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "c49f149cea581c2ac525b170d9fda02908ab49e09929819ff34934ba13f85ea8"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "a659424f11bd9a1bb12386b70549f92863c6e32030f6312cc474e915c034fdd4"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 5,
+    "algorithm": "hhl",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 776,
+      "postselection_rate": 0.189453125,
+      "postselection_wilson95": [
+        0.17774545400072264,
+        0.20174274681088303
+      ],
+      "conditional_counts": [
+        460,
+        68,
+        248,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.01629419049387549,
+      "classical_distribution_fidelity": 0.9995657375891358,
+      "tv_plugin_bootstrap95": [
+        0.004688662666037905,
+        0.05112022142171051
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "dba1167d5785ad8cb7bd8562d803e72ed7de7fb1cdac961030b4456856569c2b"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ea805b74678f17bcf306449f1b8782544352c04301493c51fc8b924d62c7ceef"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 5,
+    "algorithm": "hhl",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 0,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 607,
+      "postselection_rate": 0.148193359375,
+      "postselection_wilson95": [
+        0.13764249456715064,
+        0.15940349393090267
+      ],
+      "conditional_counts": [
+        302,
+        79,
+        195,
+        31
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.1018488887902124,
+      "classical_distribution_fidelity": 0.9399300970200036,
+      "tv_plugin_bootstrap95": [
+        0.07384229900438044,
+        0.13480274940176787
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "7f8cb29fcc682edbccf901734140cfadfe4aa3d403509c546fe08c0f4125be75"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "2f0ae318fecc422addf8e64c0fca626184b730be5c742c71f400faac7b81eda8"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 6,
+    "algorithm": "hhl",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 716,
+      "postselection_rate": 0.1748046875,
+      "postselection_wilson95": [
+        0.16347968619865083,
+        0.18673909012293627
+      ],
+      "conditional_counts": [
+        407,
+        56,
+        253,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.01747013594740767,
+      "classical_distribution_fidelity": 0.9996589529552268,
+      "tv_plugin_bootstrap95": [
+        0.0048885124838653465,
+        0.055185601078081244
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "e12c756e6776a52e42cd451be49a13b0911b6b51d4e2dfa7d2dfe8c72a5d94e2"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "70d699a426fb99b4d297ae483e25a8f8687cff9cdab7ee95862d64a640e94301"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 6,
+    "algorithm": "hhl",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 541,
+      "postselection_rate": 0.132080078125,
+      "postselection_wilson95": [
+        0.12205518295943836,
+        0.1427944385995945
+      ],
+      "conditional_counts": [
+        282,
+        60,
+        175,
+        24
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.0758978005924457,
+      "classical_distribution_fidelity": 0.9516642612947103,
+      "tv_plugin_bootstrap95": [
+        0.04627672850372112,
+        0.1097346533339625
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f2dd4f2eeadbfc211f85578476cd74d73e4fb989b75f35546fd5b6ec3b6b5e98"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "db393f2afa82e1217e55209a871ba12c3435b7e1daa3561cb8a64b14b8036409"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 7,
+    "algorithm": "qsvt",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 772,
+      "postselection_rate": 0.1884765625,
+      "postselection_wilson95": [
+        0.1767935272873113,
+        0.20074337855829316
+      ],
+      "conditional_counts": [
+        474,
+        68,
+        230,
+        0
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.03795435821995846,
+      "classical_distribution_fidelity": 0.9982797844144565,
+      "tv_plugin_bootstrap95": [
+        0.008698903269210422,
+        0.06904244112151288
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "490a5664f652bafdc8f52575a1fc4a88e6ad15ad3b110613d796701dab788b03"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "a4ad424d8e106eb1f2b5549eef231f7ebb7d327039fdac06866835b77eb61801"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 7,
+    "algorithm": "qsvt",
+    "setting": "XZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 793,
+      "postselection_rate": 0.193603515625,
+      "postselection_wilson95": [
+        0.18179248456013095,
+        0.20598871985698
+      ],
+      "conditional_counts": [
+        407,
+        99,
+        226,
+        61
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.12239522607838668,
+      "classical_distribution_fidelity": 0.9153992711213443,
+      "tv_plugin_bootstrap95": [
+        0.09591351107208154,
+        0.15139900918053043
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "490f97f003dc89cf8b26a97dda3868182e1d0888df619fee4db5e738d2269274"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "4c62945f27456cad7f4e754f4a3ef85c0f2fb3a844ee1df16490a4cb72ecbeb6"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 8,
+    "algorithm": "hhl",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 720,
+      "postselection_rate": 0.17578125,
+      "postselection_wilson95": [
+        0.16442983783939044,
+        0.18774023344819787
+      ],
+      "conditional_counts": [
+        387,
+        78,
+        141,
+        114
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.02789242365340576,
+      "classical_distribution_fidelity": 0.9985892096526238,
+      "tv_plugin_bootstrap95": [
+        0.012456098908614668,
+        0.060962188458382006
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "872e7fd65cf6022c21a1353e0647e7bcfcba23aea5f49a5598c6922feecaad7d"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "e113410b4c49a82175a6c876b350bd8baba089b166a4b1cbda2fd7cc0de8bf35"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 8,
+    "algorithm": "hhl",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 536,
+      "postselection_rate": 0.130859375,
+      "postselection_wilson95": [
+        0.12087631428957908,
+        0.14153418856195218
+      ],
+      "conditional_counts": [
+        263,
+        94,
+        83,
+        96
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.06991107053819914,
+      "classical_distribution_fidelity": 0.9920438508611926,
+      "tv_plugin_bootstrap95": [
+        0.04184965374952373,
+        0.11095584665760212
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "39fca914a086b02d9fd1476a81cfa00f85ad6ba839c371be29d16be438f425e0"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "c19c87e99a5e7cfda175ac76e2a0ba439226a783a2c5363f5e36cbe296e729df"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 9,
+    "algorithm": "hhl",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 725,
+      "postselection_rate": 0.177001953125,
+      "postselection_wilson95": [
+        0.16561771302630468,
+        0.1889914769687852
+      ],
+      "conditional_counts": [
+        663,
+        25,
+        14,
+        23
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.013163325036976106,
+      "classical_distribution_fidelity": 0.9992742584289372,
+      "tv_plugin_bootstrap95": [
+        0.005202352173660468,
+        0.03171460680182128
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "ee723a3d3943563a68f6dffc0e5b8155edda74973a625dc50d9abb7fea743130"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "5516638b5625456ef7e9737cc08fa7141e958a634ea64199b6d4bd3b101f663a"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 9,
+    "algorithm": "hhl",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 545,
+      "postselection_rate": 0.133056640625,
+      "postselection_wilson95": [
+        0.12299848905057073,
+        0.14380242747446334
+      ],
+      "conditional_counts": [
+        397,
+        48,
+        53,
+        47
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.1750519227774258,
+      "classical_distribution_fidelity": 0.940325113539034,
+      "tv_plugin_bootstrap95": [
+        0.14018953745632484,
+        0.21362990442880186
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "029140697d87f083741bb4606e4f193d690bbfad8ba084d8b16f1499a4567701"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "7f0331837043c78257939fe35fe2f99dbb1fbdfe30b319c9f9c41a1b847be472"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 10,
+    "algorithm": "qsvt",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 753,
+      "postselection_rate": 0.183837890625,
+      "postselection_wilson95": [
+        0.17227355103593833,
+        0.19599470372116023
+      ],
+      "conditional_counts": [
+        409,
+        87,
+        140,
+        117
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.017982065087668718,
+      "classical_distribution_fidelity": 0.9992876434924316,
+      "tv_plugin_bootstrap95": [
+        0.009604736855781936,
+        0.054562433605390905
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "f640735f93f2c22338a10b0068a39a721b620c9b690fd365f759ccf6dc015eaa"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "ae48f68c86d63ac20274331dae30051741b945d17bbc4352c0f7017d6162f447"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 10,
+    "algorithm": "qsvt",
+    "setting": "XX",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 762,
+      "postselection_rate": 0.18603515625,
+      "postselection_wilson95": [
+        0.17441424489099258,
+        0.19824442353960878
+      ],
+      "conditional_counts": [
+        367,
+        105,
+        147,
+        143
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.06586525233004678,
+      "classical_distribution_fidelity": 0.9956001748718079,
+      "tv_plugin_bootstrap95": [
+        0.02891907528016166,
+        0.1026434675531439
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "4ced8e85c9e8fdd3d0ec9b5891a31177ed07dd4917c2c72ba6dedba4cf65108b"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "5295ef6b727e778e0f5f0d2f7093313e52259e96c64eb9547db768e2257a8a5f"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 11,
+    "algorithm": "qsvt",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "compiled_ideal",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 779,
+      "postselection_rate": 0.190185546875,
+      "postselection_wilson95": [
+        0.17845947851984778,
+        0.20249219351625886
+      ],
+      "conditional_counts": [
+        702,
+        36,
+        12,
+        29
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.006527982915534352,
+      "classical_distribution_fidelity": 0.999664635011413,
+      "tv_plugin_bootstrap95": [
+        0.0046853611460485394,
+        0.027194752661671026
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "16f7625428c74bd86e6622ca3d44c5890d7a3878c3a161836eb73d98d41dfe3f"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "eabf353df02b4fce902a1bbc60bdabc13357330070de3d0f22b063280fc37473"
+    }
+  },
+  {
+    "protocol": "coherent_bias",
+    "pub_index": 11,
+    "algorithm": "qsvt",
+    "setting": "ZZ",
+    "kind": "coherent_phase_diagnostic",
+    "repeat": 1,
+    "treatment": "snapshot_noise",
+    "calibration_id": "926102dda6100ac05a8bd0ba31ff7c95007d99f2fd72aea77ffa5e5bf06c099b",
+    "metrics": {
+      "total_shots": 4096,
+      "accepted_shots": 796,
+      "postselection_rate": 0.1943359375,
+      "postselection_wilson95": [
+        0.18250688935918463,
+        0.20673778628242723
+      ],
+      "conditional_counts": [
+        563,
+        90,
+        58,
+        85
+      ],
+      "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+      "status": "ok",
+      "total_variation": 0.1962058575890988,
+      "classical_distribution_fidelity": 0.9347260040212491,
+      "tv_plugin_bootstrap95": [
+        0.16731138522728975,
+        0.22764429980015408
+      ],
+      "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+    },
+    "sample": {
+      "stage": "snapshot_samples",
+      "key": "0389d2fa99e58b69eaa44e54de55a771725d78b9dd6531739de72433203b0337"
+    },
+    "analysis": {
+      "stage": "distribution_analysis",
+      "key": "4a0e8f16a34af5bb90b0bd0cf1451a209aa4523b11f97f7a7416b50b55532df2"
+    }
+  }
+]

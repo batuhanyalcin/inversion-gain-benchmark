@@ -1,0 +1,20 @@
+{
+  "selected_inputs": {
+    "version": 2,
+    "options": {
+      "default_shots": 4096,
+      "dynamical_decoupling": {
+        "enable": false
+      },
+      "twirling": {
+        "enable_measure": false,
+        "enable_gates": false
+      },
+      "execution": {
+        "init_qubits": true,
+        "meas_type": "classified"
+      }
+    }
+  },
+  "scope": "explicit primitive options allowlist; accounts, service objects, PUBs and circuits excluded"
+}

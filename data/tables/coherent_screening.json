@@ -1,0 +1,1361 @@
+[
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.06853863713258014,
+    "residual": 0.04761160726691114,
+    "ideal_acceptance": 0.10943183217006502,
+    "offline_two_qubit_gates": 61,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.10403168972265005,
+    "residual": 0.06146908714681001,
+    "ideal_acceptance": 0.17008502260891856,
+    "offline_two_qubit_gates": 61,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.05962685373361764,
+    "residual": 0.023570065372661386,
+    "ideal_acceptance": 0.028431905896190452,
+    "offline_two_qubit_gates": 93,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.017453001462804756,
+    "residual": 0.014859931077541513,
+    "ideal_acceptance": 0.18683922926233684,
+    "offline_two_qubit_gates": 93,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 143,
+    "native_cz_ibm_kingston": 157,
+    "native_cz_ibm_boston": 157
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "accepted",
+    "operator_relative_error": 0.02991016880789239,
+    "residual": 0.014667697161996443,
+    "ideal_acceptance": 0.006840395000968572,
+    "offline_two_qubit_gates": 137,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 223,
+    "native_cz_ibm_kingston": 265,
+    "native_cz_ibm_boston": 265
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.02319450165045066,
+    "residual": 0.014460786312246168,
+    "ideal_acceptance": 0.18362834388569785,
+    "offline_two_qubit_gates": 137,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 223,
+    "native_cz_ibm_kingston": 265,
+    "native_cz_ibm_boston": 265
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "accepted",
+    "operator_relative_error": 0.02271894069889546,
+    "residual": 0.008316781244830308,
+    "ideal_acceptance": 0.0017011203527245208,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 323,
+    "native_cz_ibm_kingston": 385,
+    "native_cz_ibm_boston": 385
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.004628542081734839,
+    "residual": 0.003600849097855685,
+    "ideal_acceptance": 0.18700799789244035,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 323,
+    "native_cz_ibm_kingston": 385,
+    "native_cz_ibm_boston": 385
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d5",
+    "status": "accepted",
+    "operator_relative_error": 0.014864176777659032,
+    "residual": 0.012176905092831132,
+    "ideal_acceptance": 0.18551310861314874,
+    "offline_two_qubit_gates": 80,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 104,
+    "native_cz_ibm_kingston": 100,
+    "native_cz_ibm_boston": 100
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d7",
+    "status": "accepted",
+    "operator_relative_error": 0.011510203864650796,
+    "residual": 0.00937281098058988,
+    "ideal_acceptance": 0.18573359606769857,
+    "offline_two_qubit_gates": 110,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 144,
+    "native_cz_ibm_kingston": 138,
+    "native_cz_ibm_boston": 138
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d9",
+    "status": "accepted",
+    "operator_relative_error": 0.0022175780040075348,
+    "residual": 0.00013223383152121128,
+    "ideal_acceptance": 0.18643250619813606,
+    "offline_two_qubit_gates": 140,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 184,
+    "native_cz_ibm_kingston": 176,
+    "native_cz_ibm_boston": 176
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d11",
+    "status": "accepted",
+    "operator_relative_error": 0.0004111833278873535,
+    "residual": 0.0003212955426394793,
+    "ideal_acceptance": 0.18722680021350763,
+    "offline_two_qubit_gates": 170,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 222,
+    "native_cz_ibm_kingston": 214,
+    "native_cz_ibm_boston": 214
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d13",
+    "status": "accepted",
+    "operator_relative_error": 2.3235492902604952e-05,
+    "residual": 2.1077981563704203e-05,
+    "ideal_acceptance": 0.18730416400830036,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 262,
+    "native_cz_ibm_kingston": 252,
+    "native_cz_ibm_boston": 252
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d15",
+    "status": "accepted",
+    "operator_relative_error": 2.1453344897465035e-05,
+    "residual": 1.9217885612731803e-05,
+    "ideal_acceptance": 0.1873041665874841,
+    "offline_two_qubit_gates": 230,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 302,
+    "native_cz_ibm_kingston": 290,
+    "native_cz_ibm_boston": 290
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d17",
+    "status": "accepted",
+    "operator_relative_error": 1.655912829952832e-05,
+    "residual": 1.4240004014401729e-05,
+    "ideal_acceptance": 0.1873042229912088,
+    "offline_two_qubit_gates": 260,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 344,
+    "native_cz_ibm_kingston": 328,
+    "native_cz_ibm_boston": 328
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d21",
+    "status": "accepted",
+    "operator_relative_error": 2.86214555501787e-06,
+    "residual": 2.175900941423404e-07,
+    "ideal_acceptance": 0.18730474527319765,
+    "offline_two_qubit_gates": 320,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 420,
+    "native_cz_ibm_kingston": 404,
+    "native_cz_ibm_boston": 404
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 7.118768272857198e-06,
+    "residual": 1.3783995447225018e-06,
+    "ideal_acceptance": 0.18730345206888457,
+    "offline_two_qubit_gates": 380,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 502,
+    "native_cz_ibm_kingston": 480,
+    "native_cz_ibm_boston": 480
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.07200401059944768,
+    "residual": 0.0640643150868082,
+    "ideal_acceptance": 0.32791743575287,
+    "offline_two_qubit_gates": 62,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.07200401059944803,
+    "residual": 0.06406431508680824,
+    "ideal_acceptance": 0.1505525857725795,
+    "offline_two_qubit_gates": 62,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.04359209234770281,
+    "residual": 0.03698158105982936,
+    "ideal_acceptance": 0.08799752308904284,
+    "offline_two_qubit_gates": 92,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.10436092145456434,
+    "residual": 0.047205965102655824,
+    "ideal_acceptance": 0.14339145659059868,
+    "offline_two_qubit_gates": 92,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.04136728682186434,
+    "residual": 0.018410002576418606,
+    "ideal_acceptance": 0.02239413605221347,
+    "offline_two_qubit_gates": 138,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.009637282555092191,
+    "residual": 0.002808863576977692,
+    "ideal_acceptance": 0.15751030877659405,
+    "offline_two_qubit_gates": 138,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 224,
+    "native_cz_ibm_kingston": 266,
+    "native_cz_ibm_boston": 266
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "accepted",
+    "operator_relative_error": 0.009648305980489626,
+    "residual": 0.008942642913265126,
+    "ideal_acceptance": 0.0053916927444287764,
+    "offline_two_qubit_gates": 204,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 327,
+    "native_cz_ibm_kingston": 389,
+    "native_cz_ibm_boston": 389
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.01599997274856531,
+    "residual": 0.00822614587199886,
+    "ideal_acceptance": 0.15702230346028415,
+    "offline_two_qubit_gates": 204,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 327,
+    "native_cz_ibm_kingston": 389,
+    "native_cz_ibm_boston": 389
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d5",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d7",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d9",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d11",
+    "status": "rejected",
+    "operator_relative_error": 0.03947727122891719,
+    "residual": 0.04051035144091025,
+    "ideal_acceptance": 0.16136732699659764,
+    "offline_two_qubit_gates": 213,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d13",
+    "status": "rejected",
+    "operator_relative_error": 0.03487246416624957,
+    "residual": 0.03435136599258728,
+    "ideal_acceptance": 0.16106991281721506,
+    "offline_two_qubit_gates": 251,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d15",
+    "status": "accepted",
+    "operator_relative_error": 0.00918081308978652,
+    "residual": 0.006783173043771702,
+    "ideal_acceptance": 0.15879885109655584,
+    "offline_two_qubit_gates": 289,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 409,
+    "native_cz_ibm_kingston": 409,
+    "native_cz_ibm_boston": 409
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d17",
+    "status": "accepted",
+    "operator_relative_error": 0.003017481151688635,
+    "residual": 0.0006999906625064402,
+    "ideal_acceptance": 0.1584919435045883,
+    "offline_two_qubit_gates": 327,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 463,
+    "native_cz_ibm_kingston": 463,
+    "native_cz_ibm_boston": 463
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d21",
+    "status": "accepted",
+    "operator_relative_error": 0.0010690035910567335,
+    "residual": 0.00023549805992921337,
+    "ideal_acceptance": 0.15897377441911706,
+    "offline_two_qubit_gates": 403,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 571,
+    "native_cz_ibm_kingston": 571,
+    "native_cz_ibm_boston": 571
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 0.0002608044046205168,
+    "residual": 0.00016999810878142092,
+    "ideal_acceptance": 0.1592818513539849,
+    "offline_two_qubit_gates": 479,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 679,
+    "native_cz_ibm_kingston": 679,
+    "native_cz_ibm_boston": 679
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.06669423169211698,
+    "residual": 0.04671068131595234,
+    "ideal_acceptance": 0.16411251409767738,
+    "offline_two_qubit_gates": 58,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.06669423169211745,
+    "residual": 0.046710681315952504,
+    "ideal_acceptance": 0.07193591523072516,
+    "offline_two_qubit_gates": 58,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.03226049989386167,
+    "residual": 0.01166082381166097,
+    "ideal_acceptance": 0.037716686771966365,
+    "offline_two_qubit_gates": 90,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.11391409509539295,
+    "residual": 0.00616249934342938,
+    "ideal_acceptance": 0.06308994118850611,
+    "offline_two_qubit_gates": 90,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.047385914626416004,
+    "residual": 0.017022947432897947,
+    "ideal_acceptance": 0.009667627750811961,
+    "offline_two_qubit_gates": 132,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.011037988550496551,
+    "residual": 0.013701127998937556,
+    "ideal_acceptance": 0.066587304605771,
+    "offline_two_qubit_gates": 132,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 218,
+    "native_cz_ibm_kingston": 260,
+    "native_cz_ibm_boston": 260
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "accepted",
+    "operator_relative_error": 0.013512757327484451,
+    "residual": 0.00758539166599762,
+    "ideal_acceptance": 0.0024180556115353143,
+    "offline_two_qubit_gates": 196,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 319,
+    "native_cz_ibm_kingston": 381,
+    "native_cz_ibm_boston": 381
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.024306668810129096,
+    "residual": 0.0034848144951265558,
+    "ideal_acceptance": 0.06563077714537856,
+    "offline_two_qubit_gates": 196,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 319,
+    "native_cz_ibm_kingston": 381,
+    "native_cz_ibm_boston": 381
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d5",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d7",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d9",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d11",
+    "status": "rejected",
+    "operator_relative_error": 0.0278495651562395,
+    "residual": 0.03495993067374172,
+    "ideal_acceptance": 0.06479171719164752,
+    "offline_two_qubit_gates": 170,
+    "rejection_reasons": [
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d13",
+    "status": "rejected",
+    "operator_relative_error": 0.038203898695221644,
+    "residual": 0.03746354370440333,
+    "ideal_acceptance": 0.06380822991535874,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d15",
+    "status": "accepted",
+    "operator_relative_error": 0.010405994305806111,
+    "residual": 0.003679218402602838,
+    "ideal_acceptance": 0.06518571257683625,
+    "offline_two_qubit_gates": 230,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 302,
+    "native_cz_ibm_kingston": 290,
+    "native_cz_ibm_boston": 290
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d17",
+    "status": "accepted",
+    "operator_relative_error": 0.005189978741993024,
+    "residual": 0.005766122201780023,
+    "ideal_acceptance": 0.06566577219544634,
+    "offline_two_qubit_gates": 260,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 344,
+    "native_cz_ibm_kingston": 328,
+    "native_cz_ibm_boston": 328
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d21",
+    "status": "accepted",
+    "operator_relative_error": 0.0008900310298704317,
+    "residual": 0.0003671403105406884,
+    "ideal_acceptance": 0.06547318506826293,
+    "offline_two_qubit_gates": 320,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 420,
+    "native_cz_ibm_kingston": 404,
+    "native_cz_ibm_boston": 404
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 0.0003207000193975877,
+    "residual": 2.0677213157397463e-05,
+    "ideal_acceptance": 0.06547832369536039,
+    "offline_two_qubit_gates": 380,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 502,
+    "native_cz_ibm_kingston": 480,
+    "native_cz_ibm_boston": 480
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.078914661776891,
+    "residual": 0.07419644768083493,
+    "ideal_acceptance": 0.27082420175729854,
+    "offline_two_qubit_gates": 314,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.07891466177689109,
+    "residual": 0.07419644768083505,
+    "ideal_acceptance": 0.1133531262629997,
+    "offline_two_qubit_gates": 314,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.04714076884834222,
+    "residual": 0.031102878279404625,
+    "ideal_acceptance": 0.0697294465038645,
+    "offline_two_qubit_gates": 432,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.11448337270622219,
+    "residual": 0.04388379889669895,
+    "ideal_acceptance": 0.10433914138227099,
+    "offline_two_qubit_gates": 432,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.035334068141133955,
+    "residual": 0.020171579358601272,
+    "ideal_acceptance": 0.01732639281205594,
+    "offline_two_qubit_gates": 562,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.020310291545855178,
+    "residual": 0.017707934240192364,
+    "ideal_acceptance": 0.11155653380098036,
+    "offline_two_qubit_gates": 562,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 949,
+    "native_cz_ibm_kingston": 925,
+    "native_cz_ibm_boston": 925
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.03056110106360813,
+    "residual": 0.010926314741412348,
+    "ideal_acceptance": 0.004291048670290605,
+    "offline_two_qubit_gates": 712,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.01090811860093889,
+    "residual": 0.006415938158156727,
+    "ideal_acceptance": 0.11025034757631873,
+    "offline_two_qubit_gates": 712,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 1200,
+    "native_cz_ibm_kingston": 1202,
+    "native_cz_ibm_boston": 1202
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d5",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d7",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d9",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d11",
+    "status": "rejected",
+    "operator_relative_error": 0.030786739418449328,
+    "residual": 0.02864886045034498,
+    "ideal_acceptance": 0.11072031462258161,
+    "offline_two_qubit_gates": 895,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d13",
+    "status": "accepted",
+    "operator_relative_error": 0.01572036385545111,
+    "residual": 0.011687075141286888,
+    "ideal_acceptance": 0.11158450427540516,
+    "offline_two_qubit_gates": 1057,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 1865,
+    "native_cz_ibm_kingston": 1577,
+    "native_cz_ibm_boston": 1577
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d15",
+    "status": "accepted",
+    "operator_relative_error": 0.01174963772020969,
+    "residual": 0.007472927881878283,
+    "ideal_acceptance": 0.11163350315067805,
+    "offline_two_qubit_gates": 1219,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 2139,
+    "native_cz_ibm_kingston": 1830,
+    "native_cz_ibm_boston": 1830
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d17",
+    "status": "accepted",
+    "operator_relative_error": 0.004101649897601737,
+    "residual": 0.0037490552721049265,
+    "ideal_acceptance": 0.11119964752476307,
+    "offline_two_qubit_gates": 1381,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 2433,
+    "native_cz_ibm_kingston": 2072,
+    "native_cz_ibm_boston": 2072
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d21",
+    "status": "accepted",
+    "operator_relative_error": 0.0015176145452157452,
+    "residual": 0.000419285204276076,
+    "ideal_acceptance": 0.11122396968427323,
+    "offline_two_qubit_gates": 1705,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 3005,
+    "native_cz_ibm_kingston": 2547,
+    "native_cz_ibm_boston": 2547
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 0.0012701076707254898,
+    "residual": 0.0004601456369950382,
+    "ideal_acceptance": 0.11127288802415124,
+    "offline_two_qubit_gates": 2029,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 3577,
+    "native_cz_ibm_kingston": 3031,
+    "native_cz_ibm_boston": 3031
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.2810481192514026,
+    "residual": 0.12978718444194154,
+    "ideal_acceptance": 0.24878586204372785,
+    "offline_two_qubit_gates": 60,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.2810481192514024,
+    "residual": 0.12978718444194134,
+    "ideal_acceptance": 0.03980573792699644,
+    "offline_two_qubit_gates": 60,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.08717368404601263,
+    "residual": 0.03855958515995814,
+    "ideal_acceptance": 0.09309100420880116,
+    "offline_two_qubit_gates": 92,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.08717368404601258,
+    "residual": 0.038559585159958096,
+    "ideal_acceptance": 0.05957824269363279,
+    "offline_two_qubit_gates": 92,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.0539510286607565,
+    "residual": 0.023044458779437896,
+    "ideal_acceptance": 0.030049139912477082,
+    "offline_two_qubit_gates": 136,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.03044355531885841,
+    "residual": 0.013081754346390632,
+    "ideal_acceptance": 0.07386337004363525,
+    "offline_two_qubit_gates": 136,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.03617250268368424,
+    "residual": 0.015520908862339507,
+    "ideal_acceptance": 0.007285482515367211,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.01687609585627111,
+    "residual": 0.007338327681807726,
+    "ideal_acceptance": 0.06790828818117514,
+    "offline_two_qubit_gates": 200,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 323,
+    "native_cz_ibm_kingston": 385,
+    "native_cz_ibm_boston": 385
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d5",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d7",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d9",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d11",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d13",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d15",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d17",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d21",
+    "status": "accepted",
+    "operator_relative_error": 0.023130789375231765,
+    "residual": 0.006223075060049206,
+    "ideal_acceptance": 0.06659706235599944,
+    "offline_two_qubit_gates": 319,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 419,
+    "native_cz_ibm_kingston": 403,
+    "native_cz_ibm_boston": 403
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 0.008627542565607455,
+    "residual": 0.009028813109138908,
+    "ideal_acceptance": 0.06911295227256435,
+    "offline_two_qubit_gates": 379,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 501,
+    "native_cz_ibm_kingston": 479,
+    "native_cz_ibm_boston": 479
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m3_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.2923174179618198,
+    "residual": 0.13151756320617516,
+    "ideal_acceptance": 0.29701818969299204,
+    "offline_two_qubit_gates": 58,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m3_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.29231741796181954,
+    "residual": 0.13151756320617541,
+    "ideal_acceptance": 0.04674034575070222,
+    "offline_two_qubit_gates": 58,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m4_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.08271718819780689,
+    "residual": 0.04340254814399612,
+    "ideal_acceptance": 0.10903403066413217,
+    "offline_two_qubit_gates": 90,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m4_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.08271718819780714,
+    "residual": 0.04340254814399611,
+    "ideal_acceptance": 0.06863267595970324,
+    "offline_two_qubit_gates": 90,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit",
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m5_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.049573272348422646,
+    "residual": 0.022528770917133425,
+    "ideal_acceptance": 0.03362268738921659,
+    "offline_two_qubit_gates": 134,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m5_bounded_support",
+    "status": "rejected",
+    "operator_relative_error": 0.030988387523937504,
+    "residual": 0.015461316287151014,
+    "ideal_acceptance": 0.08219470194850427,
+    "offline_two_qubit_gates": 134,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bin_spacing",
+    "status": "rejected",
+    "operator_relative_error": 0.03929017449777626,
+    "residual": 0.01661391627529113,
+    "ideal_acceptance": 0.008288658352231356,
+    "offline_two_qubit_gates": 198,
+    "rejection_reasons": [
+      "projected_operator_relative_error_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "status": "accepted",
+    "operator_relative_error": 0.007581849399230064,
+    "residual": 0.004444002577379971,
+    "ideal_acceptance": 0.07738556211880472,
+    "offline_two_qubit_gates": 198,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 321,
+    "native_cz_ibm_kingston": 383,
+    "native_cz_ibm_boston": 383
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d3",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d5",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d7",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d9",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d11",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d13",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d15",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d17",
+    "status": "rejected",
+    "operator_relative_error": null,
+    "residual": null,
+    "ideal_acceptance": null,
+    "offline_two_qubit_gates": null,
+    "rejection_reasons": [
+      "solver_construction_rejected"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d21",
+    "status": "rejected",
+    "operator_relative_error": 0.02396841792143156,
+    "residual": 0.0304995824161321,
+    "ideal_acceptance": 0.07587733548377787,
+    "offline_two_qubit_gates": 320,
+    "rejection_reasons": [
+      "fixed_input_residual_exceeds_limit"
+    ]
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "qsvt_d25",
+    "status": "accepted",
+    "operator_relative_error": 0.009019546740476152,
+    "residual": 0.011449788379700974,
+    "ideal_acceptance": 0.07712678614585289,
+    "offline_two_qubit_gates": 380,
+    "rejection_reasons": [],
+    "native_cz_ibm_rensselaer": 502,
+    "native_cz_ibm_kingston": 480,
+    "native_cz_ibm_boston": 480
+  }
+]

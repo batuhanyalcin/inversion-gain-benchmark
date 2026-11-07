@@ -1,0 +1,391 @@
+{
+  "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188",
+  "model_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6",
+  "model": {
+    "model_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6",
+    "num_qubits": 2,
+    "dimension": 4,
+    "groups": [
+      {
+        "setting": "XX",
+        "terms": [
+          {
+            "label": "XX",
+            "parity_mask": 3,
+            "numerator_coefficient": -0.5145631067961169,
+            "denominator_coefficient": -20.0
+          },
+          {
+            "label": "IX",
+            "parity_mask": 1,
+            "numerator_coefficient": -0.5145631067961169,
+            "denominator_coefficient": -20.0
+          },
+          {
+            "label": "XI",
+            "parity_mask": 2,
+            "numerator_coefficient": 3.8106796116504857,
+            "denominator_coefficient": 2.0
+          }
+        ]
+      },
+      {
+        "setting": "XZ",
+        "terms": [
+          {
+            "label": "XZ",
+            "parity_mask": 3,
+            "numerator_coefficient": 3.8009708737864076,
+            "denominator_coefficient": 0.0
+          },
+          {
+            "label": "IZ",
+            "parity_mask": 1,
+            "numerator_coefficient": 23.461165048543684,
+            "denominator_coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "setting": "YY",
+        "terms": [
+          {
+            "label": "YY",
+            "parity_mask": 3,
+            "numerator_coefficient": 0.43689320388349556,
+            "denominator_coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "setting": "ZX",
+        "terms": [
+          {
+            "label": "ZX",
+            "parity_mask": 3,
+            "numerator_coefficient": -0.43689320388349556,
+            "denominator_coefficient": 0.0
+          },
+          {
+            "label": "ZI",
+            "parity_mask": 2,
+            "numerator_coefficient": 23.15533980582524,
+            "denominator_coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "setting": "ZZ",
+        "terms": [
+          {
+            "label": "ZZ",
+            "parity_mask": 3,
+            "numerator_coefficient": 23.15533980582524,
+            "denominator_coefficient": 0.0
+          }
+        ]
+      }
+    ],
+    "coefficients": {
+      "numerator": {
+        "II": 23.470873786407765,
+        "IX": -0.5145631067961169,
+        "IZ": 23.461165048543684,
+        "XI": 3.8106796116504857,
+        "XX": -0.5145631067961169,
+        "XZ": 3.8009708737864076,
+        "YY": 0.43689320388349556,
+        "ZI": 23.15533980582524,
+        "ZX": -0.43689320388349556,
+        "ZZ": 23.15533980582524
+      },
+      "denominator": {
+        "II": 102.0,
+        "IX": -20.0,
+        "XI": 2.0,
+        "XX": -20.0
+      }
+    },
+    "identity_offsets": {
+      "numerator": 23.470873786407765,
+      "denominator": 102.0
+    },
+    "numerator_matrix": [
+      [
+        {
+          "real": 93.24271844660193,
+          "imag": 0.0
+        },
+        {
+          "real": -0.9514563106796126,
+          "imag": -0.0
+        },
+        {
+          "real": 7.611650485436893,
+          "imag": 0.0
+        },
+        {
+          "real": -0.9514563106796126,
+          "imag": -0.0
+        }
+      ],
+      [
+        {
+          "real": -0.9514563106796126,
+          "imag": 0.0
+        },
+        {
+          "real": 0.00970873786407769,
+          "imag": 0.0
+        },
+        {
+          "real": -0.07766990291262144,
+          "imag": 0.0
+        },
+        {
+          "real": 0.00970873786407769,
+          "imag": 0.0
+        }
+      ],
+      [
+        {
+          "real": 7.611650485436893,
+          "imag": 0.0
+        },
+        {
+          "real": -0.07766990291262144,
+          "imag": -0.0
+        },
+        {
+          "real": 0.6213592233009709,
+          "imag": 0.0
+        },
+        {
+          "real": -0.07766990291262144,
+          "imag": -0.0
+        }
+      ],
+      [
+        {
+          "real": -0.9514563106796126,
+          "imag": 0.0
+        },
+        {
+          "real": 0.00970873786407769,
+          "imag": 0.0
+        },
+        {
+          "real": -0.07766990291262144,
+          "imag": 0.0
+        },
+        {
+          "real": 0.00970873786407769,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "denominator_matrix": [
+      [
+        {
+          "real": 102.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 2.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        }
+      ],
+      [
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 102.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 2.0,
+          "imag": 0.0
+        }
+      ],
+      [
+        {
+          "real": 2.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 102.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        }
+      ],
+      [
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 2.0,
+          "imag": 0.0
+        },
+        {
+          "real": -20.0,
+          "imag": 0.0
+        },
+        {
+          "real": 102.0,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "lambda_min_A": 7.999999999999995,
+    "lambda_max_A": 11.999999999999996,
+    "denominator_exact_lower_bound": 63.999999999999915,
+    "denominator_numeric_floor": 1.4399999999999992e-10,
+    "decomposition_validation": {
+      "numerator": {
+        "pauli_terms": 10,
+        "operator_reconstruction_error_2": 3.5057468590372083e-15,
+        "maximum_coefficient_imaginary_roundoff": 0.0
+      },
+      "denominator": {
+        "pauli_terms": 4,
+        "operator_reconstruction_error_2": 0.0,
+        "maximum_coefficient_imaginary_roundoff": 0.0
+      }
+    },
+    "classical_decomposition_seconds": 0.002178192999053863,
+    "observable_definition": "M=A|b_normalized><b_normalized|A; D=A^2; A Hermitian",
+    "decomposition_scope": "dense exact Pauli decomposition up to floating-point roundoff; no intentional truncation; exponential preprocessing/measurement settings possible",
+    "bit_order": "Pauli label leftmost is highest qubit; measured classical bit q equals logical qubit q",
+    "measurement_basis": "X: H then Z-readout; Y: Sdg then H then Z-readout; Z: Z-readout"
+  },
+  "num_qubits": 2,
+  "reps": 2,
+  "parameters": [
+    -2.2824665559076185,
+    0.49979853225352944,
+    -0.37397713024871804,
+    2.96862753905736,
+    -2.007724365937327,
+    2.6278274739850396
+  ],
+  "groups": [
+    {
+      "setting": "XX",
+      "terms": [
+        {
+          "label": "XX",
+          "parity_mask": 3,
+          "numerator_coefficient": -0.5145631067961169,
+          "denominator_coefficient": -20.0
+        },
+        {
+          "label": "IX",
+          "parity_mask": 1,
+          "numerator_coefficient": -0.5145631067961169,
+          "denominator_coefficient": -20.0
+        },
+        {
+          "label": "XI",
+          "parity_mask": 2,
+          "numerator_coefficient": 3.8106796116504857,
+          "denominator_coefficient": 2.0
+        }
+      ]
+    },
+    {
+      "setting": "XZ",
+      "terms": [
+        {
+          "label": "XZ",
+          "parity_mask": 3,
+          "numerator_coefficient": 3.8009708737864076,
+          "denominator_coefficient": 0.0
+        },
+        {
+          "label": "IZ",
+          "parity_mask": 1,
+          "numerator_coefficient": 23.461165048543684,
+          "denominator_coefficient": 0.0
+        }
+      ]
+    },
+    {
+      "setting": "YY",
+      "terms": [
+        {
+          "label": "YY",
+          "parity_mask": 3,
+          "numerator_coefficient": 0.43689320388349556,
+          "denominator_coefficient": 0.0
+        }
+      ]
+    },
+    {
+      "setting": "ZX",
+      "terms": [
+        {
+          "label": "ZX",
+          "parity_mask": 3,
+          "numerator_coefficient": -0.43689320388349556,
+          "denominator_coefficient": 0.0
+        },
+        {
+          "label": "ZI",
+          "parity_mask": 2,
+          "numerator_coefficient": 23.15533980582524,
+          "denominator_coefficient": 0.0
+        }
+      ]
+    },
+    {
+      "setting": "ZZ",
+      "terms": [
+        {
+          "label": "ZZ",
+          "parity_mask": 3,
+          "numerator_coefficient": 23.15533980582524,
+          "denominator_coefficient": 0.0
+        }
+      ]
+    }
+  ],
+  "settings": [
+    "XX",
+    "XZ",
+    "YY",
+    "ZX",
+    "ZZ"
+  ],
+  "circuits_per_evaluation": 5,
+  "logical_circuit_depths": [
+    7,
+    7,
+    8,
+    7,
+    6
+  ],
+  "denominator_guard_sigma": 3.0,
+  "output_scope": "counts-based cost; not a reconstructed solution vector"
+}
