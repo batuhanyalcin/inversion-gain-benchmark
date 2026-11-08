@@ -1,5 +1,7 @@
 # Inversion Gain: HHL, QSVT and VQLS on IBM hardware
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24047566.svg)](https://doi.org/10.5281/zenodo.24047566)
+
 Code, data and figures for the article
 
 > B. Yalcin, M. Agirsoy, S. Patterson, L. T. Zhang and M. A. Oehlschlaeger,
@@ -50,4 +52,5 @@ Code: MIT (see `LICENSE`). Data and figures: CC BY 4.0.
 
 ## Citation
 
-See `CITATION.cff`.
+Release v1.0 is archived at Zenodo: https://doi.org/10.5281/zenodo.24047567 (all versions:
+https://doi.org/10.5281/zenodo.24047566). See `CITATION.cff`.
