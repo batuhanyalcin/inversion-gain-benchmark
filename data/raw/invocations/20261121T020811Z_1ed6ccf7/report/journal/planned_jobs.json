@@ -1,0 +1,189 @@
+[
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "A",
+    "arm": "mitigation",
+    "circuits": 35,
+    "raw_shots": 143360,
+    "estimated_qpu_seconds": 39.725159424,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "A",
+    "arm": "raw",
+    "circuits": 67,
+    "raw_shots": 274432,
+    "estimated_qpu_seconds": 75.516285952,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "B",
+    "arm": "mitigation",
+    "circuits": 42,
+    "raw_shots": 172032,
+    "estimated_qpu_seconds": 47.87973836799999,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "B",
+    "arm": "raw",
+    "circuits": 84,
+    "raw_shots": 344064,
+    "estimated_qpu_seconds": 94.802547712,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "C",
+    "arm": "raw",
+    "circuits": 82,
+    "raw_shots": 335872,
+    "estimated_qpu_seconds": 94.59855052800008,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "D",
+    "arm": "raw",
+    "circuits": 48,
+    "raw_shots": 196608,
+    "estimated_qpu_seconds": 59.20021401600014,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "group": "E",
+    "arm": "raw",
+    "circuits": 86,
+    "raw_shots": 352256,
+    "estimated_qpu_seconds": 92.187726848,
+    "planning_source": "latest archived live snapshot at pre-registration (frozen)",
+    "calibration_last_update": "2026-10-05 16:27:57-04:00"
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "B1",
+    "group": "A",
+    "arm": "raw",
+    "circuits": 65,
+    "raw_shots": 266240,
+    "estimated_qpu_seconds": 72.90595430399999,
+    "planning_source": "FakeKingston packaged snapshot",
+    "calibration_last_update": "2026-04-15 09:15:15+02:00"
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "B1",
+    "group": "B",
+    "arm": "raw",
+    "circuits": 84,
+    "raw_shots": 344064,
+    "estimated_qpu_seconds": 94.25804185599999,
+    "planning_source": "FakeKingston packaged snapshot",
+    "calibration_last_update": "2026-04-15 09:15:15+02:00"
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "B1",
+    "group": "C",
+    "arm": "raw",
+    "circuits": 82,
+    "raw_shots": 335872,
+    "estimated_qpu_seconds": 93.49933158400002,
+    "planning_source": "FakeKingston packaged snapshot",
+    "calibration_last_update": "2026-04-15 09:15:15+02:00"
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "B1",
+    "group": "D",
+    "arm": "raw",
+    "circuits": 48,
+    "raw_shots": 196608,
+    "estimated_qpu_seconds": 57.5084021760001,
+    "planning_source": "FakeKingston packaged snapshot",
+    "calibration_last_update": "2026-04-15 09:15:15+02:00"
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "B1",
+    "group": "E",
+    "arm": "raw",
+    "circuits": 86,
+    "raw_shots": 352256,
+    "estimated_qpu_seconds": 92.14263807999998,
+    "planning_source": "FakeKingston packaged snapshot",
+    "calibration_last_update": "2026-04-15 09:15:15+02:00"
+  },
+  {
+    "device": "ibm_boston",
+    "block": "B1",
+    "group": "A",
+    "arm": "raw",
+    "circuits": 65,
+    "raw_shots": 266240,
+    "estimated_qpu_seconds": 72.846103552,
+    "planning_source": "FakeBoston packaged snapshot",
+    "calibration_last_update": "2026-04-17 12:19:24+02:00"
+  },
+  {
+    "device": "ibm_boston",
+    "block": "B1",
+    "group": "B",
+    "arm": "raw",
+    "circuits": 84,
+    "raw_shots": 344064,
+    "estimated_qpu_seconds": 94.18883584000001,
+    "planning_source": "FakeBoston packaged snapshot",
+    "calibration_last_update": "2026-04-17 12:19:24+02:00"
+  },
+  {
+    "device": "ibm_boston",
+    "block": "B1",
+    "group": "C",
+    "arm": "raw",
+    "circuits": 82,
+    "raw_shots": 335872,
+    "estimated_qpu_seconds": 93.44795136000003,
+    "planning_source": "FakeBoston packaged snapshot",
+    "calibration_last_update": "2026-04-17 12:19:24+02:00"
+  },
+  {
+    "device": "ibm_boston",
+    "block": "B1",
+    "group": "D",
+    "arm": "raw",
+    "circuits": 48,
+    "raw_shots": 196608,
+    "estimated_qpu_seconds": 57.420977152000106,
+    "planning_source": "FakeBoston packaged snapshot",
+    "calibration_last_update": "2026-04-17 12:19:24+02:00"
+  },
+  {
+    "device": "ibm_boston",
+    "block": "B1",
+    "group": "E",
+    "arm": "raw",
+    "circuits": 86,
+    "raw_shots": 352256,
+    "estimated_qpu_seconds": 92.08627712,
+    "planning_source": "FakeBoston packaged snapshot",
+    "calibration_last_update": "2026-04-17 12:19:24+02:00"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-21T02:10:54.738639+00:00",
+  "stage": "journal_job_analysis",
+  "key": "14887909bda2a4dc13070f664a5f7111016ab5a8077b32c18c8f38b6e2923132",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-16T04:43:26.310565+00:00",
+  "original_invocation_id": "20261016T031503Z_96dec40e",
+  "attempt_id": "413919cb31a040e59d6d7a069a1a7f54",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "reused_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26300-SP0"
+    }
+  }
+}

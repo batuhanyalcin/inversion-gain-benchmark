@@ -1,0 +1,109 @@
+instance,candidate_id,status,operator_relative_error,residual,ideal_acceptance,offline_two_qubit_gates,rejection_reasons,native_cz_ibm_rensselaer,native_cz_ibm_kingston,native_cz_ibm_boston
+D0,hhl_m3_bin_spacing,rejected,0.06853863713258014,0.04761160726691114,0.10943183217006502,61,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+D0,hhl_m3_bounded_support,rejected,0.10403168972265005,0.06146908714681001,0.17008502260891856,61,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+D0,hhl_m4_bin_spacing,rejected,0.05962685373361764,0.023570065372661386,0.028431905896190452,93,"[""projected_operator_relative_error_exceeds_limit""]",,,
+D0,hhl_m4_bounded_support,accepted,0.017453001462804756,0.014859931077541513,0.18683922926233684,93,[],143,157,157
+D0,hhl_m5_bin_spacing,accepted,0.02991016880789239,0.014667697161996443,0.006840395000968572,137,[],223,265,265
+D0,hhl_m5_bounded_support,accepted,0.02319450165045066,0.014460786312246168,0.18362834388569785,137,[],223,265,265
+D0,hhl_m6_bin_spacing,accepted,0.02271894069889546,0.008316781244830308,0.0017011203527245208,200,[],323,385,385
+D0,hhl_m6_bounded_support,accepted,0.004628542081734839,0.003600849097855685,0.18700799789244035,200,[],323,385,385
+D0,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+D0,qsvt_d5,accepted,0.014864176777659032,0.012176905092831132,0.18551310861314874,80,[],104,100,100
+D0,qsvt_d7,accepted,0.011510203864650796,0.00937281098058988,0.18573359606769857,110,[],144,138,138
+D0,qsvt_d9,accepted,0.0022175780040075348,0.00013223383152121128,0.18643250619813606,140,[],184,176,176
+D0,qsvt_d11,accepted,0.0004111833278873535,0.0003212955426394793,0.18722680021350763,170,[],222,214,214
+D0,qsvt_d13,accepted,2.3235492902604952e-05,2.1077981563704203e-05,0.18730416400830036,200,[],262,252,252
+D0,qsvt_d15,accepted,2.1453344897465035e-05,1.9217885612731803e-05,0.1873041665874841,230,[],302,290,290
+D0,qsvt_d17,accepted,1.655912829952832e-05,1.4240004014401729e-05,0.1873042229912088,260,[],344,328,328
+D0,qsvt_d21,accepted,2.86214555501787e-06,2.175900941423404e-07,0.18730474527319765,320,[],420,404,404
+D0,qsvt_d25,accepted,7.118768272857198e-06,1.3783995447225018e-06,0.18730345206888457,380,[],502,480,480
+H1,hhl_m3_bin_spacing,rejected,0.07200401059944768,0.0640643150868082,0.32791743575287,62,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,hhl_m3_bounded_support,rejected,0.07200401059944803,0.06406431508680824,0.1505525857725795,62,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,hhl_m4_bin_spacing,rejected,0.04359209234770281,0.03698158105982936,0.08799752308904284,92,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,hhl_m4_bounded_support,rejected,0.10436092145456434,0.047205965102655824,0.14339145659059868,92,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,hhl_m5_bin_spacing,rejected,0.04136728682186434,0.018410002576418606,0.02239413605221347,138,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H1,hhl_m5_bounded_support,accepted,0.009637282555092191,0.002808863576977692,0.15751030877659405,138,[],224,266,266
+H1,hhl_m6_bin_spacing,accepted,0.009648305980489626,0.008942642913265126,0.0053916927444287764,204,[],327,389,389
+H1,hhl_m6_bounded_support,accepted,0.01599997274856531,0.00822614587199886,0.15702230346028415,204,[],327,389,389
+H1,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+H1,qsvt_d5,rejected,,,,,"[""solver_construction_rejected""]",,,
+H1,qsvt_d7,rejected,,,,,"[""solver_construction_rejected""]",,,
+H1,qsvt_d9,rejected,,,,,"[""solver_construction_rejected""]",,,
+H1,qsvt_d11,rejected,0.03947727122891719,0.04051035144091025,0.16136732699659764,213,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,qsvt_d13,rejected,0.03487246416624957,0.03435136599258728,0.16106991281721506,251,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H1,qsvt_d15,accepted,0.00918081308978652,0.006783173043771702,0.15879885109655584,289,[],409,409,409
+H1,qsvt_d17,accepted,0.003017481151688635,0.0006999906625064402,0.1584919435045883,327,[],463,463,463
+H1,qsvt_d21,accepted,0.0010690035910567335,0.00023549805992921337,0.15897377441911706,403,[],571,571,571
+H1,qsvt_d25,accepted,0.0002608044046205168,0.00016999810878142092,0.1592818513539849,479,[],679,679,679
+H2,hhl_m3_bin_spacing,rejected,0.06669423169211698,0.04671068131595234,0.16411251409767738,58,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H2,hhl_m3_bounded_support,rejected,0.06669423169211745,0.046710681315952504,0.07193591523072516,58,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H2,hhl_m4_bin_spacing,rejected,0.03226049989386167,0.01166082381166097,0.037716686771966365,90,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H2,hhl_m4_bounded_support,rejected,0.11391409509539295,0.00616249934342938,0.06308994118850611,90,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H2,hhl_m5_bin_spacing,rejected,0.047385914626416004,0.017022947432897947,0.009667627750811961,132,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H2,hhl_m5_bounded_support,accepted,0.011037988550496551,0.013701127998937556,0.066587304605771,132,[],218,260,260
+H2,hhl_m6_bin_spacing,accepted,0.013512757327484451,0.00758539166599762,0.0024180556115353143,196,[],319,381,381
+H2,hhl_m6_bounded_support,accepted,0.024306668810129096,0.0034848144951265558,0.06563077714537856,196,[],319,381,381
+H2,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+H2,qsvt_d5,rejected,,,,,"[""solver_construction_rejected""]",,,
+H2,qsvt_d7,rejected,,,,,"[""solver_construction_rejected""]",,,
+H2,qsvt_d9,rejected,,,,,"[""solver_construction_rejected""]",,,
+H2,qsvt_d11,rejected,0.0278495651562395,0.03495993067374172,0.06479171719164752,170,"[""fixed_input_residual_exceeds_limit""]",,,
+H2,qsvt_d13,rejected,0.038203898695221644,0.03746354370440333,0.06380822991535874,200,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H2,qsvt_d15,accepted,0.010405994305806111,0.003679218402602838,0.06518571257683625,230,[],302,290,290
+H2,qsvt_d17,accepted,0.005189978741993024,0.005766122201780023,0.06566577219544634,260,[],344,328,328
+H2,qsvt_d21,accepted,0.0008900310298704317,0.0003671403105406884,0.06547318506826293,320,[],420,404,404
+H2,qsvt_d25,accepted,0.0003207000193975877,2.0677213157397463e-05,0.06547832369536039,380,[],502,480,480
+H3,hhl_m3_bin_spacing,rejected,0.078914661776891,0.07419644768083493,0.27082420175729854,314,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H3,hhl_m3_bounded_support,rejected,0.07891466177689109,0.07419644768083505,0.1133531262629997,314,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H3,hhl_m4_bin_spacing,rejected,0.04714076884834222,0.031102878279404625,0.0697294465038645,432,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H3,hhl_m4_bounded_support,rejected,0.11448337270622219,0.04388379889669895,0.10433914138227099,432,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H3,hhl_m5_bin_spacing,rejected,0.035334068141133955,0.020171579358601272,0.01732639281205594,562,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H3,hhl_m5_bounded_support,accepted,0.020310291545855178,0.017707934240192364,0.11155653380098036,562,[],949,925,925
+H3,hhl_m6_bin_spacing,rejected,0.03056110106360813,0.010926314741412348,0.004291048670290605,712,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H3,hhl_m6_bounded_support,accepted,0.01090811860093889,0.006415938158156727,0.11025034757631873,712,[],1200,1202,1202
+H3,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+H3,qsvt_d5,rejected,,,,,"[""solver_construction_rejected""]",,,
+H3,qsvt_d7,rejected,,,,,"[""solver_construction_rejected""]",,,
+H3,qsvt_d9,rejected,,,,,"[""solver_construction_rejected""]",,,
+H3,qsvt_d11,rejected,0.030786739418449328,0.02864886045034498,0.11072031462258161,895,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H3,qsvt_d13,accepted,0.01572036385545111,0.011687075141286888,0.11158450427540516,1057,[],1865,1577,1577
+H3,qsvt_d15,accepted,0.01174963772020969,0.007472927881878283,0.11163350315067805,1219,[],2139,1830,1830
+H3,qsvt_d17,accepted,0.004101649897601737,0.0037490552721049265,0.11119964752476307,1381,[],2433,2072,2072
+H3,qsvt_d21,accepted,0.0015176145452157452,0.000419285204276076,0.11122396968427323,1705,[],3005,2547,2547
+H3,qsvt_d25,accepted,0.0012701076707254898,0.0004601456369950382,0.11127288802415124,2029,[],3577,3031,3031
+H4,hhl_m3_bin_spacing,rejected,0.2810481192514026,0.12978718444194154,0.24878586204372785,60,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H4,hhl_m3_bounded_support,rejected,0.2810481192514024,0.12978718444194134,0.03980573792699644,60,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H4,hhl_m4_bin_spacing,rejected,0.08717368404601263,0.03855958515995814,0.09309100420880116,92,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H4,hhl_m4_bounded_support,rejected,0.08717368404601258,0.038559585159958096,0.05957824269363279,92,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H4,hhl_m5_bin_spacing,rejected,0.0539510286607565,0.023044458779437896,0.030049139912477082,136,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H4,hhl_m5_bounded_support,rejected,0.03044355531885841,0.013081754346390632,0.07386337004363525,136,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H4,hhl_m6_bin_spacing,rejected,0.03617250268368424,0.015520908862339507,0.007285482515367211,200,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H4,hhl_m6_bounded_support,accepted,0.01687609585627111,0.007338327681807726,0.06790828818117514,200,[],323,385,385
+H4,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d5,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d7,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d9,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d11,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d13,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d15,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d17,rejected,,,,,"[""solver_construction_rejected""]",,,
+H4,qsvt_d21,accepted,0.023130789375231765,0.006223075060049206,0.06659706235599944,319,[],419,403,403
+H4,qsvt_d25,accepted,0.008627542565607455,0.009028813109138908,0.06911295227256435,379,[],501,479,479
+H5,hhl_m3_bin_spacing,rejected,0.2923174179618198,0.13151756320617516,0.29701818969299204,58,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H5,hhl_m3_bounded_support,rejected,0.29231741796181954,0.13151756320617541,0.04674034575070222,58,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H5,hhl_m4_bin_spacing,rejected,0.08271718819780689,0.04340254814399612,0.10903403066413217,90,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H5,hhl_m4_bounded_support,rejected,0.08271718819780714,0.04340254814399611,0.06863267595970324,90,"[""projected_operator_relative_error_exceeds_limit"", ""fixed_input_residual_exceeds_limit""]",,,
+H5,hhl_m5_bin_spacing,rejected,0.049573272348422646,0.022528770917133425,0.03362268738921659,134,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H5,hhl_m5_bounded_support,rejected,0.030988387523937504,0.015461316287151014,0.08219470194850427,134,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H5,hhl_m6_bin_spacing,rejected,0.03929017449777626,0.01661391627529113,0.008288658352231356,198,"[""projected_operator_relative_error_exceeds_limit""]",,,
+H5,hhl_m6_bounded_support,accepted,0.007581849399230064,0.004444002577379971,0.07738556211880472,198,[],321,383,383
+H5,qsvt_d3,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d5,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d7,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d9,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d11,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d13,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d15,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d17,rejected,,,,,"[""solver_construction_rejected""]",,,
+H5,qsvt_d21,rejected,0.02396841792143156,0.0304995824161321,0.07587733548377787,320,"[""fixed_input_residual_exceeds_limit""]",,,
+H5,qsvt_d25,accepted,0.009019546740476152,0.011449788379700974,0.07712678614585289,380,[],502,480,480

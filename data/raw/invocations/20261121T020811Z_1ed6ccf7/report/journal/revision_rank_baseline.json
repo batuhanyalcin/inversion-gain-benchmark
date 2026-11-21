@@ -1,0 +1,44 @@
+[
+  {
+    "device": "ibm_boston",
+    "scope": "all_cells",
+    "cells": 32,
+    "spearman_thermal_idle_job_start": 0.9475806451612904,
+    "spearman_cz_count_only": 0.7386992463708909
+  },
+  {
+    "device": "ibm_boston",
+    "scope": "solver_cells",
+    "cells": 20,
+    "spearman_thermal_idle_job_start": 0.8887218045112781,
+    "spearman_cz_count_only": 0.7859286353985703
+  },
+  {
+    "device": "ibm_kingston",
+    "scope": "all_cells",
+    "cells": 32,
+    "spearman_thermal_idle_job_start": 0.9321847507331377,
+    "spearman_cz_count_only": 0.8001495469960814
+  },
+  {
+    "device": "ibm_kingston",
+    "scope": "solver_cells",
+    "cells": 20,
+    "spearman_thermal_idle_job_start": 0.8210526315789473,
+    "spearman_cz_count_only": 0.8321597315984862
+  },
+  {
+    "device": "ibm_rensselaer",
+    "scope": "all_cells",
+    "cells": 103,
+    "spearman_thermal_idle_job_start": 0.9614306387535344,
+    "spearman_cz_count_only": 0.8200488278009446
+  },
+  {
+    "device": "ibm_rensselaer",
+    "scope": "solver_cells",
+    "cells": 67,
+    "spearman_thermal_idle_job_start": 0.9367123993911634,
+    "spearman_cz_count_only": 0.908537841572085
+  }
+]

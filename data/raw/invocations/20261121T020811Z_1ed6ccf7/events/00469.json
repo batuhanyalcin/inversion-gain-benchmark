@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-21T02:09:51.827374+00:00",
+  "stage": "solver",
+  "key": "1e74272e740cfce260c1a8081e75be60805a0c9e860bfe053a537be5961c0ba6",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-10-13T04:54:30.378367+00:00",
+  "original_invocation_id": "20261013T045035Z_c7d1fde4",
+  "attempt_id": "856caa67aeec4a89bbd53ff6f2ae5e69",
+  "environment_equivalence": {
+    "computed_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "reused_in": {
+      "python": "3.13.5",
+      "platform": "Windows-11-10.0.26300-SP0"
+    }
+  }
+}

@@ -1,0 +1,4609 @@
+{
+  "raw_tomography": {
+    "density_matrix_linear": {
+      "real": [
+        [
+          0.8887939453125,
+          0.2135009765625,
+          0.013102213541666664,
+          0.214599609375
+        ],
+        [
+          0.2135009765625,
+          0.050659179687499944,
+          0.005126953125,
+          0.053629557291666664
+        ],
+        [
+          0.013102213541666664,
+          0.005126953125,
+          0.0020751953125000555,
+          0.002319335937499986
+        ],
+        [
+          0.214599609375,
+          0.053629557291666664,
+          0.002319335937499986,
+          0.058471679687500056
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          -0.016947428385416668,
+          0.005391438802083333,
+          -0.006103515625
+        ],
+        [
+          0.016947428385416668,
+          0.0,
+          -0.001953125,
+          -0.001566569010416667
+        ],
+        [
+          -0.005391438802083333,
+          0.001953125,
+          0.0,
+          0.001851399739583333
+        ],
+        [
+          0.006103515625,
+          0.001566569010416667,
+          -0.001851399739583333,
+          0.0
+        ]
+      ]
+    },
+    "eigenvalues_linear": [
+      -0.005620344913857515,
+      0.003265421930922106,
+      0.00939446332994749,
+      0.992960459652988
+    ],
+    "trace_linear": 1.0,
+    "linear_target_fidelity_unclipped": 0.9774162698155591,
+    "nonphysical_linear_estimate": true,
+    "pauli_estimates": {
+      "II": 1.0,
+      "IX": 0.43164062499999994,
+      "IY": 0.030192057291666668,
+      "IZ": 0.78173828125,
+      "XI": 0.13346354166666666,
+      "XX": 0.439453125,
+      "XY": 0.00830078125,
+      "XZ": -0.0810546875,
+      "YI": -0.007649739583333332,
+      "YX": 0.01611328125,
+      "YY": -0.4189453125,
+      "YZ": -0.013916015625,
+      "ZI": 0.8789062499999998,
+      "ZX": 0.42236328125,
+      "ZY": 0.03759765625,
+      "ZZ": 0.89453125
+    },
+    "pauli_details": {
+      "II": {
+        "estimate": 1.0,
+        "sources": [],
+        "shot_standard_error": 0.0
+      },
+      "IX": {
+        "estimate": 0.43164062499999994,
+        "sources": [
+          {
+            "setting": "YX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.43359375,
+            "record_index": 1
+          },
+          {
+            "setting": "ZX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.447265625,
+            "record_index": 2
+          },
+          {
+            "setting": "XX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.4365234375,
+            "record_index": 7
+          },
+          {
+            "setting": "XX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.412109375,
+            "record_index": 12
+          },
+          {
+            "setting": "YX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.439453125,
+            "record_index": 13
+          },
+          {
+            "setting": "ZX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.4208984375,
+            "record_index": 22
+          }
+        ],
+        "shot_standard_error": 0.00575425410422942
+      },
+      "IY": {
+        "estimate": 0.030192057291666668,
+        "sources": [
+          {
+            "setting": "ZY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.04931640625,
+            "record_index": 3
+          },
+          {
+            "setting": "XY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.04736328125,
+            "record_index": 9
+          },
+          {
+            "setting": "YY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.01220703125,
+            "record_index": 11
+          },
+          {
+            "setting": "YY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.0537109375,
+            "record_index": 14
+          },
+          {
+            "setting": "ZY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.017578125,
+            "record_index": 15
+          },
+          {
+            "setting": "XY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.0009765625,
+            "record_index": 20
+          }
+        ],
+        "shot_standard_error": 0.006375393609695838
+      },
+      "IZ": {
+        "estimate": 0.78173828125,
+        "sources": [
+          {
+            "setting": "XZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.7734375,
+            "record_index": 0
+          },
+          {
+            "setting": "YZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.77685546875,
+            "record_index": 8
+          },
+          {
+            "setting": "ZZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.7958984375,
+            "record_index": 10
+          },
+          {
+            "setting": "YZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.78271484375,
+            "record_index": 16
+          },
+          {
+            "setting": "ZZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.79638671875,
+            "record_index": 21
+          },
+          {
+            "setting": "XZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.76513671875,
+            "record_index": 23
+          }
+        ],
+        "shot_standard_error": 0.003977728631019274
+      },
+      "XI": {
+        "estimate": 0.13346354166666666,
+        "sources": [
+          {
+            "setting": "XZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.138671875,
+            "record_index": 0
+          },
+          {
+            "setting": "XX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.12890625,
+            "record_index": 7
+          },
+          {
+            "setting": "XY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.13232421875,
+            "record_index": 9
+          },
+          {
+            "setting": "XX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.1318359375,
+            "record_index": 12
+          },
+          {
+            "setting": "XY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.1318359375,
+            "record_index": 20
+          },
+          {
+            "setting": "XZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.13720703125,
+            "record_index": 23
+          }
+        ],
+        "shot_standard_error": 0.006322547416841977
+      },
+      "XX": {
+        "estimate": 0.439453125,
+        "sources": [
+          {
+            "setting": "XX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.4228515625,
+            "record_index": 7
+          },
+          {
+            "setting": "XX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.4560546875,
+            "record_index": 12
+          }
+        ],
+        "shot_standard_error": 0.009924042038637842
+      },
+      "XY": {
+        "estimate": 0.00830078125,
+        "sources": [
+          {
+            "setting": "XY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.013671875,
+            "record_index": 9
+          },
+          {
+            "setting": "XY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.0302734375,
+            "record_index": 20
+          }
+        ],
+        "shot_standard_error": 0.011046843865578583
+      },
+      "XZ": {
+        "estimate": -0.0810546875,
+        "sources": [
+          {
+            "setting": "XZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.0771484375,
+            "record_index": 0
+          },
+          {
+            "setting": "XZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.0849609375,
+            "record_index": 23
+          }
+        ],
+        "shot_standard_error": 0.011013449868369073
+      },
+      "YI": {
+        "estimate": -0.007649739583333332,
+        "sources": [
+          {
+            "setting": "YX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": -0.0048828125,
+            "record_index": 1
+          },
+          {
+            "setting": "YZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": -0.0185546875,
+            "record_index": 8
+          },
+          {
+            "setting": "YY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": -0.0166015625,
+            "record_index": 11
+          },
+          {
+            "setting": "YX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.01171875,
+            "record_index": 13
+          },
+          {
+            "setting": "YY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": -0.00927734375,
+            "record_index": 14
+          },
+          {
+            "setting": "YZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": -0.00830078125,
+            "record_index": 16
+          }
+        ],
+        "shot_standard_error": 0.006379160703500977
+      },
+      "YX": {
+        "estimate": 0.01611328125,
+        "sources": [
+          {
+            "setting": "YX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.0126953125,
+            "record_index": 1
+          },
+          {
+            "setting": "YX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.01953125,
+            "record_index": 13
+          }
+        ],
+        "shot_standard_error": 0.011048393270205011
+      },
+      "YY": {
+        "estimate": -0.4189453125,
+        "sources": [
+          {
+            "setting": "YY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.43310546875,
+            "record_index": 11
+          },
+          {
+            "setting": "YY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.40478515625,
+            "record_index": 14
+          }
+        ],
+        "shot_standard_error": 0.010032208905323657
+      },
+      "YZ": {
+        "estimate": -0.013916015625,
+        "sources": [
+          {
+            "setting": "YZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.02392578125,
+            "record_index": 8
+          },
+          {
+            "setting": "YZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": -0.00390625,
+            "record_index": 16
+          }
+        ],
+        "shot_standard_error": 0.011048268772504876
+      },
+      "ZI": {
+        "estimate": 0.8789062499999998,
+        "sources": [
+          {
+            "setting": "ZX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.87255859375,
+            "record_index": 2
+          },
+          {
+            "setting": "ZY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.88427734375,
+            "record_index": 3
+          },
+          {
+            "setting": "ZZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.8857421875,
+            "record_index": 10
+          },
+          {
+            "setting": "ZY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.880859375,
+            "record_index": 15
+          },
+          {
+            "setting": "ZZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.87353515625,
+            "record_index": 21
+          },
+          {
+            "setting": "ZX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.16666666666666666,
+            "estimate": 0.87646484375,
+            "record_index": 22
+          }
+        ],
+        "shot_standard_error": 0.003042890086333868
+      },
+      "ZX": {
+        "estimate": 0.42236328125,
+        "sources": [
+          {
+            "setting": "ZX",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.42626953125,
+            "record_index": 2
+          },
+          {
+            "setting": "ZX",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.41845703125,
+            "record_index": 22
+          }
+        ],
+        "shot_standard_error": 0.010015823865262398
+      },
+      "ZY": {
+        "estimate": 0.03759765625,
+        "sources": [
+          {
+            "setting": "ZY",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.0546875,
+            "record_index": 3
+          },
+          {
+            "setting": "ZY",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.0205078125,
+            "record_index": 15
+          }
+        ],
+        "shot_standard_error": 0.011040464775198282
+      },
+      "ZZ": {
+        "estimate": 0.89453125,
+        "sources": [
+          {
+            "setting": "ZZ",
+            "repeat": 0,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.88671875,
+            "record_index": 10
+          },
+          {
+            "setting": "ZZ",
+            "repeat": 1,
+            "shots": 4096,
+            "weight": 0.5,
+            "estimate": 0.90234375,
+            "record_index": 21
+          }
+        ],
+        "shot_standard_error": 0.004938607313798172
+      }
+    },
+    "pauli_target_differences": {
+      "II": -2.220446049250313e-16,
+      "IX": 0.0007737078041983314,
+      "IY": 0.030192057291666668,
+      "IZ": -0.059521275572599786,
+      "XI": -0.19477281961362372,
+      "XX": 0.008586207804198387,
+      "XY": 0.00830078125,
+      "XZ": -0.2505506056028898,
+      "YI": -0.007649739583333332,
+      "YX": 0.01611328125,
+      "YY": -0.09239354367791874,
+      "YZ": -0.013916015625,
+      "ZI": -0.007448551088506505,
+      "ZX": 0.09581151242791874,
+      "ZY": 0.03759765625,
+      "ZZ": 0.008176448911493717
+    },
+    "pauli_target_expectations": {
+      "II": 1.0000000000000002,
+      "IX": 0.4308669171958016,
+      "IY": 0.0,
+      "IZ": 0.8412595568225998,
+      "XI": 0.3282363612802904,
+      "XX": 0.4308669171958016,
+      "XY": 0.0,
+      "XZ": 0.16949591810288978,
+      "YI": 0.0,
+      "YX": 0.0,
+      "YY": -0.32655176882208126,
+      "YZ": 0.0,
+      "ZI": 0.8863548010885063,
+      "ZX": 0.32655176882208126,
+      "ZY": 0.0,
+      "ZZ": 0.8863548010885063
+    },
+    "maximum_absolute_pauli_target_difference": 0.2505506056028898,
+    "descriptive_psd_clipping": {
+      "method": "clip negative eigenvalues then renormalize; nonlinear descriptive estimate, not raw data",
+      "density_matrix": {
+        "real": [
+          [
+            0.8840291104360917,
+            0.2116580767478555,
+            0.013138091336902122,
+            0.21323485486482124
+          ],
+          [
+            0.21165807674785547,
+            0.05348131862542581,
+            0.0035334854667301036,
+            0.05304970135664273
+          ],
+          [
+            0.013138091336902122,
+            0.003533485466730104,
+            0.0035668523091532665,
+            0.0031809271551047273
+          ],
+          [
+            0.21323485486482124,
+            0.05304970135664273,
+            0.003180927155104727,
+            0.0589227186293294
+          ]
+        ],
+        "imag": [
+          [
+            0.0,
+            -0.016397742283189593,
+            0.004820364538986752,
+            -0.00643026615751298
+          ],
+          [
+            0.016397742283189593,
+            0.0,
+            -0.0004524536188020189,
+            -2.9117179877595403e-05
+          ],
+          [
+            -0.004820364538986752,
+            0.0004524536188020187,
+            -1.0842021724855044e-19,
+            0.0012050984457098084
+          ],
+          [
+            0.00643026615751298,
+            2.9117179877595403e-05,
+            -0.0012050984457098082,
+            0.0
+          ]
+        ]
+      },
+      "target_fidelity": 0.9719767018371127
+    },
+    "duplicate_single_pauli_rule": "Shot-weighted pooling across compatible bases and both repeats; equal weights when shot counts are equal.",
+    "interpretation": "Linear tomography assumes common stationary preparation and ideal measurement axes. Fidelity is an uncorrected model diagnostic, never a hardware certificate.",
+    "certified_fidelity_lower_bound": null
+  },
+  "unmitigated_cost": {
+    "status": "ok",
+    "cost_unclipped": 0.03679016184948547,
+    "cost_standard_error_delta": 0.004304313418827225,
+    "cost_normal95_diagnostic": [
+      0.028353707548584108,
+      0.04522661615038683
+    ],
+    "numerator_estimate": 81.8587267236802,
+    "denominator_estimate": 84.9853515625,
+    "denominator_standard_error": 0.25905575254406626,
+    "denominator_exact_lower_bound": 63.999999999999915,
+    "denominator_numeric_floor": 1.4399999999999992e-10,
+    "denominator_guard_sigma": 3.0,
+    "cost_is_outside_physical_interval": false,
+    "covariance_MD": [
+      [
+        0.06333156692307546,
+        -0.0042659181088818745
+      ],
+      [
+        -0.0042659181088818745,
+        0.06710988292617248
+      ]
+    ],
+    "group_statistics": [
+      {
+        "setting": "XX",
+        "shots": 8192,
+        "numerator_contribution": 0.052338535345873405,
+        "denominator_contribution": -17.0146484375,
+        "sample_mean_covariance_MD": [
+          [
+            0.0014320240416496423,
+            -0.0042659181088818745
+          ],
+          [
+            -0.0042659181088818745,
+            0.06710988292617248
+          ]
+        ]
+      },
+      {
+        "setting": "XZ",
+        "shots": 8192,
+        "numerator_contribution": 17.740285336392592,
+        "denominator_contribution": 0.0,
+        "sample_mean_covariance_MD": [
+          [
+            0.03354382605613533,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "setting": "YY",
+        "shots": 8192,
+        "numerator_contribution": -0.18303435983009728,
+        "denominator_contribution": 0.0,
+        "sample_mean_covariance_MD": [
+          [
+            1.921305026506801e-05,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "setting": "ZX",
+        "shots": 8192,
+        "numerator_contribution": 20.065088364684463,
+        "denominator_contribution": 0.0,
+        "sample_mean_covariance_MD": [
+          [
+            0.015257009155458192,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "setting": "ZZ",
+        "shots": 8192,
+        "numerator_contribution": 20.713175060679607,
+        "denominator_contribution": 0.0,
+        "sample_mean_covariance_MD": [
+          [
+            0.01307949461956723,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "raw_counts": {
+      "XX": {
+        "00": 4084,
+        "01": 546,
+        "10": 1750,
+        "11": 1812
+      },
+      "XZ": {
+        "00": 3740,
+        "01": 921,
+        "10": 3507,
+        "11": 24
+      },
+      "YY": {
+        "00": 1231,
+        "01": 2812,
+        "10": 3000,
+        "11": 1149
+      },
+      "ZX": {
+        "00": 5593,
+        "01": 2085,
+        "10": 281,
+        "11": 233
+      },
+      "ZZ": {
+        "00": 7312,
+        "01": 387,
+        "10": 45,
+        "11": 448
+      }
+    },
+    "total_shots": 40960,
+    "measurement_settings": 5,
+    "ratio_is_unbiased": false,
+    "uncertainty_scope": "delta-method shot uncertainty with within-setting covariance; excludes selection, calibration, readout bias and temporal drift",
+    "guard_note": "Positive/three-SE denominator guard is a numerical/statistical diagnostic, not a rigorous positivity certificate; no exact eigenvalue replacement or cost clipping.",
+    "certified_fidelity_lower_bound": null,
+    "scope": "Same compiled preparation across settings; sampling-only aggregate under common-state/measurement assumptions, not certified hardware fidelity."
+  },
+  "readout_calibration": {
+    "response_matrix": [
+      [
+        0.998291015625,
+        0.010498046875,
+        0.005859375,
+        0.000244140625
+      ],
+      [
+        0.00048828125,
+        0.989013671875,
+        0.0,
+        0.004638671875
+      ],
+      [
+        0.001220703125,
+        0.0,
+        0.993896484375,
+        0.00927734375
+      ],
+      [
+        0.0,
+        0.00048828125,
+        0.000244140625,
+        0.98583984375
+      ]
+    ],
+    "matrix_convention": "rows measured integer 0..3; columns prepared integer 0..3; q1q0 bit order",
+    "condition_number_2": 1.0210143377469654,
+    "inverse_condition_limit": 10000.0,
+    "inverse_allowed": true,
+    "columns": [
+      {
+        "prepared_basis": 0,
+        "shots": 4096,
+        "probabilities": [
+          0.998291015625,
+          0.00048828125,
+          0.001220703125,
+          0.0
+        ],
+        "outcome_wilson95": [
+          [
+            0.9964763422189936,
+            0.9991719141831389
+          ],
+          [
+            0.00013391454481334652,
+            0.0017787103455524616
+          ],
+          [
+            0.0005215205909937573,
+            0.0028545755238729804
+          ],
+          [
+            0.0,
+            0.0009369774073651883
+          ]
+        ],
+        "record_index": 5
+      },
+      {
+        "prepared_basis": 1,
+        "shots": 4096,
+        "probabilities": [
+          0.010498046875,
+          0.989013671875,
+          0.0,
+          0.00048828125
+        ],
+        "outcome_wilson95": [
+          [
+            0.007803362608721715,
+            0.014110035683156804
+          ],
+          [
+            0.9853320021138738,
+            0.991778952111247
+          ],
+          [
+            0.0,
+            0.0009369774073651883
+          ],
+          [
+            0.00013391454481334652,
+            0.0017787103455524616
+          ]
+        ],
+        "record_index": 4
+      },
+      {
+        "prepared_basis": 2,
+        "shots": 4096,
+        "probabilities": [
+          0.005859375,
+          0.0,
+          0.993896484375,
+          0.000244140625
+        ],
+        "outcome_wilson95": [
+          [
+            0.003940714277798989,
+            0.008704032925573639
+          ],
+          [
+            0.0,
+            0.0009369774073651883
+          ],
+          [
+            0.9910051126562461,
+            0.995862316398881
+          ],
+          [
+            4.309811523941186e-05,
+            0.0013817030336260863
+          ]
+        ],
+        "record_index": 19
+      },
+      {
+        "prepared_basis": 3,
+        "shots": 4096,
+        "probabilities": [
+          0.000244140625,
+          0.004638671875,
+          0.00927734375,
+          0.98583984375
+        ],
+        "outcome_wilson95": [
+          [
+            4.309811523941186e-05,
+            0.0013817030336260863
+          ],
+          [
+            0.00297171178976659,
+            0.007233916706104488
+          ],
+          [
+            0.006766714050692903,
+            0.012707565533684064
+          ],
+          [
+            0.9817394754367362,
+            0.9890297701488805
+          ]
+        ],
+        "record_index": 17
+      }
+    ],
+    "uncertainty_scope": "Marginal Wilson intervals are not simultaneous. Response includes state-preparation error; treating it as readout-only is an assumption.",
+    "mitigation_model": "One stationary, basis-independent correlated assignment matrix on the same ordered qubits; does not correct basis rotations or coherent preparation errors."
+  },
+  "mitigated_diagnostic": {
+    "tomography": {
+      "density_matrix_linear": {
+        "real": [
+          [
+            0.8896198098568144,
+            0.211479118366537,
+            0.010660014637076585,
+            0.21748505062562123
+          ],
+          [
+            0.211479118366537,
+            0.05048138274013325,
+            0.00419120303663062,
+            0.05424473839435964
+          ],
+          [
+            0.010660014637076585,
+            0.00419120303663062,
+            0.0004952065249918536,
+            0.001760045688786474
+          ],
+          [
+            0.21748505062562123,
+            0.05424473839435964,
+            0.001760045688786474,
+            0.059403600878060486
+          ]
+        ],
+        "imag": [
+          [
+            0.0,
+            -0.012568834117882843,
+            0.007511958986989404,
+            -0.005141306888494162
+          ],
+          [
+            0.012568834117882843,
+            0.0,
+            -0.0018790026780274131,
+            -0.0013037918826858414
+          ],
+          [
+            -0.007511958986989404,
+            0.0018790026780274131,
+            0.0,
+            0.002288289800436027
+          ],
+          [
+            0.005141306888494162,
+            0.0013037918826858414,
+            -0.002288289800436027,
+            0.0
+          ]
+        ]
+      },
+      "eigenvalues_linear": [
+        -0.00547358135121483,
+        0.001856061640721508,
+        0.009596476624136832,
+        0.9940210430863565
+      ],
+      "trace_linear": 1.0,
+      "linear_target_fidelity_unclipped": 0.9778553982686009,
+      "nonphysical_linear_estimate": true,
+      "pauli_estimates": {
+        "II": 1.0,
+        "IX": 0.42647832811064695,
+        "IY": 0.020561088634893632,
+        "IZ": 0.7802300327636126,
+        "XI": 0.12980950606287245,
+        "XX": 0.4433525073245037,
+        "XY": 0.006524608420933498,
+        "XZ": -0.08716944751456611,
+        "YI": -0.012416334208607126,
+        "YX": 0.01404061913304315,
+        "YY": -0.42658769517798123,
+        "YZ": -0.01763150173935049,
+        "ZI": 0.8802023851938954,
+        "ZX": 0.41943814535550106,
+        "ZY": 0.02971424783663774,
+        "ZZ": 0.8980468214697499
+      },
+      "pauli_details": {
+        "II": {
+          "estimate": 1.0,
+          "sources": [],
+          "shot_standard_error": 0.0
+        },
+        "IX": {
+          "estimate": 0.42647832811064695,
+          "sources": [
+            {
+              "setting": "YX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.42840529818097295,
+              "record_index": 1
+            },
+            {
+              "setting": "ZX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.4421482071153295,
+              "record_index": 2
+            },
+            {
+              "setting": "XX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.43157219217458764,
+              "record_index": 7
+            },
+            {
+              "setting": "XX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.40692191036198666,
+              "record_index": 12
+            },
+            {
+              "setting": "YX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.43432410662557924,
+              "record_index": 13
+            },
+            {
+              "setting": "ZX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.415498254205426,
+              "record_index": 22
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "IY": {
+          "estimate": 0.020561088634893632,
+          "sources": [
+            {
+              "setting": "ZY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.03979019916582993,
+              "record_index": 3
+            },
+            {
+              "setting": "XY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.03805781636656366,
+              "record_index": 9
+            },
+            {
+              "setting": "YY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.002326449219483162,
+              "record_index": 11
+            },
+            {
+              "setting": "YY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.04428040084556875,
+              "record_index": 14
+            },
+            {
+              "setting": "ZY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.007699093093407643,
+              "record_index": 15
+            },
+            {
+              "setting": "XY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.00878742688149134,
+              "record_index": 20
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "IZ": {
+          "estimate": 0.7802300327636126,
+          "sources": [
+            {
+              "setting": "XZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7717009264218605,
+              "record_index": 0
+            },
+            {
+              "setting": "YZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7752474707965674,
+              "record_index": 8
+            },
+            {
+              "setting": "ZZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7947191339475862,
+              "record_index": 10
+            },
+            {
+              "setting": "YZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7811769389720059,
+              "record_index": 16
+            },
+            {
+              "setting": "ZZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7952269367246881,
+              "record_index": 21
+            },
+            {
+              "setting": "XZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.7633087897189674,
+              "record_index": 23
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "XI": {
+          "estimate": 0.12980950606287245,
+          "sources": [
+            {
+              "setting": "XZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.13482935229775928,
+              "record_index": 0
+            },
+            {
+              "setting": "XX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.12548256004214928,
+              "record_index": 7
+            },
+            {
+              "setting": "XY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.12858993048629133,
+              "record_index": 9
+            },
+            {
+              "setting": "XX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.128462709703583,
+              "record_index": 12
+            },
+            {
+              "setting": "XY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.12814291242347486,
+              "record_index": 20
+            },
+            {
+              "setting": "XZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.133349571423977,
+              "record_index": 23
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "XX": {
+          "estimate": 0.4433525073245037,
+          "sources": [
+            {
+              "setting": "XX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.4264419279016892,
+              "record_index": 7
+            },
+            {
+              "setting": "XX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.4602630867473182,
+              "record_index": 12
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "XY": {
+          "estimate": 0.006524608420933498,
+          "sources": [
+            {
+              "setting": "XY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.015902584962153993,
+              "record_index": 9
+            },
+            {
+              "setting": "XY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.028951801804020988,
+              "record_index": 20
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "XZ": {
+          "estimate": -0.08716944751456611,
+          "sources": [
+            {
+              "setting": "XZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.08322028821711332,
+              "record_index": 0
+            },
+            {
+              "setting": "XZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.0911186068120189,
+              "record_index": 23
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "YI": {
+          "estimate": -0.012416334208607126,
+          "sources": [
+            {
+              "setting": "YX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.009501763838828059,
+              "record_index": 1
+            },
+            {
+              "setting": "YZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.02333491095073225,
+              "record_index": 8
+            },
+            {
+              "setting": "YY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.021629829060310052,
+              "record_index": 11
+            },
+            {
+              "setting": "YX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.007208905377097896,
+              "record_index": 13
+            },
+            {
+              "setting": "YY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.014240313991226328,
+              "record_index": 14
+            },
+            {
+              "setting": "YZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": -0.013000092787643976,
+              "record_index": 16
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "YX": {
+          "estimate": 0.01404061913304315,
+          "sources": [
+            {
+              "setting": "YX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.010649412326047186,
+              "record_index": 1
+            },
+            {
+              "setting": "YX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.017431825940039114,
+              "record_index": 13
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "YY": {
+          "estimate": -0.42658769517798123,
+          "sources": [
+            {
+              "setting": "YY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.44087313296628994,
+              "record_index": 11
+            },
+            {
+              "setting": "YY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.4123022573896726,
+              "record_index": 14
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "YZ": {
+          "estimate": -0.01763150173935049,
+          "sources": [
+            {
+              "setting": "YZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.027751797016300157,
+              "record_index": 8
+            },
+            {
+              "setting": "YZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": -0.007511206462400825,
+              "record_index": 16
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "ZI": {
+          "estimate": 0.8802023851938954,
+          "sources": [
+            {
+              "setting": "ZX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.8737896437064265,
+              "record_index": 2
+            },
+            {
+              "setting": "ZY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.8853076162979514,
+              "record_index": 3
+            },
+            {
+              "setting": "ZZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.8874137876492435,
+              "record_index": 10
+            },
+            {
+              "setting": "ZY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.881842427944458,
+              "record_index": 15
+            },
+            {
+              "setting": "ZZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.8751439705413847,
+              "record_index": 21
+            },
+            {
+              "setting": "ZX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.16666666666666666,
+              "estimate": 0.8777168650239086,
+              "record_index": 22
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "ZX": {
+          "estimate": 0.41943814535550106,
+          "sources": [
+            {
+              "setting": "ZX",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.42337680301899866,
+              "record_index": 2
+            },
+            {
+              "setting": "ZX",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.41549948769200346,
+              "record_index": 22
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "ZY": {
+          "estimate": 0.02971424783663774,
+          "sources": [
+            {
+              "setting": "ZY",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.047013497255419257,
+              "record_index": 3
+            },
+            {
+              "setting": "ZY",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.012414998417856225,
+              "record_index": 15
+            }
+          ],
+          "shot_standard_error": null
+        },
+        "ZZ": {
+          "estimate": 0.8980468214697499,
+          "sources": [
+            {
+              "setting": "ZZ",
+              "repeat": 0,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.8900520552055257,
+              "record_index": 10
+            },
+            {
+              "setting": "ZZ",
+              "repeat": 1,
+              "shots": 4096,
+              "weight": 0.5,
+              "estimate": 0.9060415877339741,
+              "record_index": 21
+            }
+          ],
+          "shot_standard_error": null
+        }
+      },
+      "pauli_target_differences": {
+        "II": -2.220446049250313e-16,
+        "IX": -0.004388589085154659,
+        "IY": 0.020561088634893632,
+        "IZ": -0.061029524058987206,
+        "XI": -0.19842685521741793,
+        "XX": 0.012485590128702095,
+        "XY": 0.006524608420933498,
+        "XZ": -0.2566653656174559,
+        "YI": -0.012416334208607126,
+        "YX": 0.01404061913304315,
+        "YY": -0.10003592635589997,
+        "YZ": -0.01763150173935049,
+        "ZI": -0.0061524158946109075,
+        "ZX": 0.0928863765334198,
+        "ZY": 0.02971424783663774,
+        "ZZ": 0.011692020381243617
+      },
+      "pauli_target_expectations": {
+        "II": 1.0000000000000002,
+        "IX": 0.4308669171958016,
+        "IY": 0.0,
+        "IZ": 0.8412595568225998,
+        "XI": 0.3282363612802904,
+        "XX": 0.4308669171958016,
+        "XY": 0.0,
+        "XZ": 0.16949591810288978,
+        "YI": 0.0,
+        "YX": 0.0,
+        "YY": -0.32655176882208126,
+        "YZ": 0.0,
+        "ZI": 0.8863548010885063,
+        "ZX": 0.32655176882208126,
+        "ZY": 0.0,
+        "ZZ": 0.8863548010885063
+      },
+      "maximum_absolute_pauli_target_difference": 0.2566653656174559,
+      "descriptive_psd_clipping": {
+        "method": "clip negative eigenvalues then renormalize; nonlinear descriptive estimate, not raw data",
+        "density_matrix": {
+          "real": [
+            [
+              0.8849499842021452,
+              0.20982322066279332,
+              0.010698943472296229,
+              0.21611079827316587
+            ],
+            [
+              0.20982322066279332,
+              0.05247173683007614,
+              0.0025503569593525468,
+              0.05387729807189218
+            ],
+            [
+              0.010698943472296229,
+              0.0025503569593525468,
+              0.0027933821111293653,
+              0.0026988199460274832
+            ],
+            [
+              0.21611079827316587,
+              0.05387729807189218,
+              0.002698819946027483,
+              0.059784896856648825
+            ]
+          ],
+          "imag": [
+            [
+              0.0,
+              -0.012129783558146479,
+              0.0068475136134739005,
+              -0.005406136306719273
+            ],
+            [
+              0.012129783558146479,
+              0.0,
+              -0.0002582368101036441,
+              -3.53447516009478e-05
+            ],
+            [
+              -0.0068475136134739005,
+              0.0002582368101036439,
+              0.0,
+              0.0014261320628087886
+            ],
+            [
+              0.005406136306719274,
+              3.534475160094823e-05,
+              -0.001426132062808789,
+              4.336808689942018e-19
+            ]
+          ]
+        },
+        "target_fidelity": 0.9725661106980046
+      },
+      "duplicate_single_pauli_rule": "Shot-weighted pooling across compatible bases and both repeats; equal weights when shot counts are equal.",
+      "interpretation": "Linear tomography assumes common stationary preparation and ideal measurement axes. Fidelity is an uncorrected model diagnostic, never a hardware certificate.",
+      "certified_fidelity_lower_bound": null
+    },
+    "setting_quasiprobabilities": {
+      "XX": [
+        0.49739304836641435,
+        0.06609326907001882,
+        0.2122304772677294,
+        0.2242832052958376
+      ],
+      "XY": [
+        0.28738155615458816,
+        0.27680165457285344,
+        0.21993604121667992,
+        0.21588074805587856
+      ],
+      "XZ": [
+        0.45360621810417906,
+        0.11343851282625511,
+        0.430146210931028,
+        0.0028090581385380045
+      ],
+      "YX": [
+        0.36106472307636356,
+        0.13836206230820397,
+        0.3546176281252745,
+        0.14595558649015808
+      ],
+      "YY": [
+        0.14469516458219417,
+        0.3463372996549218,
+        0.36695654793406884,
+        0.1420109878288153
+      ],
+      "YZ": [
+        0.43560330031893707,
+        0.055312948746468964,
+        0.4535028021232063,
+        0.05558094881138778
+      ],
+      "ZX": [
+        0.6810036575952615,
+        0.2568729695873222,
+        0.03340795773492733,
+        0.02871541508248896
+      ],
+      "ZY": [
+        0.48425847902186536,
+        0.457529032038737,
+        0.02761384404294411,
+        0.030598644896453586
+      ],
+      "ZZ": [
+        0.8935746839753004,
+        0.04706475557235682,
+        0.003911833692768279,
+        0.05544872675957467
+      ]
+    },
+    "has_negative_quasiprobabilities": false,
+    "cost": {
+      "numerator": 81.88941409174421,
+      "denominator": 85.00195409788991,
+      "cost_unclipped": 0.03661727591063646,
+      "status": "model_diagnostic",
+      "cost_outside_physical_interval": false,
+      "certified_fidelity_lower_bound": null,
+      "interpretation": "Linear inverse-assignment quasi-expectations; systematic model error uncontrolled; full bootstrap reported separately."
+    },
+    "scope": "Optional model-dependent linear inverse, separately reported from raw measurements; negative values retained."
+  },
+  "z_distribution": {
+    "total_shots": 8192,
+    "accepted_shots": 8192,
+    "postselection_rate": 1.0,
+    "postselection_wilson95": [
+      0.9995312917117791,
+      1.0
+    ],
+    "conditional_counts": [
+      7312,
+      387,
+      45,
+      448
+    ],
+    "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+    "status": "ok",
+    "total_variation": 0.022558489348799886,
+    "classical_distribution_fidelity": 0.9952178471401474,
+    "tv_plugin_bootstrap95": [
+      0.016085711028487385,
+      0.028057756926924887
+    ],
+    "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs",
+    "p0": 0.892578125,
+    "p2": 0.0054931640625,
+    "p0_wilson95": [
+      0.8856877994303155,
+      0.8991004413277609
+    ],
+    "p2_wilson95": [
+      0.004108073069955184,
+      0.007341813960216461
+    ],
+    "two_output_95_hoeffding_radius": 0.01635413343283532,
+    "precision_target_003_reached": true
+  },
+  "technical_repeats": [
+    {
+      "repeat": 0,
+      "tomography": {
+        "density_matrix_linear": {
+          "real": [
+            [
+              0.8874104817708333,
+              0.21634928385416666,
+              0.0140380859375,
+              0.2139892578125
+            ],
+            [
+              0.21634928385416666,
+              0.053019205729166685,
+              -0.0025634765625,
+              0.0526123046875
+            ],
+            [
+              0.0140380859375,
+              -0.0025634765625,
+              0.003621419270833315,
+              0.0032145182291666574
+            ],
+            [
+              0.2139892578125,
+              0.0526123046875,
+              0.0032145182291666574,
+              0.055948893229166685
+            ]
+          ],
+          "imag": [
+            [
+              0.0,
+              -0.022745768229166664,
+              0.009318033854166666,
+              0.000244140625
+            ],
+            [
+              0.022745768229166664,
+              0.0,
+              -0.006591796875,
+              -0.0026448567708333335
+            ],
+            [
+              -0.009318033854166666,
+              0.006591796875,
+              0.0,
+              0.004597981770833334
+            ],
+            [
+              -0.000244140625,
+              0.0026448567708333335,
+              -0.004597981770833334,
+              0.0
+            ]
+          ]
+        },
+        "eigenvalues_linear": [
+          -0.011040882975247664,
+          0.000224891780508663,
+          0.018084730825931216,
+          0.9927312603688078
+        ],
+        "trace_linear": 1.0,
+        "linear_target_fidelity_unclipped": 0.9768316389123989,
+        "nonphysical_linear_estimate": true,
+        "pauli_estimates": {
+          "II": 1.0,
+          "IX": 0.43912760416666663,
+          "IY": 0.036295572916666664,
+          "IZ": 0.7820638020833333,
+          "XI": 0.13330078125,
+          "XX": 0.4228515625,
+          "XY": -0.013671875,
+          "XZ": -0.0771484375,
+          "YI": -0.013346354166666666,
+          "YX": 0.0126953125,
+          "YY": -0.43310546875,
+          "YZ": -0.02392578125,
+          "ZI": 0.880859375,
+          "ZX": 0.42626953125,
+          "ZY": 0.0546875,
+          "ZZ": 0.88671875
+        },
+        "pauli_details": {
+          "II": {
+            "estimate": 1.0,
+            "sources": [],
+            "shot_standard_error": 0.0
+          },
+          "IX": {
+            "estimate": 0.43912760416666663,
+            "sources": [
+              {
+                "setting": "YX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.43359375,
+                "record_index": 1
+              },
+              {
+                "setting": "ZX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.447265625,
+                "record_index": 2
+              },
+              {
+                "setting": "XX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.4365234375,
+                "record_index": 7
+              }
+            ],
+            "shot_standard_error": 0.0081055933348144
+          },
+          "IY": {
+            "estimate": 0.036295572916666664,
+            "sources": [
+              {
+                "setting": "ZY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.04931640625,
+                "record_index": 3
+              },
+              {
+                "setting": "XY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.04736328125,
+                "record_index": 9
+              },
+              {
+                "setting": "YY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.01220703125,
+                "record_index": 11
+              }
+            ],
+            "shot_standard_error": 0.009014941997442554
+          },
+          "IZ": {
+            "estimate": 0.7820638020833333,
+            "sources": [
+              {
+                "setting": "XZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.7734375,
+                "record_index": 0
+              },
+              {
+                "setting": "YZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.77685546875,
+                "record_index": 8
+              },
+              {
+                "setting": "ZZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.7958984375,
+                "record_index": 10
+              }
+            ],
+            "shot_standard_error": 0.005621913081917787
+          },
+          "XI": {
+            "estimate": 0.13330078125,
+            "sources": [
+              {
+                "setting": "XZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.138671875,
+                "record_index": 0
+              },
+              {
+                "setting": "XX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.12890625,
+                "record_index": 7
+              },
+              {
+                "setting": "XY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.13232421875,
+                "record_index": 9
+              }
+            ],
+            "shot_standard_error": 0.008941607390145167
+          },
+          "XX": {
+            "estimate": 0.4228515625,
+            "sources": [
+              {
+                "setting": "XX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.4228515625,
+                "record_index": 7
+              }
+            ],
+            "shot_standard_error": 0.014161087512401619
+          },
+          "XY": {
+            "estimate": -0.013671875,
+            "sources": [
+              {
+                "setting": "XY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.013671875,
+                "record_index": 9
+              }
+            ],
+            "shot_standard_error": 0.015625447137604005
+          },
+          "XZ": {
+            "estimate": -0.0771484375,
+            "sources": [
+              {
+                "setting": "XZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.0771484375,
+                "record_index": 0
+              }
+            ],
+            "shot_standard_error": 0.01558033354286072
+          },
+          "YI": {
+            "estimate": -0.013346354166666666,
+            "sources": [
+              {
+                "setting": "YX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": -0.0048828125,
+                "record_index": 1
+              },
+              {
+                "setting": "YZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": -0.0185546875,
+                "record_index": 8
+              },
+              {
+                "setting": "YY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": -0.0166015625,
+                "record_index": 11
+              }
+            ],
+            "shot_standard_error": 0.009021231337101929
+          },
+          "YX": {
+            "estimate": 0.0126953125,
+            "sources": [
+              {
+                "setting": "YX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.0126953125,
+                "record_index": 1
+              }
+            ],
+            "shot_standard_error": 0.0156256483453514
+          },
+          "YY": {
+            "estimate": -0.43310546875,
+            "sources": [
+              {
+                "setting": "YY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.43310546875,
+                "record_index": 11
+              }
+            ],
+            "shot_standard_error": 0.014085207759942452
+          },
+          "YZ": {
+            "estimate": -0.02392578125,
+            "sources": [
+              {
+                "setting": "YZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.02392578125,
+                "record_index": 8
+              }
+            ],
+            "shot_standard_error": 0.01562243430063947
+          },
+          "ZI": {
+            "estimate": 0.880859375,
+            "sources": [
+              {
+                "setting": "ZX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.87255859375,
+                "record_index": 2
+              },
+              {
+                "setting": "ZY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.88427734375,
+                "record_index": 3
+              },
+              {
+                "setting": "ZZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.8857421875,
+                "record_index": 10
+              }
+            ],
+            "shot_standard_error": 0.004270579253464205
+          },
+          "ZX": {
+            "estimate": 0.42626953125,
+            "sources": [
+              {
+                "setting": "ZX",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.42626953125,
+                "record_index": 2
+              }
+            ],
+            "shot_standard_error": 0.014136041335770745
+          },
+          "ZY": {
+            "estimate": 0.0546875,
+            "sources": [
+              {
+                "setting": "ZY",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.0546875,
+                "record_index": 3
+              }
+            ],
+            "shot_standard_error": 0.015603522326617563
+          },
+          "ZZ": {
+            "estimate": 0.88671875,
+            "sources": [
+              {
+                "setting": "ZZ",
+                "repeat": 0,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.88671875,
+                "record_index": 10
+              }
+            ],
+            "shot_standard_error": 0.00722446424406558
+          }
+        },
+        "pauli_target_differences": {
+          "II": -2.220446049250313e-16,
+          "IX": 0.008260686970865017,
+          "IY": 0.036295572916666664,
+          "IZ": -0.059195754739266526,
+          "XI": -0.19493558003029038,
+          "XX": -0.008015354695801613,
+          "XY": -0.013671875,
+          "XZ": -0.24664435560288978,
+          "YI": -0.013346354166666666,
+          "YX": 0.0126953125,
+          "YY": -0.10655369992791874,
+          "YZ": -0.02392578125,
+          "ZI": -0.005495426088506283,
+          "ZX": 0.09971776242791874,
+          "ZY": 0.0546875,
+          "ZZ": 0.00036394891149371666
+        },
+        "pauli_target_expectations": {
+          "II": 1.0000000000000002,
+          "IX": 0.4308669171958016,
+          "IY": 0.0,
+          "IZ": 0.8412595568225998,
+          "XI": 0.3282363612802904,
+          "XX": 0.4308669171958016,
+          "XY": 0.0,
+          "XZ": 0.16949591810288978,
+          "YI": 0.0,
+          "YX": 0.0,
+          "YY": -0.32655176882208126,
+          "YZ": 0.0,
+          "ZI": 0.8863548010885063,
+          "ZX": 0.32655176882208126,
+          "ZY": 0.0,
+          "ZZ": 0.8863548010885063
+        },
+        "maximum_absolute_pauli_target_difference": 0.24664435560288978,
+        "descriptive_psd_clipping": {
+          "method": "clip negative eigenvalues then renormalize; nonlinear descriptive estimate, not raw data",
+          "density_matrix": {
+            "real": [
+              [
+                0.8783616520623649,
+                0.21227123908741422,
+                0.012970824381347232,
+                0.21088286343594792
+              ],
+              [
+                0.21227123908741422,
+                0.05790430950224179,
+                -0.001463653547096341,
+                0.05346006160457316
+              ],
+              [
+                0.01297082438134723,
+                -0.0014636535470963403,
+                0.007016788862083239,
+                0.005262310006364229
+              ],
+              [
+                0.2108828634359479,
+                0.05346006160457316,
+                0.005262310006364228,
+                0.05671724957330942
+              ]
+            ],
+            "imag": [
+              [
+                0.0,
+                -0.02174568528992045,
+                0.008045897630267506,
+                -0.00030006325952758306
+              ],
+              [
+                0.02174568528992045,
+                0.0,
+                -0.002322208739402392,
+                -0.0002678092164675296
+              ],
+              [
+                -0.008045897630267506,
+                0.002322208739402392,
+                -2.168404344971009e-19,
+                0.003915749440325012
+              ],
+              [
+                0.0003000632595275829,
+                0.0002678092164675296,
+                -0.003915749440325011,
+                0.0
+              ]
+            ]
+          },
+          "target_fidelity": 0.9661836764535809
+        },
+        "duplicate_single_pauli_rule": "Shot-weighted pooling across compatible bases and both repeats; equal weights when shot counts are equal.",
+        "interpretation": "Linear tomography assumes common stationary preparation and ideal measurement axes. Fidelity is an uncorrected model diagnostic, never a hardware certificate.",
+        "certified_fidelity_lower_bound": null
+      },
+      "z_distribution": {
+        "total_shots": 4096,
+        "accepted_shots": 4096,
+        "postselection_rate": 1.0,
+        "postselection_wilson95": [
+          0.9990630225926348,
+          0.9999999999999999
+        ],
+        "conditional_counts": [
+          3654,
+          208,
+          24,
+          210
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.022680559661299886,
+        "classical_distribution_fidelity": 0.9955894433269167,
+        "tv_plugin_bootstrap95": null,
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs",
+        "p0": 0.89208984375,
+        "p2": 0.005859375,
+        "p0_wilson95": [
+          0.8822180645396832,
+          0.9012268643098146
+        ],
+        "p2_wilson95": [
+          0.003940714277798989,
+          0.008704032925573639
+        ],
+        "two_output_95_hoeffding_radius": 0.023128237301574973,
+        "precision_target_003_reached": true
+      }
+    },
+    {
+      "repeat": 1,
+      "tomography": {
+        "density_matrix_linear": {
+          "real": [
+            [
+              0.8901774088541666,
+              0.21065266927083331,
+              0.012166341145833329,
+              0.2152099609375
+            ],
+            [
+              0.21065266927083331,
+              0.048299153645833315,
+              0.0128173828125,
+              0.05464680989583333
+            ],
+            [
+              0.012166341145833329,
+              0.0128173828125,
+              0.0005289713541666574,
+              0.0014241536458333148
+            ],
+            [
+              0.2152099609375,
+              0.05464680989583333,
+              0.0014241536458333148,
+              0.06099446614583337
+            ]
+          ],
+          "imag": [
+            [
+              0.0,
+              -0.011149088541666666,
+              0.00146484375,
+              -0.012451171875
+            ],
+            [
+              0.011149088541666666,
+              0.0,
+              0.002685546875,
+              -0.0004882812500000001
+            ],
+            [
+              -0.00146484375,
+              -0.002685546875,
+              0.0,
+              -0.0008951822916666661
+            ],
+            [
+              0.012451171875,
+              0.0004882812500000001,
+              0.0008951822916666661,
+              0.0
+            ]
+          ]
+        },
+        "eigenvalues_linear": [
+          -0.011380298188322847,
+          0.00789282683534417,
+          0.010142119558303495,
+          0.9933453517946751
+        ],
+        "trace_linear": 1.0,
+        "linear_target_fidelity_unclipped": 0.9780009007187194,
+        "nonphysical_linear_estimate": true,
+        "pauli_estimates": {
+          "II": 1.0,
+          "IX": 0.42415364583333326,
+          "IY": 0.024088541666666664,
+          "IZ": 0.7814127604166666,
+          "XI": 0.13362630208333331,
+          "XX": 0.4560546875,
+          "XY": 0.0302734375,
+          "XZ": -0.0849609375,
+          "YI": -0.0019531249999999996,
+          "YX": 0.01953125,
+          "YY": -0.40478515625,
+          "YZ": -0.00390625,
+          "ZI": 0.8769531249999999,
+          "ZX": 0.41845703125,
+          "ZY": 0.0205078125,
+          "ZZ": 0.90234375
+        },
+        "pauli_details": {
+          "II": {
+            "estimate": 1.0,
+            "sources": [],
+            "shot_standard_error": 0.0
+          },
+          "IX": {
+            "estimate": 0.42415364583333326,
+            "sources": [
+              {
+                "setting": "XX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.412109375,
+                "record_index": 12
+              },
+              {
+                "setting": "YX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.439453125,
+                "record_index": 13
+              },
+              {
+                "setting": "ZX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.4208984375,
+                "record_index": 22
+              }
+            ],
+            "shot_standard_error": 0.008169768532509161
+          },
+          "IY": {
+            "estimate": 0.024088541666666664,
+            "sources": [
+              {
+                "setting": "YY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.0537109375,
+                "record_index": 14
+              },
+              {
+                "setting": "ZY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.017578125,
+                "record_index": 15
+              },
+              {
+                "setting": "XY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.0009765625,
+                "record_index": 20
+              }
+            ],
+            "shot_standard_error": 0.00901739405243824
+          },
+          "IZ": {
+            "estimate": 0.7814127604166666,
+            "sources": [
+              {
+                "setting": "YZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.78271484375,
+                "record_index": 16
+              },
+              {
+                "setting": "ZZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.79638671875,
+                "record_index": 21
+              },
+              {
+                "setting": "XZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.76513671875,
+                "record_index": 23
+              }
+            ],
+            "shot_standard_error": 0.005628800364863148
+          },
+          "XI": {
+            "estimate": 0.13362630208333331,
+            "sources": [
+              {
+                "setting": "XX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.1318359375,
+                "record_index": 12
+              },
+              {
+                "setting": "XY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.1318359375,
+                "record_index": 20
+              },
+              {
+                "setting": "XZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.13720703125,
+                "record_index": 23
+              }
+            ],
+            "shot_standard_error": 0.008941257217716193
+          },
+          "XX": {
+            "estimate": 0.4560546875,
+            "sources": [
+              {
+                "setting": "XX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.4560546875,
+                "record_index": 12
+              }
+            ],
+            "shot_standard_error": 0.013907193893978308
+          },
+          "XY": {
+            "estimate": 0.0302734375,
+            "sources": [
+              {
+                "setting": "XY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.0302734375,
+                "record_index": 20
+              }
+            ],
+            "shot_standard_error": 0.015619745174356318
+          },
+          "XZ": {
+            "estimate": -0.0849609375,
+            "sources": [
+              {
+                "setting": "XZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.0849609375,
+                "record_index": 23
+              }
+            ],
+            "shot_standard_error": 0.015570405219695603
+          },
+          "YI": {
+            "estimate": -0.0019531249999999996,
+            "sources": [
+              {
+                "setting": "YX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.01171875,
+                "record_index": 13
+              },
+              {
+                "setting": "YY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": -0.00927734375,
+                "record_index": 14
+              },
+              {
+                "setting": "YZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": -0.00830078125,
+                "record_index": 16
+              }
+            ],
+            "shot_standard_error": 0.009021759822055476
+          },
+          "YX": {
+            "estimate": 0.01953125,
+            "sources": [
+              {
+                "setting": "YX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.01953125,
+                "record_index": 13
+              }
+            ],
+            "shot_standard_error": 0.015623926817540545
+          },
+          "YY": {
+            "estimate": -0.40478515625,
+            "sources": [
+              {
+                "setting": "YY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.40478515625,
+                "record_index": 14
+              }
+            ],
+            "shot_standard_error": 0.014289429115240334
+          },
+          "YZ": {
+            "estimate": -0.00390625,
+            "sources": [
+              {
+                "setting": "YZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": -0.00390625,
+                "record_index": 16
+              }
+            ],
+            "shot_standard_error": 0.01562678847365091
+          },
+          "ZI": {
+            "estimate": 0.8769531249999999,
+            "sources": [
+              {
+                "setting": "ZY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.880859375,
+                "record_index": 15
+              },
+              {
+                "setting": "ZZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.87353515625,
+                "record_index": 21
+              },
+              {
+                "setting": "ZX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 0.3333333333333333,
+                "estimate": 0.87646484375,
+                "record_index": 22
+              }
+            ],
+            "shot_standard_error": 0.004335766731492464
+          },
+          "ZX": {
+            "estimate": 0.41845703125,
+            "sources": [
+              {
+                "setting": "ZX",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.41845703125,
+                "record_index": 22
+              }
+            ],
+            "shot_standard_error": 0.014192929442268786
+          },
+          "ZY": {
+            "estimate": 0.0205078125,
+            "sources": [
+              {
+                "setting": "ZY",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.0205078125,
+                "record_index": 15
+              }
+            ],
+            "shot_standard_error": 0.015623621245163477
+          },
+          "ZZ": {
+            "estimate": 0.90234375,
+            "sources": [
+              {
+                "setting": "ZZ",
+                "repeat": 1,
+                "shots": 4096,
+                "weight": 1.0,
+                "estimate": 0.90234375,
+                "record_index": 21
+              }
+            ],
+            "shot_standard_error": 0.006735464734212564
+          }
+        },
+        "pauli_target_differences": {
+          "II": -2.220446049250313e-16,
+          "IX": -0.006713271362468354,
+          "IY": 0.024088541666666664,
+          "IZ": -0.059846796405933156,
+          "XI": -0.19461005919695706,
+          "XX": 0.025187770304198387,
+          "XY": 0.0302734375,
+          "XZ": -0.2544568556028898,
+          "YI": -0.0019531249999999996,
+          "YX": 0.01953125,
+          "YY": -0.07823338742791874,
+          "YZ": -0.00390625,
+          "ZI": -0.009401676088506394,
+          "ZX": 0.09190526242791874,
+          "ZY": 0.0205078125,
+          "ZZ": 0.015988948911493717
+        },
+        "pauli_target_expectations": {
+          "II": 1.0000000000000002,
+          "IX": 0.4308669171958016,
+          "IY": 0.0,
+          "IZ": 0.8412595568225998,
+          "XI": 0.3282363612802904,
+          "XX": 0.4308669171958016,
+          "XY": 0.0,
+          "XZ": 0.16949591810288978,
+          "YI": 0.0,
+          "YX": 0.0,
+          "YY": -0.32655176882208126,
+          "YZ": 0.0,
+          "ZI": 0.8863548010885063,
+          "ZX": 0.32655176882208126,
+          "ZY": 0.0,
+          "ZZ": 0.8863548010885063
+        },
+        "maximum_absolute_pauli_target_difference": 0.2544568556028898,
+        "descriptive_psd_clipping": {
+          "method": "clip negative eigenvalues then renormalize; nonlinear descriptive estimate, not raw data",
+          "density_matrix": {
+            "real": [
+              [
+                0.8803109398432645,
+                0.2073418941629226,
+                0.012864666492054247,
+                0.21303391369493366
+              ],
+              [
+                0.20734189416292256,
+                0.05365427954820949,
+                0.007459163248308606,
+                0.05249415606819662
+              ],
+              [
+                0.012864666492054247,
+                0.007459163248308606,
+                0.005324018987497001,
+                0.0027856416370383484
+              ],
+              [
+                0.21303391369493363,
+                0.05249415606819663,
+                0.0027856416370383467,
+                0.06071076162102943
+              ]
+            ],
+            "imag": [
+              [
+                0.0,
+                -0.011001939416777035,
+                0.0015989240193219295,
+                -0.012300617606106838
+              ],
+              [
+                0.011001939416777034,
+                2.168404344971009e-19,
+                0.0015907019046735404,
+                -0.0005838105423798083
+              ],
+              [
+                -0.0015989240193219295,
+                -0.0015907019046735404,
+                0.0,
+                -0.0010733572105069541
+              ],
+              [
+                0.012300617606106838,
+                0.0005838105423798079,
+                0.0010733572105069535,
+                -4.336808689942018e-19
+              ]
+            ]
+          },
+          "target_fidelity": 0.9670866192447944
+        },
+        "duplicate_single_pauli_rule": "Shot-weighted pooling across compatible bases and both repeats; equal weights when shot counts are equal.",
+        "interpretation": "Linear tomography assumes common stationary preparation and ideal measurement axes. Fidelity is an uncorrected model diagnostic, never a hardware certificate.",
+        "certified_fidelity_lower_bound": null
+      },
+      "z_distribution": {
+        "total_shots": 4096,
+        "accepted_shots": 4096,
+        "postselection_rate": 1.0,
+        "postselection_wilson95": [
+          0.9990630225926348,
+          0.9999999999999999
+        ],
+        "conditional_counts": [
+          3658,
+          179,
+          21,
+          238
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.022436419036299886,
+        "classical_distribution_fidelity": 0.9946123320506832,
+        "tv_plugin_bootstrap95": null,
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs",
+        "p0": 0.89306640625,
+        "p2": 0.005126953125,
+        "p0_wilson95": [
+          0.8832315465848233,
+          0.9021646772306757
+        ],
+        "p2_wilson95": [
+          0.0033558642108143656,
+          0.007825411768057332
+        ],
+        "two_output_95_hoeffding_radius": 0.023128237301574973,
+        "precision_target_003_reached": true
+      }
+    }
+  ],
+  "controls": [
+    {
+      "control_name": "input",
+      "record_index": 6,
+      "distribution": {
+        "total_shots": 4096,
+        "accepted_shots": 4096,
+        "postselection_rate": 1.0,
+        "postselection_wilson95": [
+          0.9990630225926348,
+          0.9999999999999999
+        ],
+        "conditional_counts": [
+          3939,
+          63,
+          49,
+          45
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.009203864532766996,
+        "classical_distribution_fidelity": 0.9991716608104603,
+        "tv_plugin_bootstrap95": [
+          0.0029818932986953955,
+          0.014825202423391994
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs",
+        "p0": 0.961669921875,
+        "p2": 0.011962890625,
+        "p0_wilson95": [
+          0.9553445608690955,
+          0.9671301343079907
+        ],
+        "p2_wilson95": [
+          0.009061008054248611,
+          0.015779332686631765
+        ],
+        "two_output_95_hoeffding_radius": 0.023128237301574973,
+        "precision_target_003_reached": true
+      }
+    },
+    {
+      "control_name": "classical_solution",
+      "record_index": 18,
+      "distribution": {
+        "total_shots": 4096,
+        "accepted_shots": 4096,
+        "postselection_rate": 1.0,
+        "postselection_wilson95": [
+          0.9990630225926348,
+          0.9999999999999999
+        ],
+        "conditional_counts": [
+          3665,
+          181,
+          82,
+          168
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.008716899124902828,
+        "classical_distribution_fidelity": 0.9997349452901195,
+        "tv_plugin_bootstrap95": [
+          0.002788063317239937,
+          0.01848862764052783
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs",
+        "p0": 0.894775390625,
+        "p2": 0.02001953125,
+        "p0_wilson95": [
+          0.8850057351152596,
+          0.9038052548907416
+        ],
+        "p2_wilson95": [
+          0.01615827811132198,
+          0.024780246099068624
+        ],
+        "two_output_95_hoeffding_radius": 0.023128237301574973,
+        "precision_target_003_reached": true
+      }
+    }
+  ],
+  "bootstrap": {
+    "replicates": 200,
+    "seed": 20261004,
+    "scope": "Independent multinomial resampling within each of the 24 observed count records, retaining technical-repeat and calibration structure. Shot-only plug-in intervals conditional on the assignment model; excludes drift, axis error and model bias. Not simultaneous or certification bounds.",
+    "metrics": {
+      "raw_fidelity": {
+        "percentile95": [
+          0.9715533070129474,
+          0.983546710602383
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "raw_cost": {
+        "percentile95": [
+          0.02885741880113462,
+          0.04658019275263255
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "raw_min_eigenvalue": {
+        "percentile95": [
+          -0.015196826985027775,
+          -0.0027607048929803616
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "z_tv": {
+        "percentile95": [
+          0.016085711028487385,
+          0.028057756926924887
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "mitigated_fidelity": {
+        "percentile95": [
+          0.9715130342698368,
+          0.9838801684358405
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "mitigated_cost": {
+        "percentile95": [
+          0.028699817850927612,
+          0.046377490937540185
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      }
+    },
+    "pauli_expectations": {
+      "II": {
+        "percentile95": [
+          1.0,
+          1.0
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "IX": {
+        "percentile95": [
+          0.42136637369791663,
+          0.4436055501302083
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "IY": {
+        "percentile95": [
+          0.016516113281249998,
+          0.039805094401041664
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "IZ": {
+        "percentile95": [
+          0.7743164062499999,
+          0.7892272949218748
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "XI": {
+        "percentile95": [
+          0.121331787109375,
+          0.14658406575520833
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "XX": {
+        "percentile95": [
+          0.41722412109375,
+          0.45802001953125
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "XY": {
+        "percentile95": [
+          -0.014666748046874999,
+          0.029071044921875004
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "XZ": {
+        "percentile95": [
+          -0.0998779296875,
+          -0.058587646484375
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "YI": {
+        "percentile95": [
+          -0.020021565755208335,
+          0.004231770833333334
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "YX": {
+        "percentile95": [
+          -0.006115722656249999,
+          0.03715209960937501
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "YY": {
+        "percentile95": [
+          -0.434600830078125,
+          -0.40057983398437497
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "YZ": {
+        "percentile95": [
+          -0.03297119140625,
+          0.0061279296875000056
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "ZI": {
+        "percentile95": [
+          0.8733642578124999,
+          0.8844421386718748
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "ZX": {
+        "percentile95": [
+          0.402728271484375,
+          0.442877197265625
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "ZY": {
+        "percentile95": [
+          0.017083740234375,
+          0.05669555664062501
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "ZZ": {
+        "percentile95": [
+          0.88572998046875,
+          0.90357666015625
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      }
+    },
+    "control_total_variation": {
+      "input": {
+        "percentile95": [
+          0.0029818932986953955,
+          0.014825202423391994
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      },
+      "classical_solution": {
+        "percentile95": [
+          0.002788063317239937,
+          0.01848862764052783
+        ],
+        "valid_replicates": 200,
+        "invalid_replicates": 0
+      }
+    }
+  },
+  "status": "analyzed",
+  "target_role": "Classically solved target used only for diagnostic comparison, not algorithm input or a speedup claim.",
+  "claim_scope": "One frozen two-qubit preparation in one job/time block; two technical repeats are not independent calibration blocks or a solver ranking.",
+  "total_raw_shots": 98304,
+  "certified_fidelity_lower_bound": null,
+  "raw_record": {
+    "stage": "read_only_hardware_collection",
+    "key": "5ff54c1c6def08d611e11d6e38d4eb5fe03be0e08cfa6bb262377a158f8c6da4"
+  },
+  "raw_provenance": [
+    {
+      "record_index": 0,
+      "counts_file": "raw_counts_hardware_0.json",
+      "sha256": "27da9ab4fc313892f40e37013a63c6f0c4613216b9fea82f1e929e1f927abee3",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 10,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 0,
+          "source_template_index": 2
+        },
+        "counts_file": "raw_counts_hardware_0.json",
+        "counts_sha256": "27da9ab4fc313892f40e37013a63c6f0c4613216b9fea82f1e929e1f927abee3"
+      }
+    },
+    {
+      "record_index": 1,
+      "counts_file": "raw_counts_hardware_1.json",
+      "sha256": "c3605176262b11c616c76dd8edc3716c6a7f7b3545b696b748b3b804a606324f",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 13,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 1,
+          "source_template_index": 3
+        },
+        "counts_file": "raw_counts_hardware_1.json",
+        "counts_sha256": "c3605176262b11c616c76dd8edc3716c6a7f7b3545b696b748b3b804a606324f"
+      }
+    },
+    {
+      "record_index": 2,
+      "counts_file": "raw_counts_hardware_2.json",
+      "sha256": "772164c1964820f3970426f8dd39f3cf1d7901008fffff0e71e29944765c164f",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 10,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 2,
+          "source_template_index": 6
+        },
+        "counts_file": "raw_counts_hardware_2.json",
+        "counts_sha256": "772164c1964820f3970426f8dd39f3cf1d7901008fffff0e71e29944765c164f"
+      }
+    },
+    {
+      "record_index": 3,
+      "counts_file": "raw_counts_hardware_3.json",
+      "sha256": "820cdbc543cdd6b3370d4b88f4ceb7819b5b4e32f43677ba477954ef3143203c",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 11,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 3,
+          "source_template_index": 7
+        },
+        "counts_file": "raw_counts_hardware_3.json",
+        "counts_sha256": "820cdbc543cdd6b3370d4b88f4ceb7819b5b4e32f43677ba477954ef3143203c"
+      }
+    },
+    {
+      "record_index": 4,
+      "counts_file": "raw_counts_hardware_4.json",
+      "sha256": "1101bd12a615530c367577c61f4f7f9183b42a198fb41e3c9e8eb540b8125314",
+      "metadata": {
+        "entry": {
+          "kind": "readout_calibration",
+          "prepared_basis": 1,
+          "algorithm": "readout_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "expected_state_real": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "scope": "full two-qubit assignment calibration including preparation error",
+          "local_state_error_up_to_global_phase": 0.0,
+          "schedule_position": 4,
+          "source_template_index": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              1
+            ],
+            "active_gate_qubit_count": 1,
+            "depth_including_measurements": 3,
+            "two_qubit_gates": 0,
+            "basis_operation_counts": {
+              "sx": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_4.json",
+        "counts_sha256": "1101bd12a615530c367577c61f4f7f9183b42a198fb41e3c9e8eb540b8125314"
+      }
+    },
+    {
+      "record_index": 5,
+      "counts_file": "raw_counts_hardware_5.json",
+      "sha256": "4bc88d2586485ff15e689ebc23b4c3d9b0cf9de173def40d800991002e827c41",
+      "metadata": {
+        "entry": {
+          "kind": "readout_calibration",
+          "prepared_basis": 0,
+          "algorithm": "readout_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "expected_state_real": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "scope": "full two-qubit assignment calibration including preparation error",
+          "local_state_error_up_to_global_phase": 0.0,
+          "schedule_position": 5,
+          "source_template_index": 18,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [],
+            "active_gate_qubit_count": 0,
+            "depth_including_measurements": 1,
+            "two_qubit_gates": 0,
+            "basis_operation_counts": {
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_5.json",
+        "counts_sha256": "4bc88d2586485ff15e689ebc23b4c3d9b0cf9de173def40d800991002e827c41"
+      }
+    },
+    {
+      "record_index": 6,
+      "counts_file": "raw_counts_hardware_6.json",
+      "sha256": "8c9bdf85a0c4cd10d0ad1cc5818f20ddd3d2de71a0246b166808d18c4ed64f6d",
+      "metadata": {
+        "entry": {
+          "kind": "control",
+          "control_name": "input",
+          "algorithm": "reference_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "setting": "ZZ",
+          "expected_state_real": [
+            0.9853292781642932,
+            0.09853292781642932,
+            0.09853292781642932,
+            0.09853292781642932
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "expected_probabilities": [
+            0.970873786407767,
+            0.00970873786407767,
+            0.00970873786407767,
+            0.00970873786407767
+          ],
+          "classical_solution_access": false,
+          "local_state_error_up_to_global_phase": 2.853715460399314e-16,
+          "schedule_position": 6,
+          "source_template_index": 22,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 9,
+            "two_qubit_gates": 1,
+            "basis_operation_counts": {
+              "sx": 6,
+              "rz": 5,
+              "measure": 2,
+              "cz": 1,
+              "barrier": 1
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_6.json",
+        "counts_sha256": "8c9bdf85a0c4cd10d0ad1cc5818f20ddd3d2de71a0246b166808d18c4ed64f6d"
+      }
+    },
+    {
+      "record_index": 7,
+      "counts_file": "raw_counts_hardware_7.json",
+      "sha256": "683d26be5c740bb36e070b19a6bed2705773e00bd7c7fe7229eaaedf2d54f9dd",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 12,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 7,
+          "source_template_index": 0
+        },
+        "counts_file": "raw_counts_hardware_7.json",
+        "counts_sha256": "683d26be5c740bb36e070b19a6bed2705773e00bd7c7fe7229eaaedf2d54f9dd"
+      }
+    },
+    {
+      "record_index": 8,
+      "counts_file": "raw_counts_hardware_8.json",
+      "sha256": "aedb66bd16c344e78ab158e4aab8ff3d1d4bd981bbbab4092e987732f1c66242",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 11,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 8,
+          "source_template_index": 5
+        },
+        "counts_file": "raw_counts_hardware_8.json",
+        "counts_sha256": "aedb66bd16c344e78ab158e4aab8ff3d1d4bd981bbbab4092e987732f1c66242"
+      }
+    },
+    {
+      "record_index": 9,
+      "counts_file": "raw_counts_hardware_9.json",
+      "sha256": "a7582106f6d9e4f21406c9ec89a611c1aa4e44b0c13bba7c2568ca68d22827ca",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 13,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 9,
+          "source_template_index": 1
+        },
+        "counts_file": "raw_counts_hardware_9.json",
+        "counts_sha256": "a7582106f6d9e4f21406c9ec89a611c1aa4e44b0c13bba7c2568ca68d22827ca"
+      }
+    },
+    {
+      "record_index": 10,
+      "counts_file": "raw_counts_hardware_10.json",
+      "sha256": "8ee0540a3b112bda75deff3d5399c4b2e402ec34c45803242c9f79df7536a7a4",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 11,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 8,
+              "sx": 8,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 10,
+          "source_template_index": 8
+        },
+        "counts_file": "raw_counts_hardware_10.json",
+        "counts_sha256": "8ee0540a3b112bda75deff3d5399c4b2e402ec34c45803242c9f79df7536a7a4"
+      }
+    },
+    {
+      "record_index": 11,
+      "counts_file": "raw_counts_hardware_11.json",
+      "sha256": "7c5ddc56ac1c1bec260eba92acfa0b9183bb1c1dc5507a58da9b10145837070c",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 14,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 0,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 11,
+          "source_template_index": 4
+        },
+        "counts_file": "raw_counts_hardware_11.json",
+        "counts_sha256": "7c5ddc56ac1c1bec260eba92acfa0b9183bb1c1dc5507a58da9b10145837070c"
+      }
+    },
+    {
+      "record_index": 12,
+      "counts_file": "raw_counts_hardware_12.json",
+      "sha256": "55e0f267444b2e8e2918267b8f6925c263fd99549a9233ca0346e0eb3869222c",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 12,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 12,
+          "source_template_index": 9
+        },
+        "counts_file": "raw_counts_hardware_12.json",
+        "counts_sha256": "55e0f267444b2e8e2918267b8f6925c263fd99549a9233ca0346e0eb3869222c"
+      }
+    },
+    {
+      "record_index": 13,
+      "counts_file": "raw_counts_hardware_13.json",
+      "sha256": "2c4f4e923675ab12f140fdd99bb59b5834a588c4a76fac1b8db4e5f52c246341",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 13,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 13,
+          "source_template_index": 12
+        },
+        "counts_file": "raw_counts_hardware_13.json",
+        "counts_sha256": "2c4f4e923675ab12f140fdd99bb59b5834a588c4a76fac1b8db4e5f52c246341"
+      }
+    },
+    {
+      "record_index": 14,
+      "counts_file": "raw_counts_hardware_14.json",
+      "sha256": "dd75d048fbe12ff4a46fe98108a1a7a6ffca817923c81ddddcb002a10d3c3afc",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 14,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 14,
+          "source_template_index": 13
+        },
+        "counts_file": "raw_counts_hardware_14.json",
+        "counts_sha256": "dd75d048fbe12ff4a46fe98108a1a7a6ffca817923c81ddddcb002a10d3c3afc"
+      }
+    },
+    {
+      "record_index": 15,
+      "counts_file": "raw_counts_hardware_15.json",
+      "sha256": "9edfeb4c4fe0997ec2d30171ee5fc2267d11bbe70d3d46779f25fc8222c31987",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 11,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 15,
+          "source_template_index": 16
+        },
+        "counts_file": "raw_counts_hardware_15.json",
+        "counts_sha256": "9edfeb4c4fe0997ec2d30171ee5fc2267d11bbe70d3d46779f25fc8222c31987"
+      }
+    },
+    {
+      "record_index": 16,
+      "counts_file": "raw_counts_hardware_16.json",
+      "sha256": "cddaf83ac02ba07cff2687cb0c76c2d289f475c98cdf7fc3418299974cc31a04",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "YZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 11,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 16,
+          "source_template_index": 14
+        },
+        "counts_file": "raw_counts_hardware_16.json",
+        "counts_sha256": "cddaf83ac02ba07cff2687cb0c76c2d289f475c98cdf7fc3418299974cc31a04"
+      }
+    },
+    {
+      "record_index": 17,
+      "counts_file": "raw_counts_hardware_17.json",
+      "sha256": "d3344b1fd927931f4b641a01519077ee0d3c57bb161c26ac338f44a4e41983ee",
+      "metadata": {
+        "entry": {
+          "kind": "readout_calibration",
+          "prepared_basis": 3,
+          "algorithm": "readout_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "expected_state_real": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "scope": "full two-qubit assignment calibration including preparation error",
+          "local_state_error_up_to_global_phase": 0.0,
+          "schedule_position": 17,
+          "source_template_index": 21,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 3,
+            "two_qubit_gates": 0,
+            "basis_operation_counts": {
+              "sx": 4,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_17.json",
+        "counts_sha256": "d3344b1fd927931f4b641a01519077ee0d3c57bb161c26ac338f44a4e41983ee"
+      }
+    },
+    {
+      "record_index": 18,
+      "counts_file": "raw_counts_hardware_18.json",
+      "sha256": "c12185e50eaadfb4f461e657376f3efe3acbb021715e53de5f775c585f0d96ae",
+      "metadata": {
+        "entry": {
+          "kind": "control",
+          "control_name": "classical_solution",
+          "algorithm": "reference_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "setting": "ZZ",
+          "expected_state_real": [
+            0.9505221142876702,
+            0.19921122155729612,
+            0.1309102313090803,
+            0.19921122155729612
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "expected_probabilities": [
+            0.9034922897499028,
+            0.03968511079435012,
+            0.01713748866139691,
+            0.03968511079435012
+          ],
+          "classical_solution_access": true,
+          "local_state_error_up_to_global_phase": 3.939013624218901e-16,
+          "schedule_position": 18,
+          "source_template_index": 23,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 9,
+            "two_qubit_gates": 1,
+            "basis_operation_counts": {
+              "sx": 6,
+              "rz": 5,
+              "measure": 2,
+              "cz": 1,
+              "barrier": 1
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_18.json",
+        "counts_sha256": "c12185e50eaadfb4f461e657376f3efe3acbb021715e53de5f775c585f0d96ae"
+      }
+    },
+    {
+      "record_index": 19,
+      "counts_file": "raw_counts_hardware_19.json",
+      "sha256": "b728eef26c8bcdc2780729c3da11ea5aaf6c68b01e36579d9128c3ed1a67d30a",
+      "metadata": {
+        "entry": {
+          "kind": "readout_calibration",
+          "prepared_basis": 2,
+          "algorithm": "readout_control",
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "expected_state_real": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "scope": "full two-qubit assignment calibration including preparation error",
+          "local_state_error_up_to_global_phase": 0.0,
+          "schedule_position": 19,
+          "source_template_index": 20,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0
+            ],
+            "active_gate_qubit_count": 1,
+            "depth_including_measurements": 3,
+            "two_qubit_gates": 0,
+            "basis_operation_counts": {
+              "measure": 2,
+              "sx": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0"
+        },
+        "counts_file": "raw_counts_hardware_19.json",
+        "counts_sha256": "b728eef26c8bcdc2780729c3da11ea5aaf6c68b01e36579d9128c3ed1a67d30a"
+      }
+    },
+    {
+      "record_index": 20,
+      "counts_file": "raw_counts_hardware_20.json",
+      "sha256": "cada4684f1846f4427dc4c85bfe49f525379b51495fdc4b165ddbb5e4f2de660",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XY",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 15,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 13,
+              "sx": 10,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 20,
+          "source_template_index": 10
+        },
+        "counts_file": "raw_counts_hardware_20.json",
+        "counts_sha256": "cada4684f1846f4427dc4c85bfe49f525379b51495fdc4b165ddbb5e4f2de660"
+      }
+    },
+    {
+      "record_index": 21,
+      "counts_file": "raw_counts_hardware_21.json",
+      "sha256": "9064417d0ab28afe000f9280f9fa6e7db27d8d2181d3b40270bb2281a368fe06",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 11,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 8,
+              "sx": 8,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 21,
+          "source_template_index": 17
+        },
+        "counts_file": "raw_counts_hardware_21.json",
+        "counts_sha256": "9064417d0ab28afe000f9280f9fa6e7db27d8d2181d3b40270bb2281a368fe06"
+      }
+    },
+    {
+      "record_index": 22,
+      "counts_file": "raw_counts_hardware_22.json",
+      "sha256": "4b930a72553b0817af87d54a1f82177e5c9a69b0e8c4bcd7dbcd4f0477aa21e0",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "ZX",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 10,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 22,
+          "source_template_index": 15
+        },
+        "counts_file": "raw_counts_hardware_22.json",
+        "counts_sha256": "4b930a72553b0817af87d54a1f82177e5c9a69b0e8c4bcd7dbcd4f0477aa21e0"
+      }
+    },
+    {
+      "record_index": 23,
+      "counts_file": "raw_counts_hardware_23.json",
+      "sha256": "e7be6cb1320bbd4ca4a5c5aaea75f447e62def434a92a8d3fbe8e1e67c00956f",
+      "metadata": {
+        "entry": {
+          "algorithm": "vqls_measured",
+          "kind": "tomography",
+          "setting": "XZ",
+          "instance_id": "0fd5c9980aa756188bbd",
+          "plan_id": "7adddb633110b60775e501dfad54cd5b575ee4adebd61139db086d14d6c1c1c6:2:6136a45f6179fe6541aa0da248e48447d6531191aec039596bcdbad14d02f188:all_nine_bases",
+          "solver_metadata": {
+            "system_qubits": [
+              0,
+              1
+            ],
+            "postselect_bits": {}
+          },
+          "final_layout": [
+            1,
+            0
+          ],
+          "preparation_layout": [
+            1,
+            0
+          ],
+          "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+          "physical_preparation_qpy_sha256": "a565e20f9befb8cfe4956209965b95339e381b85efb19d4e1dda8ad18b12a972",
+          "prefix_instruction_count": 19,
+          "resources": {
+            "allocated_physical_qubits": 120,
+            "active_gate_qubits": [
+              0,
+              1
+            ],
+            "active_gate_qubit_count": 2,
+            "depth_including_measurements": 14,
+            "two_qubit_gates": 2,
+            "basis_operation_counts": {
+              "rz": 10,
+              "sx": 9,
+              "cz": 2,
+              "barrier": 2,
+              "measure": 2
+            },
+            "measurement_count": 2
+          },
+          "calibration_id": "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+          "historical_hardware_result": false,
+          "repeat": 1,
+          "technical_repeat": true,
+          "independent_calibration_block": false,
+          "schedule_position": 23,
+          "source_template_index": 11
+        },
+        "counts_file": "raw_counts_hardware_23.json",
+        "counts_sha256": "e7be6cb1320bbd4ca4a5c5aaea75f447e62def434a92a8d3fbe8e1e67c00956f"
+      }
+    }
+  ],
+  "calibration_ids": [
+    "48099db4126fecc825b4ce9079d4fe3e871df934af418cfff8363167a561541f",
+    "62849eed9c13a8bfa943b7184e3b4b886d94b9a324d00b7ffe0a3aba8c7358b0",
+    "6c27aad33c40da03fdebb4fe606e95ab66824f2f2a12806e334c2401393cacbc"
+  ],
+  "preparation_audit": {
+    "status": "validated",
+    "common_prefix_verified": true,
+    "common_ordered_mapping_verified": true,
+    "ordered_physical_layout": [
+      1,
+      0
+    ],
+    "physical_preparation_sha256": "42d909b69eed364d5a152be002da7149d3151cad0c43b08860b6e986482e2c3c",
+    "stationarity_established": false,
+    "measurement_error_bounded": false,
+    "scope": "structural circuit contract only; no hardware fidelity certificate"
+  },
+  "hardware_calls_from_analysis": 0
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "instance": "D0",
+    "N": 4,
+    "F_in": 0.9775948574009468,
+    "break_even_signal_fraction": 0.9701264765345957
+  },
+  {
+    "instance": "H1",
+    "N": 4,
+    "F_in": 0.957957685848791,
+    "break_even_signal_fraction": 0.9439435811317214
+  },
+  {
+    "instance": "H2",
+    "N": 4,
+    "F_in": 0.9844800222441549,
+    "break_even_signal_fraction": 0.9793066963255398
+  },
+  {
+    "instance": "H3",
+    "N": 8,
+    "F_in": 0.9204288926507722,
+    "break_even_signal_fraction": 0.9090615916008825
+  },
+  {
+    "instance": "H4",
+    "N": 4,
+    "F_in": 0.5714285714285715,
+    "break_even_signal_fraction": 0.42857142857142866
+  },
+  {
+    "instance": "H5",
+    "N": 4,
+    "F_in": 0.6709434410388382,
+    "break_even_signal_fraction": 0.5612579213851175
+  },
+  {
+    "instance": "H6",
+    "N": 16,
+    "F_in": 0.7981713288589698,
+    "break_even_signal_fraction": 0.7847160841162345
+  }
+]

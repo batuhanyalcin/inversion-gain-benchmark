@@ -1,0 +1,412 @@
+[
+  {
+    "device": "ibm_boston",
+    "block": "T1",
+    "job_id": "db8qdk8b3g5c73egq3i0",
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 385,
+    "F_in": 0.5714285714285715,
+    "fidelity_raw": 0.6306041891568342,
+    "fidelity_raw_sd": 0.0292179714568945,
+    "G": 0.13807644136594643,
+    "G_ci95": [
+      0.004504720576040313,
+      0.2704425888384767
+    ],
+    "G_ci_bonferroni": [
+      -0.06219229118614977,
+      0.3266227950135072
+    ],
+    "G_p_one_sided": 0.021497850214978503,
+    "G_p_bonferroni": 0.21497850214978503,
+    "G_input_control": 0.0006103515624999261,
+    "G_input_control_ci95": [
+      -0.026245117187499938,
+      0.026775614420572896
+    ],
+    "G_minus_input_control": 0.1374660898034465,
+    "G_minus_input_control_ci95": [
+      0.0008127599973698235,
+      0.271971137103713
+    ],
+    "G_HW": 0.14233991122667425,
+    "G_HW_ci95": [
+      0.0008333013760347365,
+      0.2804377681464564
+    ],
+    "accepted_shots_per_setting": 134.11111111111111,
+    "ideal_accepted_shots_per_setting": 278.1523483900975,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_boston",
+    "block": "T1",
+    "job_id": "db8qdk8b3g5c73egq3i0",
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 383,
+    "F_in": 0.6709434410388382,
+    "fidelity_raw": 0.5316724723744455,
+    "fidelity_raw_sd": 0.028781082118865896,
+    "G": -0.4232432536949695,
+    "G_ci95": [
+      -0.598031643459873,
+      -0.2556122190092825
+    ],
+    "G_ci_bonferroni": [
+      -0.6801978067485839,
+      -0.18354189281950567
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": -0.014147221654381387,
+    "G_input_control_ci95": [
+      -0.04628765863732278,
+      0.019276947671446245
+    ],
+    "G_minus_input_control": -0.40909603204058814,
+    "G_minus_input_control_ci95": [
+      -0.5866523130292547,
+      -0.23937888136483182
+    ],
+    "G_HW": -0.414508101760261,
+    "G_HW_ci95": [
+      -0.6022155481594742,
+      -0.24105300464434345
+    ],
+    "accepted_shots_per_setting": 139.55555555555554,
+    "ideal_accepted_shots_per_setting": 316.9712624386289,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "T1",
+    "job_id": "db8q51gb3g5c73egpk0g",
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 385,
+    "F_in": 0.5714285714285715,
+    "fidelity_raw": 0.25201447179017794,
+    "fidelity_raw_sd": 0.022487485273677565,
+    "G": -0.7452995658229185,
+    "G_ci95": [
+      -0.8474250361493605,
+      -0.6408895979746771
+    ],
+    "G_ci_bonferroni": [
+      -0.8940936468002018,
+      -0.5999992249825713
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": 0.009826660156250002,
+    "G_input_control_ci95": [
+      -0.016540527343749965,
+      0.036397806803385266
+    ],
+    "G_minus_input_control": -0.7551262259791685,
+    "G_minus_input_control_ci95": [
+      -0.8608968639213399,
+      -0.6481552640842632
+    ],
+    "G_HW": -0.7862718834726846,
+    "G_HW_ci95": [
+      -0.9067177070631256,
+      -0.666960259131516
+    ],
+    "accepted_shots_per_setting": 207.11111111111111,
+    "ideal_accepted_shots_per_setting": 278.1523483900982,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_kingston",
+    "block": "T1",
+    "job_id": "db8q51gb3g5c73egpk0g",
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 383,
+    "F_in": 0.6709434410388382,
+    "fidelity_raw": 0.2925369813051022,
+    "fidelity_raw_sd": 0.030882684977121835,
+    "G": -1.1499739161205988,
+    "G_ci95": [
+      -1.3320957321101388,
+      -0.9683754021167029
+    ],
+    "G_ci_bonferroni": [
+      -1.4146870638176674,
+      -0.8891575944019418
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": -0.04919741884795241,
+    "G_input_control_ci95": [
+      -0.08253170175027955,
+      -0.015329809778349569
+    ],
+    "G_minus_input_control": -1.1007764972726464,
+    "G_minus_input_control_ci95": [
+      -1.2875187156085313,
+      -0.9143844173578495
+    ],
+    "G_HW": -1.0929807020244455,
+    "G_HW_ci95": [
+      -1.2914848053999615,
+      -0.9002831797728468
+    ],
+    "accepted_shots_per_setting": 140.44444444444446,
+    "ideal_accepted_shots_per_setting": 316.9712624386292,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "job_id": "db86o4uil99s73fpead0",
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 323,
+    "F_in": 0.5714285714285715,
+    "fidelity_raw": 0.25369344698958113,
+    "fidelity_raw_sd": 0.025768005313280024,
+    "G": -0.741381957024311,
+    "G_ci95": [
+      -0.8577813950379769,
+      -0.6232840564821169
+    ],
+    "G_ci_bonferroni": [
+      -0.9028979314366996,
+      -0.5689648695890169
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": 0.027709960937499858,
+    "G_input_control_ci95": [
+      0.0012400309244792438,
+      0.05513559977213539
+    ],
+    "G_minus_input_control": -0.7690919179618109,
+    "G_minus_input_control_ci95": [
+      -0.8900852663769422,
+      -0.6477544371263004
+    ],
+    "G_HW": -0.8038447264690266,
+    "G_HW_ci95": [
+      -0.9385640225015282,
+      -0.6711378595046202
+    ],
+    "accepted_shots_per_setting": 154.11111111111111,
+    "ideal_accepted_shots_per_setting": 278.1523483900968,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B1",
+    "job_id": "db86o4uil99s73fpead0",
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 321,
+    "F_in": 0.6709434410388382,
+    "fidelity_raw": 0.2705029416495593,
+    "fidelity_raw_sd": 0.04005952286968445,
+    "G": -1.2169351696057287,
+    "G_ci95": [
+      -1.4525613766870948,
+      -0.9820842505123901
+    ],
+    "G_ci_bonferroni": [
+      -1.554610503836941,
+      -0.8698074022097007
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": -0.05874108320920394,
+    "G_input_control_ci95": [
+      -0.09141857792330203,
+      -0.026038358798405898
+    ],
+    "G_minus_input_control": -1.1581940863965248,
+    "G_minus_input_control_ci95": [
+      -1.3943572758724085,
+      -0.9207946418124533
+    ],
+    "G_HW": -1.1446113273965939,
+    "G_HW_ci95": [
+      -1.3923262467243684,
+      -0.902263695784442
+    ],
+    "accepted_shots_per_setting": 81.55555555555556,
+    "ideal_accepted_shots_per_setting": 316.9712624386323,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B2",
+    "job_id": "db8pmllckpjs73b1g1ng",
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 323,
+    "F_in": 0.5714285714285715,
+    "fidelity_raw": 0.3640245330021235,
+    "fidelity_raw_sd": 0.05159770025025448,
+    "G": -0.48394275632837874,
+    "G_ci95": [
+      -0.7189873548643185,
+      -0.24958235370704088
+    ],
+    "G_ci_bonferroni": [
+      -0.8198115412838763,
+      -0.1498275243562346
+    ],
+    "G_p_one_sided": 0.9998000199980002,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": 0.010131835937499965,
+    "G_input_control_ci95": [
+      -0.017151896158854055,
+      0.037293497721354193
+    ],
+    "G_minus_input_control": -0.49407459226587874,
+    "G_minus_input_control_ci95": [
+      -0.7301678154868159,
+      -0.2597039867768777
+    ],
+    "G_HW": -0.5095309447777524,
+    "G_HW_ci95": [
+      -0.7573479703276856,
+      -0.2659004079655994
+    ],
+    "accepted_shots_per_setting": 42.55555555555556,
+    "ideal_accepted_shots_per_setting": 278.1523483900973,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B2",
+    "job_id": "db8pmllckpjs73b1g1ng",
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 321,
+    "F_in": 0.6709434410388382,
+    "fidelity_raw": 0.31789159962431146,
+    "fidelity_raw_sd": 0.058896790834815596,
+    "G": -1.0729214531663447,
+    "G_ci95": [
+      -1.4301243588212724,
+      -0.718744414023609
+    ],
+    "G_ci_bonferroni": [
+      -1.5770823770287279,
+      -0.5674738425848516
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": -0.06788303246649248,
+    "G_input_control_ci95": [
+      -0.1002855337674458,
+      -0.03615531022928168
+    ],
+    "G_minus_input_control": -1.0050384206998522,
+    "G_minus_input_control_ci95": [
+      -1.3648770801488468,
+      -0.650274474001819
+    ],
+    "G_HW": -0.9873708542598748,
+    "G_HW_ci95": [
+      -1.3528683214143598,
+      -0.6376788946039513
+    ],
+    "accepted_shots_per_setting": 44.888888888888886,
+    "ideal_accepted_shots_per_setting": 316.97126243863084,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B3",
+    "job_id": "db9aenvi0auc7390bl80",
+    "instance": "H4",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 323,
+    "F_in": 0.5714285714285715,
+    "fidelity_raw": 0.28143806081969464,
+    "fidelity_raw_sd": 0.05828176076836271,
+    "G": -0.6766445247540461,
+    "G_ci95": [
+      -0.9407307451815983,
+      -0.40769745326550344
+    ],
+    "G_ci_bonferroni": [
+      -1.0478749248557127,
+      -0.27839347163067046
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": 0.03110758463541682,
+    "G_input_control_ci95": [
+      0.0046386718749998525,
+      0.057801818847656276
+    ],
+    "G_minus_input_control": -0.707752109389463,
+    "G_minus_input_control_ci95": [
+      -0.9721322524927285,
+      -0.4391550216150784
+    ],
+    "G_HW": -0.7351062206688266,
+    "G_HW_ci95": [
+      -1.0131509014669746,
+      -0.4545152861458106
+    ],
+    "accepted_shots_per_setting": 27.88888888888889,
+    "ideal_accepted_shots_per_setting": 278.15234839009764,
+    "random_flag_shots_per_setting": 32.0
+  },
+  {
+    "device": "ibm_rensselaer",
+    "block": "B3",
+    "job_id": "db9aenvi0auc7390bl80",
+    "instance": "H5",
+    "candidate_id": "hhl_m6_bounded_support",
+    "arm": "depth_probe",
+    "two_qubit_gates": 321,
+    "F_in": 0.6709434410388382,
+    "fidelity_raw": 0.3149089558590995,
+    "fidelity_raw_sd": 0.07175562839669777,
+    "G": -1.0819856814395274,
+    "G_ci95": [
+      -1.5120117969228177,
+      -0.6515471761604441
+    ],
+    "G_ci_bonferroni": [
+      -1.6947683806771778,
+      -0.46027624895439684
+    ],
+    "G_p_one_sided": 1.0,
+    "G_p_bonferroni": 1.0,
+    "G_input_control": -0.05317150055844045,
+    "G_input_control_ci95": [
+      -0.08536098162270958,
+      -0.020819961282683812
+    ],
+    "G_minus_input_control": -1.028814180881087,
+    "G_minus_input_control_ci95": [
+      -1.4563392376555948,
+      -0.5983451092154831
+    ],
+    "G_HW": -1.0154738242055812,
+    "G_HW_ci95": [
+      -1.4505384588490216,
+      -0.5889552036823138
+    ],
+    "accepted_shots_per_setting": 27.22222222222222,
+    "ideal_accepted_shots_per_setting": 316.97126243863113,
+    "random_flag_shots_per_setting": 32.0
+  }
+]

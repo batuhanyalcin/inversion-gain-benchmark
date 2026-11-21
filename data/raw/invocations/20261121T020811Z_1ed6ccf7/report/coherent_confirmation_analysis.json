@@ -1,0 +1,579 @@
+{
+  "status": "analyzed",
+  "rows": [
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XZ",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1070,
+        "postselection_rate": 0.130615234375,
+        "postselection_wilson95": [
+          0.12349082768935499,
+          0.13808590846302699
+        ],
+        "conditional_counts": [
+          368,
+          183,
+          421,
+          98
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.2408227254065851,
+        "classical_distribution_fidelity": 0.8621011553845823,
+        "tv_plugin_bootstrap95": [
+          0.20998160391125797,
+          0.27259842634116455
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.5847479590514448,
+        0.07937022158870023,
+        0.3358818193598548,
+        5.9716135175140494e-36
+      ]
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "ZZ",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1066,
+        "postselection_rate": 0.130126953125,
+        "postselection_wilson95": [
+          0.12301437118002646,
+          0.13758626019529321
+        ],
+        "conditional_counts": [
+          725,
+          116,
+          77,
+          148
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.22337971939343002,
+        "classical_distribution_fidelity": 0.9197035507950256,
+        "tv_plugin_bootstrap95": [
+          0.1942755918136927,
+          0.24964613590374898
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.9034922897499028,
+        0.03968511079435012,
+        0.01713748866139691,
+        0.03968511079435012
+      ]
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "ZZ",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1034,
+        "postselection_rate": 0.126220703125,
+        "postselection_wilson95": [
+          0.1192039511823038,
+          0.13358784197651766
+        ],
+        "conditional_counts": [
+          637,
+          157,
+          157,
+          83
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.28743813114255273,
+        "classical_distribution_fidelity": 0.8670093612789509,
+        "tv_plugin_bootstrap95": [
+          0.25455611953713686,
+          0.31652420464351977
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.9034922897499028,
+        0.03968511079435012,
+        0.01713748866139691,
+        0.03968511079435012
+      ]
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XX",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1112,
+        "postselection_rate": 0.1357421875,
+        "postselection_wilson95": [
+          0.12849562445689638,
+          0.14333021185463957
+        ],
+        "conditional_counts": [
+          540,
+          217,
+          236,
+          119
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.12280755931732512,
+        "classical_distribution_fidelity": 0.9787856684511654,
+        "tv_plugin_bootstrap95": [
+          0.08951169600797257,
+          0.1515845377345913
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.547492548917973,
+        0.11662563172217177,
+        0.16794090967992734,
+        0.16794090967992734
+      ]
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XX",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1085,
+        "postselection_rate": 0.1324462890625,
+        "postselection_wilson95": [
+          0.12527783825167094,
+          0.1399592908146946
+        ],
+        "conditional_counts": [
+          432,
+          158,
+          208,
+          287
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.14933586689032355,
+        "classical_distribution_fidelity": 0.9749772557786271,
+        "tv_plugin_bootstrap95": [
+          0.11980167073831251,
+          0.17882895444792718
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.547492548917973,
+        0.11662563172217177,
+        0.16794090967992734,
+        0.16794090967992734
+      ]
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XZ",
+      "metrics": {
+        "total_shots": 8192,
+        "accepted_shots": 1151,
+        "postselection_rate": 0.1405029296875,
+        "postselection_wilson95": [
+          0.13314610669089552,
+          0.14819675119699774
+        ],
+        "conditional_counts": [
+          597,
+          196,
+          285,
+          73
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.15433959596125624,
+        "classical_distribution_fidelity": 0.9127306671528161,
+        "tv_plugin_bootstrap95": [
+          0.12914411377185575,
+          0.1777974586893188
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      },
+      "target_probabilities": [
+        0.5847479590514448,
+        0.07937022158870023,
+        0.3358818193598548,
+        5.9716135175140494e-36
+      ]
+    }
+  ],
+  "technical_repeats": [
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XZ",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 559,
+        "postselection_rate": 0.136474609375,
+        "postselection_wilson95": [
+          0.1263015123976619,
+          0.14732893650837653
+        ],
+        "conditional_counts": [
+          191,
+          100,
+          216,
+          52
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.24306638481173112,
+        "classical_distribution_fidelity": 0.858223727087159,
+        "tv_plugin_bootstrap95": [
+          0.20192148320171327,
+          0.27884456012479014
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "ZZ",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 543,
+        "postselection_rate": 0.132568359375,
+        "postselection_wilson95": [
+          0.12252681267148956,
+          0.1432984563705439
+        ],
+        "conditional_counts": [
+          377,
+          57,
+          42,
+          67
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.20920131369097095,
+        "classical_distribution_fidelity": 0.9272573513693765,
+        "tv_plugin_bootstrap95": [
+          0.17232286065229693,
+          0.24792138735579597
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "ZZ",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 505,
+        "postselection_rate": 0.123291015625,
+        "postselection_wilson95": [
+          0.11357408800952114,
+          0.13371387885550057
+        ],
+        "conditional_counts": [
+          317,
+          69,
+          74,
+          45
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.2757695174726751,
+        "classical_distribution_fidelity": 0.8766655304539573,
+        "tv_plugin_bootstrap95": [
+          0.2400764481657444,
+          0.3193338739083187
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XX",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 578,
+        "postselection_rate": 0.14111328125,
+        "postselection_wilson95": [
+          0.13078770019599445,
+          0.15211139979854987
+        ],
+        "conditional_counts": [
+          291,
+          113,
+          125,
+          49
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.12719816448025356,
+        "classical_distribution_fidelity": 0.972017752813226,
+        "tv_plugin_bootstrap95": [
+          0.09084649089571256,
+          0.1704507596359629
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XX",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 532,
+        "postselection_rate": 0.1298828125,
+        "postselection_wilson95": [
+          0.11993343267861027,
+          0.1405257752069198
+        ],
+        "conditional_counts": [
+          228,
+          74,
+          101,
+          129
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.11892112034654474,
+        "classical_distribution_fidelity": 0.9843040570693302,
+        "tv_plugin_bootstrap95": [
+          0.08128014290293571,
+          0.15468239854203342
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XZ",
+      "repeat": 0,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 564,
+        "postselection_rate": 0.1376953125,
+        "postselection_wilson95": [
+          0.1274817014658189,
+          0.14858786614772107
+        ],
+        "conditional_counts": [
+          288,
+          95,
+          151,
+          30
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.14226098408505858,
+        "classical_distribution_fidelity": 0.9253272719823806,
+        "tv_plugin_bootstrap95": [
+          0.11034609046803731,
+          0.17772197699285996
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XZ",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 587,
+        "postselection_rate": 0.143310546875,
+        "postselection_wilson95": [
+          0.13291410538012935,
+          0.15437540828791776
+        ],
+        "conditional_counts": [
+          309,
+          101,
+          134,
+          43
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.1659449402511634,
+        "classical_distribution_fidelity": 0.8997924174774481,
+        "tv_plugin_bootstrap95": [
+          0.13864511060891468,
+          0.20172006801947687
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XZ",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 511,
+        "postselection_rate": 0.124755859375,
+        "postselection_wilson95": [
+          0.11498649118324551,
+          0.13522841813077807
+        ],
+        "conditional_counts": [
+          177,
+          83,
+          205,
+          46
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.23836831130193414,
+        "classical_distribution_fidelity": 0.8661487873781478,
+        "tv_plugin_bootstrap95": [
+          0.193358526566122,
+          0.27369120758373444
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "XX",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 534,
+        "postselection_rate": 0.13037109375,
+        "postselection_wilson95": [
+          0.12040484964986685,
+          0.1410300057186638
+        ],
+        "conditional_counts": [
+          249,
+          104,
+          111,
+          70
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.11805518144434261,
+        "classical_distribution_fidelity": 0.9824524266829553,
+        "tv_plugin_bootstrap95": [
+          0.07868252226831264,
+          0.15555518144434258
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "hhl",
+      "candidate_id": "hhl_m4_bounded_support",
+      "setting": "ZZ",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 529,
+        "postselection_rate": 0.129150390625,
+        "postselection_wilson95": [
+          0.1192263970999399,
+          0.13976933956108925
+        ],
+        "conditional_counts": [
+          320,
+          88,
+          83,
+          38
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.2985773559124737,
+        "classical_distribution_fidelity": 0.8570648095225422,
+        "tv_plugin_bootstrap95": [
+          0.26266053171587633,
+          0.3420556167820389
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "XX",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 553,
+        "postselection_rate": 0.135009765625,
+        "postselection_wilson95": [
+          0.12488565692661238,
+          0.14581784953042418
+        ],
+        "conditional_counts": [
+          204,
+          84,
+          107,
+          158
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.17859562305902213,
+        "classical_distribution_fidelity": 0.9639735219920046,
+        "tv_plugin_bootstrap95": [
+          0.131579348194646,
+          0.21837862486734044
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    },
+    {
+      "algorithm": "qsvt",
+      "candidate_id": "qsvt_d5",
+      "setting": "ZZ",
+      "repeat": 1,
+      "metrics": {
+        "total_shots": 4096,
+        "accepted_shots": 523,
+        "postselection_rate": 0.127685546875,
+        "postselection_wilson95": [
+          0.11781265237516665,
+          0.13825614183686064
+        ],
+        "conditional_counts": [
+          348,
+          59,
+          35,
+          81
+        ],
+        "uncertainty_scope": "single-job finite shots only; excludes drift, training and calibration uncertainty",
+        "status": "ok",
+        "total_variation": 0.2381003203426371,
+        "classical_distribution_fidelity": 0.9111255070913417,
+        "tv_plugin_bootstrap95": [
+          0.1998594025606103,
+          0.27825328401376515
+        ],
+        "interpretation": "Z-basis distribution similarity does not certify quantum-state fidelity or signs"
+      }
+    }
+  ],
+  "certified_state_fidelity": null,
+  "scope": "Three conditional basis distributions, one job, two technical repeats; raw flag errors and measurement error remain."
+}

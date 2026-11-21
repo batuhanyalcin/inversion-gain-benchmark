@@ -1,0 +1,1773 @@
+{
+  "num_qubits": 16,
+  "dt": 2.2222222222222221e-10,
+  "granularity": 1,
+  "min_length": 1,
+  "pulse_alignment": 1,
+  "acquire_alignment": 1,
+  "qubit_properties": [
+    {
+      "t1": 4.48664962391536e-05,
+      "t2": 7.706572105507511e-05,
+      "frequency": 5113287233.682569
+    },
+    {
+      "t1": 4.6005663429219016e-05,
+      "t2": 5.9535641342337485e-05,
+      "frequency": 5161150201.378155
+    },
+    {
+      "t1": 8.143578739876678e-05,
+      "t2": 8.811642710004088e-05,
+      "frequency": 5310981876.253276
+    },
+    {
+      "t1": 5.2296768049651665e-05,
+      "t2": 8.848501866991459e-05,
+      "frequency": 5460448930.750244
+    },
+    {
+      "t1": 9.228935322456856e-05,
+      "t2": 0.00014248541267143785,
+      "frequency": 5353538224.875418
+    },
+    {
+      "t1": 8.306894997232652e-05,
+      "t2": 9.786176656246427e-05,
+      "frequency": 5303499127.648005
+    },
+    {
+      "t1": 9.177161226304673e-05,
+      "t2": 1.454626401296732e-05,
+      "frequency": 5136349963.513571
+    },
+    {
+      "t1": 6.173188844064349e-05,
+      "t2": 0.00011917108879767619,
+      "frequency": 5202524092.870788
+    },
+    {
+      "t1": 4.8481829065332864e-05,
+      "t2": 8.317425952207177e-05,
+      "frequency": 5174630057.543702
+    },
+    {
+      "t1": 8.641625058817381e-05,
+      "t2": 9.611263316998512e-05,
+      "frequency": 5253691225.3955145
+    },
+    {
+      "t1": 4.8090326475205935e-05,
+      "t2": 7.311693760722952e-05,
+      "frequency": 5426601210.466529
+    },
+    {
+      "t1": 6.55793982714956e-05,
+      "t2": 7.094732444176237e-05,
+      "frequency": 5390182566.643148
+    },
+    {
+      "t1": 7.813937411620277e-05,
+      "t2": 0.00011910004063318897,
+      "frequency": 5263121972.591449
+    },
+    {
+      "t1": 0.00011914061935940366,
+      "t2": 0.00010091206045820215,
+      "frequency": 5038192107.916566
+    },
+    {
+      "t1": 3.8890706410067616e-05,
+      "t2": 7.249670238832321e-05,
+      "frequency": 5205024066.7912
+    },
+    {
+      "t1": 8.483784605330976e-05,
+      "t2": 0.00010711315517040135,
+      "frequency": 5125420414.49287
+    }
+  ],
+  "instructions": [
+    {
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.342222222222222e-07,
+      "error": 0.00969047789903843,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        1,
+        0
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.697777777777778e-07,
+      "error": 0.00969047789903843,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 5.048888888888888e-07,
+      "error": 0.015158086379367053,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        1,
+        4
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 2.9866666666666664e-07,
+      "error": 0.007311425454015613,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        2,
+        1
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.693333333333333e-07,
+      "error": 0.015158086379367053,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.835555555555555e-07,
+      "error": 0.01365431150720578,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 5.191111111111111e-07,
+      "error": 0.01365431150720578,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        3,
+        5
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 5.831111111111111e-07,
+      "error": 0.01282132407359346,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        4,
+        1
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 2.6311111111111107e-07,
+      "error": 0.007311425454015613,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        4,
+        7
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 5.12e-07,
+      "error": 0.011911449632837301,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        5,
+        3
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 5.475555555555556e-07,
+      "error": 0.01282132407359346,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        5,
+        8
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 2.702222222222222e-07,
+      "error": 0.008867951504989563,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        6,
+        7
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.053333333333333e-07,
+      "error": 0.006945819014654353,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        7,
+        4
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.764444444444444e-07,
+      "error": 0.011911449632837301,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        7,
+        6
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.697777777777778e-07,
+      "error": 0.006945819014654353,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        7,
+        10
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 2.9866666666666664e-07,
+      "error": 0.006761672131573249,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        8,
+        5
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.0577777777777775e-07,
+      "error": 0.008867951504989563,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        8,
+        9
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.124444444444444e-07,
+      "error": 0.01271792409102479,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        8,
+        11
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.484444444444444e-07,
+      "error": 0.009195745722541115,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        9,
+        8
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.48e-07,
+      "error": 0.01271792409102479,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        10,
+        7
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 2.6311111111111107e-07,
+      "error": 0.006761672131573249,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        10,
+        12
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.7688888888888884e-07,
+      "error": 0.019895107721496635,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        11,
+        8
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.1288888888888885e-07,
+      "error": 0.009195745722541115,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        11,
+        14
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.484444444444444e-07,
+      "error": 0.010583335442069547,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        12,
+        10
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.413333333333333e-07,
+      "error": 0.019895107721496635,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        12,
+        13
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.484444444444444e-07,
+      "error": 0.007201501511472724,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        12,
+        15
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.7688888888888884e-07,
+      "error": 0.007803807902862725,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        13,
+        12
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.84e-07,
+      "error": 0.007201501511472724,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        13,
+        14
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.9822222222222215e-07,
+      "error": 0.01209100682453551,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        14,
+        11
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 3.84e-07,
+      "error": 0.010583335442069547,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        14,
+        13
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.337777777777778e-07,
+      "error": 0.01209100682453551,
+      "calibration": "None"
+    },
+    {
+      "name": "cx",
+      "qubits": [
+        15,
+        12
+      ],
+      "operation_class": "_SingletonCXGate",
+      "parameters": [],
+      "duration_seconds": 4.124444444444444e-07,
+      "error": 0.007803807902862725,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        0
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        1
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        2
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        3
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        4
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        5
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        6
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        7
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        8
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        9
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        10
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        11
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        12
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        13
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        14
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "delay",
+      "qubits": [
+        15
+      ],
+      "operation_class": "Delay",
+      "parameters": [
+        "t"
+      ],
+      "duration_seconds": null,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        0
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00036001433329410507,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        1
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004288454437029236,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        2
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004191205131653603,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        3
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0017508607261466425,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        4
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025755287254214013,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        5
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0003811528497098155,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        6
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002216000653717492,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        7
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002722356128960255,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        8
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004024063563504634,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        9
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025587670962186424,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        10
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00033961477099807,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        11
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002732616178805673,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        12
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00022004976915520247,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        13
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002459062818245387,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        14
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00037593078789548986,
+      "calibration": "None"
+    },
+    {
+      "name": "id",
+      "qubits": [
+        15
+      ],
+      "operation_class": "_SingletonIGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00024991554927893367,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.013600000000000056,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.020499999999999963,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.01629999999999998,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.03149999999999997,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.014799999999999924,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        5
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.01970000000000005,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        6
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.011500000000000066,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        7
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.020299999999999985,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        8
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.0605,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        9
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.015499999999999958,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        10
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.016199999999999992,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        11
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.014399999999999968,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        12
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.019100000000000006,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        13
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.011700000000000044,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        14
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.02089999999999992,
+      "calibration": "None"
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        15
+      ],
+      "operation_class": "_SingletonMeasure",
+      "parameters": [],
+      "duration_seconds": 5.35111111111111e-06,
+      "error": 0.010599999999999943,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        0
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        1
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        2
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        3
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        4
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        6
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        7
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        9
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        10
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        12
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        13
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        14
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "reset",
+      "qubits": [
+        15
+      ],
+      "operation_class": "_SingletonReset",
+      "parameters": [],
+      "duration_seconds": 7.342222222222222e-06,
+      "error": null,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        4
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        5
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        6
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        7
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        8
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        9
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        10
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        11
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        12
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        13
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        14
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        15
+      ],
+      "operation_class": "RZGate",
+      "parameters": [
+        "\u03bb"
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00036001433329410507,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004288454437029236,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004191205131653603,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0017508607261466425,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        4
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025755287254214013,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        5
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0003811528497098155,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        6
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002216000653717492,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        7
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002722356128960255,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        8
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004024063563504634,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        9
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025587670962186424,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        10
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00033961477099807,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        11
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002732616178805673,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        12
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00022004976915520247,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        13
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002459062818245387,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        14
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00037593078789548986,
+      "calibration": "None"
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        15
+      ],
+      "operation_class": "_SingletonSXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00024991554927893367,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        0
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00036001433329410507,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        1
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004288454437029236,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        2
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004191205131653603,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        3
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0017508607261466425,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        4
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025755287254214013,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0003811528497098155,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        6
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002216000653717492,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        7
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002722356128960255,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        8
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0004024063563504634,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        9
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00025587670962186424,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        10
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00033961477099807,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        11
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002732616178805673,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        12
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00022004976915520247,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        13
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.0002459062818245387,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        14
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00037593078789548986,
+      "calibration": "None"
+    },
+    {
+      "name": "x",
+      "qubits": [
+        15
+      ],
+      "operation_class": "_SingletonXGate",
+      "parameters": [],
+      "duration_seconds": 3.5555555555555554e-08,
+      "error": 0.00024991554927893367,
+      "calibration": "None"
+    }
+  ],
+  "scope": "all public Target instruction locations, errors, durations, parameters and qubit properties; public BackendProperties archived separately"
+}

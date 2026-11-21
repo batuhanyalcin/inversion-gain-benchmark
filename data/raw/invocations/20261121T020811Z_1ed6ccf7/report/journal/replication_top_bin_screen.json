@@ -1,0 +1,242 @@
+[
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "rejected",
+    "operator_relative_error": 0.05586137511086145,
+    "residual": 0.02155576755906056,
+    "success_probability": 0.17258761048609536,
+    "offline_two_qubit_gates": 61
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "accepted",
+    "operator_relative_error": 0.002734003206963878,
+    "residual": 0.0016715628418757635,
+    "success_probability": 0.1868765517488276,
+    "offline_two_qubit_gates": 93
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.01134534024743259,
+    "residual": 0.004198302173173586,
+    "success_probability": 0.1841623217117969,
+    "offline_two_qubit_gates": 138
+  },
+  {
+    "instance": "D0",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.0017421268404551244,
+    "residual": 0.001064613243233795,
+    "success_probability": 0.18703211917106416,
+    "offline_two_qubit_gates": 200
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "rejected",
+    "operator_relative_error": 0.042984224485745307,
+    "residual": 0.025337427996365434,
+    "success_probability": 0.15642145800737992,
+    "offline_two_qubit_gates": 58
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "accepted",
+    "operator_relative_error": 0.013768546818367124,
+    "residual": 0.009558515986061793,
+    "success_probability": 0.15944089208981496,
+    "offline_two_qubit_gates": 92
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.014941512219490756,
+    "residual": 0.00616155439833257,
+    "success_probability": 0.1568689268095572,
+    "offline_two_qubit_gates": 136
+  },
+  {
+    "instance": "H1",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.0016696986955929119,
+    "residual": 0.0012100369583166039,
+    "success_probability": 0.15956911991302322,
+    "offline_two_qubit_gates": 200
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "accepted",
+    "operator_relative_error": 0.020189528176837158,
+    "residual": 0.012385780016409546,
+    "success_probability": 0.0680393218086928,
+    "offline_two_qubit_gates": 56
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "accepted",
+    "operator_relative_error": 0.00722281052621945,
+    "residual": 0.008342875378217986,
+    "success_probability": 0.06572025083853889,
+    "offline_two_qubit_gates": 90
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.006703374205774244,
+    "residual": 0.0019534380385664673,
+    "success_probability": 0.0650061460366536,
+    "offline_two_qubit_gates": 132
+  },
+  {
+    "instance": "H2",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.007286473539764895,
+    "residual": 0.002216663894834055,
+    "success_probability": 0.06612675005920358,
+    "offline_two_qubit_gates": 194
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "rejected",
+    "operator_relative_error": 0.05838451742879074,
+    "residual": 0.022713080940842664,
+    "success_probability": 0.11071955696823063,
+    "offline_two_qubit_gates": 316
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "rejected",
+    "operator_relative_error": 0.03253928874524552,
+    "residual": 0.017531467790037815,
+    "success_probability": 0.11023331737782267,
+    "offline_two_qubit_gates": 432
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.0064417776092510195,
+    "residual": 0.004289660836735945,
+    "success_probability": 0.11299917575266989,
+    "offline_two_qubit_gates": 565
+  },
+  {
+    "instance": "H3",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.004663601969548392,
+    "residual": 0.004014413514695776,
+    "success_probability": 0.11121519207900354,
+    "offline_two_qubit_gates": 712
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "accepted",
+    "operator_relative_error": 0.027821162416190027,
+    "residual": 0.011962849565852477,
+    "success_probability": 0.0735260213694102,
+    "offline_two_qubit_gates": 60
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "accepted",
+    "operator_relative_error": 5.237876695451465e-15,
+    "residual": 2.795676823295618e-15,
+    "success_probability": 0.07000000000000023,
+    "offline_two_qubit_gates": 86
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.012227849687902347,
+    "residual": 0.0052786039707470095,
+    "success_probability": 0.07153782623023686,
+    "offline_two_qubit_gates": 136
+  },
+  {
+    "instance": "H4",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.019986473649642195,
+    "residual": 0.008697527838314211,
+    "success_probability": 0.067526656989354,
+    "offline_two_qubit_gates": 200
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m3_top_bin",
+    "n_qpe": 3,
+    "status": "rejected",
+    "operator_relative_error": 0.03426589847369123,
+    "residual": 0.02972834165715373,
+    "success_probability": 0.08414148331182238,
+    "offline_two_qubit_gates": 58
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m4_top_bin",
+    "n_qpe": 4,
+    "status": "accepted",
+    "operator_relative_error": 0.013921777759993969,
+    "residual": 0.020766777001755114,
+    "success_probability": 0.07832248610560438,
+    "offline_two_qubit_gates": 92
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m5_top_bin",
+    "n_qpe": 5,
+    "status": "accepted",
+    "operator_relative_error": 0.013444708053274298,
+    "residual": 0.008152263020341095,
+    "success_probability": 0.0805868695176353,
+    "offline_two_qubit_gates": 132
+  },
+  {
+    "instance": "H5",
+    "candidate_id": "hhl_m6_top_bin",
+    "n_qpe": 6,
+    "status": "accepted",
+    "operator_relative_error": 0.013994348572955754,
+    "residual": 0.00849300952954089,
+    "success_probability": 0.07682517581512505,
+    "offline_two_qubit_gates": 194
+  }
+]

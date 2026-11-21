@@ -1,0 +1,18 @@
+device,block,group,arm,circuits,raw_shots,estimated_qpu_seconds,planning_source,calibration_last_update
+ibm_rensselaer,B1,A,mitigation,35,143360,39.725159424,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,A,raw,67,274432,75.516285952,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,B,mitigation,42,172032,47.87973836799999,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,B,raw,84,344064,94.802547712,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,C,raw,82,335872,94.59855052800008,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,D,raw,48,196608,59.20021401600014,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_rensselaer,B1,E,raw,86,352256,92.187726848,latest archived live snapshot at pre-registration (frozen),2026-10-05 16:27:57-04:00
+ibm_kingston,B1,A,raw,65,266240,72.90595430399999,FakeKingston packaged snapshot,2026-04-15 09:15:15+02:00
+ibm_kingston,B1,B,raw,84,344064,94.25804185599999,FakeKingston packaged snapshot,2026-04-15 09:15:15+02:00
+ibm_kingston,B1,C,raw,82,335872,93.49933158400002,FakeKingston packaged snapshot,2026-04-15 09:15:15+02:00
+ibm_kingston,B1,D,raw,48,196608,57.5084021760001,FakeKingston packaged snapshot,2026-04-15 09:15:15+02:00
+ibm_kingston,B1,E,raw,86,352256,92.14263807999998,FakeKingston packaged snapshot,2026-04-15 09:15:15+02:00
+ibm_boston,B1,A,raw,65,266240,72.846103552,FakeBoston packaged snapshot,2026-04-17 12:19:24+02:00
+ibm_boston,B1,B,raw,84,344064,94.18883584000001,FakeBoston packaged snapshot,2026-04-17 12:19:24+02:00
+ibm_boston,B1,C,raw,82,335872,93.44795136000003,FakeBoston packaged snapshot,2026-04-17 12:19:24+02:00
+ibm_boston,B1,D,raw,48,196608,57.420977152000106,FakeBoston packaged snapshot,2026-04-17 12:19:24+02:00
+ibm_boston,B1,E,raw,86,352256,92.08627712,FakeBoston packaged snapshot,2026-04-17 12:19:24+02:00

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the article."
 title: "Inversion Gain: code and data for a verification-first hardware benchmark of HHL, QSVT and VQLS"
 type: software
-version: "1.1"
+version: "1.2"
 license: MIT
 repository-code: "https://github.com/batuhanyalcin/inversion-gain-benchmark"
 doi: 10.5281/zenodo.24047566
@@ -10,6 +10,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.24047567
     description: "Release v1.0"
+  - type: doi
+    value: 10.5281/zenodo.24323769
+    description: "Release v1.1: registration of the replication design"
 authors:
   - family-names: Yalcin
     given-names: Batuhan

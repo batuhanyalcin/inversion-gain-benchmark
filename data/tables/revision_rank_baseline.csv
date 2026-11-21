@@ -1,0 +1,7 @@
+device,scope,cells,spearman_thermal_idle_job_start,spearman_cz_count_only
+ibm_boston,all_cells,32,0.9475806451612904,0.7386992463708909
+ibm_boston,solver_cells,20,0.8887218045112781,0.7859286353985703
+ibm_kingston,all_cells,32,0.9321847507331377,0.8001495469960814
+ibm_kingston,solver_cells,20,0.8210526315789473,0.8321597315984862
+ibm_rensselaer,all_cells,103,0.9614306387535344,0.8200488278009446
+ibm_rensselaer,solver_cells,67,0.9367123993911634,0.908537841572085

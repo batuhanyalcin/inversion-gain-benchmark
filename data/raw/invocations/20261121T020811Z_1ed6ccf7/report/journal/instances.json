@@ -1,0 +1,86 @@
+[
+  {
+    "instance": "D0",
+    "nodes": 4,
+    "gamma": 8.0,
+    "kappa": 1.5000000000000007,
+    "F_in": 0.9775948574009468,
+    "kantorovich_min_F_in": 0.9599999999999997,
+    "input_target_z_tv": 0.06738149665786416,
+    "sparse_direct_median_us": 25.539000489516184,
+    "cg_median_us": 74.53899888787419,
+    "role": "development control; already measured on 14 Sep and 5 Oct 2026"
+  },
+  {
+    "instance": "H1",
+    "nodes": 4,
+    "gamma": 2.0,
+    "kappa": 2.951672307500251,
+    "F_in": 0.957957685848791,
+    "kantorovich_min_F_in": 0.7560774493209561,
+    "input_target_z_tv": 0.04204231415120894,
+    "sparse_direct_median_us": 26.641000204108423,
+    "cg_median_us": 98.7049998002476,
+    "role": "held-out, declared 4 Oct: weighted path with localized source"
+  },
+  {
+    "instance": "H2",
+    "nodes": 4,
+    "gamma": 2.0,
+    "kappa": 3.0208416343308637,
+    "F_in": 0.9844800222441549,
+    "kantorovich_min_F_in": 0.7474015826156887,
+    "input_target_z_tv": 0.015502771572080817,
+    "sparse_direct_median_us": 26.56500009834417,
+    "cg_median_us": 75.22499981860165,
+    "role": "held-out, declared 4 Oct: weighted cycle with signed source"
+  },
+  {
+    "instance": "H3",
+    "nodes": 8,
+    "gamma": 2.0,
+    "kappa": 3.0914126544181606,
+    "F_in": 0.9204288926507722,
+    "kantorovich_min_F_in": 0.7387039197917578,
+    "input_target_z_tv": 0.07957110734922773,
+    "sparse_direct_median_us": 29.76399991894141,
+    "cg_median_us": 152.25600009216578,
+    "role": "held-out size transfer, declared 4 Oct: weighted 8-cycle"
+  },
+  {
+    "instance": "H4",
+    "nodes": 4,
+    "gamma": 1.0,
+    "kappa": 5.0,
+    "F_in": 0.5714285714285715,
+    "kantorovich_min_F_in": 0.5555555555555556,
+    "input_target_z_tv": 0.4285714285714286,
+    "sparse_direct_median_us": 27.68500007732655,
+    "cg_median_us": 65.31600001835614,
+    "role": "held-out inversion-sensitive, declared 11 Oct: star with hub source"
+  },
+  {
+    "instance": "H5",
+    "nodes": 4,
+    "gamma": 1.0,
+    "kappa": 5.041683268661731,
+    "F_in": 0.6709434410388382,
+    "kantorovich_min_F_in": 0.5524839196887122,
+    "input_target_z_tv": 0.32905655896116187,
+    "sparse_direct_median_us": 27.556000077311182,
+    "cg_median_us": 101.30500004379428,
+    "role": "held-out inversion-sensitive, declared 11 Oct: weighted cycle, opposite-node source"
+  },
+  {
+    "instance": "H6",
+    "nodes": 16,
+    "gamma": 1.0,
+    "kappa": 5.423807608113754,
+    "F_in": 0.7981713288589698,
+    "kantorovich_min_F_in": 0.5257499214021036,
+    "input_target_z_tv": 0.2018286711410302,
+    "sparse_direct_median_us": 34.07699978197343,
+    "cg_median_us": 278.02100021290244,
+    "role": "exploratory VQLS scale probe, declared 11 Oct: weighted 16-cycle"
+  }
+]

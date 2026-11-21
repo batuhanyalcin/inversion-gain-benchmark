@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-21T02:09:29.999430+00:00",
+  "stage": "read_only_hardware_collection",
+  "key": "a134bf8d541e0aa0e89d2681d59fa6f25dee7a65c6332d35ca26c877ff2e0751",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-11-20T18:11:18.793297+00:00",
+  "original_invocation_id": "20261120T173908Z_27f6db07",
+  "attempt_id": "d89b71adb17f4584908acfdf1c1a6cdb"
+}

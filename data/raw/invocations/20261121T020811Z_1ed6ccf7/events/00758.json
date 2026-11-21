@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-21T02:12:36.277898+00:00",
+  "stage": "journal_revision_decision",
+  "key": "7f136e6f82883f6eb662c341b37b98e4eb8a5dc02124b69f1b0ebab896dc6650",
+  "action": "loaded_existing",
+  "original_completed_utc": "2026-11-18T23:10:21.248944+00:00",
+  "original_invocation_id": "20261118T224857Z_c521b689",
+  "attempt_id": "eb3a3d26d6a74d91b6d9fc5802b5593b"
+}

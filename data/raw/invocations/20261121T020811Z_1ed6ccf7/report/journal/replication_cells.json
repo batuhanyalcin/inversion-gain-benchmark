@@ -1,0 +1,657 @@
+[
+  {
+    "block": "R1",
+    "job": "C",
+    "job_id": "dbudfvvf8rhs73bm1fm0",
+    "endpoint": "P1",
+    "cell": "H4:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.38955359034883646,
+    "G": -0.4243749558527152,
+    "G_ci95": [
+      -0.5744268719132647,
+      -0.27767496861321084
+    ],
+    "G_mitigated": -0.44376651186168026,
+    "accepted_shots_per_setting": 110.33333333333333,
+    "G_predicted_compile": 0.21699991661214102,
+    "G_predicted_job_start": 0.21699991661214102,
+    "G_HW_same_qubits": -0.4109691898173361,
+    "G_minus_G_b_same_qubits": -0.399305330365123,
+    "G_minus_G_b_vqls_qubits": -0.42288976705063197
+  },
+  {
+    "block": "R1",
+    "job": "V",
+    "job_id": "dbudgheps3fc73bikakg",
+    "endpoint": "P2",
+    "cell": "H4r:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.6945035520235749,
+    "G": 0.2871749547216751,
+    "G_ci95": [
+      0.18519541553139915,
+      0.3819666003563321
+    ],
+    "G_mitigated": 0.3156900687452918,
+    "accepted_shots_per_setting": 231.77777777777777,
+    "G_predicted_compile": 0.6322905870797679,
+    "G_predicted_job_start": 0.6322905870797679,
+    "G_HW_same_qubits": 0.2954923396088797,
+    "G_minus_G_b_same_qubits": 0.28497768909667415
+  },
+  {
+    "block": "R1",
+    "job": "C",
+    "job_id": "dbudfvvf8rhs73bm1fm0",
+    "endpoint": "H5_m6",
+    "cell": "H5:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 383,
+    "fidelity_raw": 0.29858515705420724,
+    "G": -1.1315935630037997,
+    "G_ci95": [
+      -1.3404880024704686,
+      -0.9231215986077806
+    ],
+    "G_mitigated": -1.1657416819765252,
+    "accepted_shots_per_setting": 106.0,
+    "G_predicted_compile": 0.07559728470399239,
+    "G_predicted_job_start": 0.07559728470399239
+  },
+  {
+    "block": "R1",
+    "job": "V",
+    "job_id": "dbudgheps3fc73bikakg",
+    "endpoint": "H4_top_bin",
+    "cell": "H4:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 161,
+    "fidelity_raw": 0.8501201529387422,
+    "G": 0.6502803568570651,
+    "G_ci95": [
+      0.5506683171371317,
+      0.7490069197787975
+    ],
+    "G_mitigated": 0.6551003859592855,
+    "accepted_shots_per_setting": 241.77777777777777,
+    "G_predicted_compile": 0.6974919822710667,
+    "G_predicted_job_start": 0.6974919822710667
+  },
+  {
+    "block": "R1",
+    "job": "V",
+    "job_id": "dbudgheps3fc73bikakg",
+    "endpoint": "H5_top_bin",
+    "cell": "H5:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.8379055599773648,
+    "G": 0.5073964167911723,
+    "G_ci95": [
+      0.38112569837798876,
+      0.6341188171374862
+    ],
+    "G_mitigated": 0.5415309277979404,
+    "accepted_shots_per_setting": 250.44444444444446,
+    "G_predicted_compile": 0.590747699235145,
+    "G_predicted_job_start": 0.590747699235145
+  },
+  {
+    "block": "R1",
+    "job": "V",
+    "job_id": "dbudgheps3fc73bikakg",
+    "endpoint": "H4r_m6",
+    "cell": "H4r:hhl_m6_bounded_support:relabeled",
+    "two_qubit_gates": 386,
+    "fidelity_raw": 0.48517687797875153,
+    "G": -0.2012539513829127,
+    "G_ci95": [
+      -0.3718946687166672,
+      -0.03459836281238607
+    ],
+    "G_mitigated": -0.16229753579943154,
+    "accepted_shots_per_setting": 93.66666666666667,
+    "G_predicted_compile": 0.21615421336650312,
+    "G_predicted_job_start": 0.21615421336650312
+  },
+  {
+    "block": "R1",
+    "job": "V",
+    "job_id": "dbudgheps3fc73bikakg",
+    "endpoint": "decision_circuit_in_V",
+    "cell": "H4:hhl_m6_bounded_support:basis_input_0",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.4087118478122688,
+    "G": -0.3796723551047063,
+    "G_ci95": [
+      -0.5497103144013955,
+      -0.2109524293959162
+    ],
+    "G_mitigated": -0.3830759786457495,
+    "accepted_shots_per_setting": 101.55555555555556,
+    "G_predicted_compile": 0.21699991661214102,
+    "G_predicted_job_start": 0.21699991661214102
+  },
+  {
+    "block": "R2",
+    "job": "C",
+    "job_id": "dbuuii782tmc73du4kc0",
+    "endpoint": "P1",
+    "cell": "H4:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6691248583824445,
+    "G": 0.2279580028923704,
+    "G_ci95": [
+      0.10163680211912468,
+      0.35277250844337743
+    ],
+    "G_mitigated": 0.26426758815857354,
+    "accepted_shots_per_setting": 157.66666666666666,
+    "G_predicted_compile": 0.18875383949113655,
+    "G_predicted_job_start": 0.18875383949113655,
+    "G_HW_same_qubits": 0.06946891156686988,
+    "G_minus_G_b_same_qubits": 0.06887106509891769,
+    "G_minus_G_b_vqls_qubits": 0.24486474117362048
+  },
+  {
+    "block": "R2",
+    "job": "V",
+    "job_id": "dbuuitlarooc73fklp3g",
+    "endpoint": "P2",
+    "cell": "H4r:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.7950640797197013,
+    "G": 0.5218161860126365,
+    "G_ci95": [
+      0.4319994903378262,
+      0.6104103635732373
+    ],
+    "G_mitigated": 0.541860294189278,
+    "accepted_shots_per_setting": 255.66666666666666,
+    "G_predicted_compile": 0.683803480055853,
+    "G_predicted_job_start": 0.683803480055853,
+    "G_HW_same_qubits": 0.5231780712289749,
+    "G_minus_G_b_same_qubits": 0.5085105219501352
+  },
+  {
+    "block": "R2",
+    "job": "C",
+    "job_id": "dbuuii782tmc73du4kc0",
+    "endpoint": "H5_m6",
+    "cell": "H5:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 383,
+    "fidelity_raw": 0.6617105176100936,
+    "G": -0.028058773415406534,
+    "G_ci95": [
+      -0.18924710352297305,
+      0.13400221066952023
+    ],
+    "G_mitigated": -0.0018922614657884372,
+    "accepted_shots_per_setting": 178.88888888888889,
+    "G_predicted_compile": 0.05332841414237153,
+    "G_predicted_job_start": 0.05332841414237153
+  },
+  {
+    "block": "R2",
+    "job": "V",
+    "job_id": "dbuuitlarooc73fklp3g",
+    "endpoint": "H4_top_bin",
+    "cell": "H4:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 161,
+    "fidelity_raw": 0.7487907293826893,
+    "G": 0.41384503522627497,
+    "G_ci95": [
+      0.30989652008128143,
+      0.5133790983228836
+    ],
+    "G_mitigated": 0.4177445364077887,
+    "accepted_shots_per_setting": 255.77777777777777,
+    "G_predicted_compile": 0.699750148388801,
+    "G_predicted_job_start": 0.699750148388801
+  },
+  {
+    "block": "R2",
+    "job": "V",
+    "job_id": "dbuuitlarooc73fklp3g",
+    "endpoint": "H5_top_bin",
+    "cell": "H5:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.8204882322251138,
+    "G": 0.4544653103356807,
+    "G_ci95": [
+      0.3266026550371167,
+      0.5806351816079837
+    ],
+    "G_mitigated": 0.5332476889765345,
+    "accepted_shots_per_setting": 241.77777777777777,
+    "G_predicted_compile": 0.568974860414826,
+    "G_predicted_job_start": 0.568974860414826
+  },
+  {
+    "block": "R2",
+    "job": "V",
+    "job_id": "dbuuitlarooc73fklp3g",
+    "endpoint": "H4r_m6",
+    "cell": "H4r:hhl_m6_bounded_support:relabeled",
+    "two_qubit_gates": 386,
+    "fidelity_raw": 0.702983707319824,
+    "G": 0.3069619837462561,
+    "G_ci95": [
+      0.18055995147110235,
+      0.43099035358899596
+    ],
+    "G_mitigated": 0.3648722277391334,
+    "accepted_shots_per_setting": 156.44444444444446,
+    "G_predicted_compile": 0.1903066926775248,
+    "G_predicted_job_start": 0.1903066926775248
+  },
+  {
+    "block": "R2",
+    "job": "V",
+    "job_id": "dbuuitlarooc73fklp3g",
+    "endpoint": "decision_circuit_in_V",
+    "cell": "H4:hhl_m6_bounded_support:basis_input_0",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6030548147298934,
+    "G": 0.07379456770308447,
+    "G_ci95": [
+      -0.057727350829926055,
+      0.20265851264353232
+    ],
+    "G_mitigated": 0.11500428455262438,
+    "accepted_shots_per_setting": 159.11111111111111,
+    "G_predicted_compile": 0.18875383949113655,
+    "G_predicted_job_start": 0.18875383949113655
+  },
+  {
+    "block": "R3",
+    "job": "C",
+    "job_id": "dbv3hcnf8rhs73bn7u5g",
+    "endpoint": "P1",
+    "cell": "H4:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6888894488090302,
+    "G": 0.2740753805544038,
+    "G_ci95": [
+      0.14717144197284404,
+      0.39686581508936786
+    ],
+    "G_mitigated": 0.3464033820514837,
+    "accepted_shots_per_setting": 157.11111111111111,
+    "G_predicted_compile": 0.19729691638934477,
+    "G_predicted_job_start": 0.19729691638934477,
+    "G_HW_same_qubits": 0.11033135069213026,
+    "G_minus_G_b_same_qubits": 0.10792054603223146,
+    "G_minus_G_b_vqls_qubits": 0.2975128805544039
+  },
+  {
+    "block": "R3",
+    "job": "V",
+    "job_id": "dbv3hu7f8rhs73bn7v1g",
+    "endpoint": "P2",
+    "cell": "H4r:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.7911049967693534,
+    "G": 0.5125783257951582,
+    "G_ci95": [
+      0.409837336235033,
+      0.6135532816920094
+    ],
+    "G_mitigated": 0.543897664395445,
+    "accepted_shots_per_setting": 215.11111111111111,
+    "G_predicted_compile": 0.660301176205774,
+    "G_predicted_job_start": 0.660301176205774,
+    "G_HW_same_qubits": 0.5323000520570756,
+    "G_minus_G_b_same_qubits": 0.513737993763907
+  },
+  {
+    "block": "R3",
+    "job": "C",
+    "job_id": "dbv3hcnf8rhs73bn7u5g",
+    "endpoint": "H5_m6",
+    "cell": "H5:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 383,
+    "fidelity_raw": 0.6923514057805256,
+    "G": 0.06505861730661974,
+    "G_ci95": [
+      -0.0907517766396461,
+      0.21587353574216966
+    ],
+    "G_mitigated": 0.11016520733733681,
+    "accepted_shots_per_setting": 194.0,
+    "G_predicted_compile": 0.06427740913337723,
+    "G_predicted_job_start": 0.06427740913337723
+  },
+  {
+    "block": "R3",
+    "job": "V",
+    "job_id": "dbv3hu7f8rhs73bn7v1g",
+    "endpoint": "H4_top_bin",
+    "cell": "H4:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 161,
+    "fidelity_raw": 0.8474381653981689,
+    "G": 0.6440223859290606,
+    "G_ci95": [
+      0.548367113980405,
+      0.7404355035627013
+    ],
+    "G_mitigated": 0.657836337690268,
+    "accepted_shots_per_setting": 246.33333333333334,
+    "G_predicted_compile": 0.6923478705815955,
+    "G_predicted_job_start": 0.6923478705815955
+  },
+  {
+    "block": "R3",
+    "job": "V",
+    "job_id": "dbv3hu7f8rhs73bn7v1g",
+    "endpoint": "H5_top_bin",
+    "cell": "H5:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.7505140737885081,
+    "G": 0.2418144558518329,
+    "G_ci95": [
+      0.10380848090311216,
+      0.37858124831404466
+    ],
+    "G_mitigated": 0.35244383425697046,
+    "accepted_shots_per_setting": 238.0,
+    "G_predicted_compile": 0.5496176081686402,
+    "G_predicted_job_start": 0.5496176081686402
+  },
+  {
+    "block": "R3",
+    "job": "V",
+    "job_id": "dbv3hu7f8rhs73bn7v1g",
+    "endpoint": "H4r_m6",
+    "cell": "H4r:hhl_m6_bounded_support:relabeled",
+    "two_qubit_gates": 386,
+    "fidelity_raw": 0.6686185517132818,
+    "G": 0.22677662066432439,
+    "G_ci95": [
+      0.1055478372838381,
+      0.3461896464886601
+    ],
+    "G_mitigated": 0.27405063178588596,
+    "accepted_shots_per_setting": 162.22222222222223,
+    "G_predicted_compile": 0.20122220357362824,
+    "G_predicted_job_start": 0.20122220357362824
+  },
+  {
+    "block": "R3",
+    "job": "V",
+    "job_id": "dbv3hu7f8rhs73bn7v1g",
+    "endpoint": "decision_circuit_in_V",
+    "cell": "H4:hhl_m6_bounded_support:basis_input_0",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6216736770941707,
+    "G": 0.11723857988639802,
+    "G_ci95": [
+      -0.010300015863471772,
+      0.24665624393645913
+    ],
+    "G_mitigated": 0.1519371315574855,
+    "accepted_shots_per_setting": 159.55555555555554,
+    "G_predicted_compile": 0.19729691638934477,
+    "G_predicted_job_start": 0.19729691638934477
+  },
+  {
+    "block": "R4",
+    "job": "C",
+    "job_id": "dbvldueq4uuc73a1cdlg",
+    "endpoint": "P1",
+    "cell": "H4:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.4204683438601967,
+    "G": -0.3522405309928746,
+    "G_ci95": [
+      -0.39728563232500735,
+      -0.30606131978103557
+    ],
+    "G_mitigated": -0.3580096582101974,
+    "accepted_shots_per_setting": 1082.888888888889,
+    "G_predicted_compile": 0.07923507647166174,
+    "G_predicted_job_start": 0.07590481005832714,
+    "G_HW_same_qubits": -0.3517250094169669,
+    "G_minus_G_b_same_qubits": -0.34293760887245134,
+    "G_minus_G_b_vqls_qubits": -0.36458997760745804
+  },
+  {
+    "block": "R4",
+    "job": "V",
+    "job_id": "dbvleflhdvas73bi9gfg",
+    "endpoint": "P2",
+    "cell": "H4r:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.8780379877075295,
+    "G": 0.7154219713175689,
+    "G_ci95": [
+      0.6250887283703616,
+      0.8041845716309417
+    ],
+    "G_mitigated": 0.7396880433931009,
+    "accepted_shots_per_setting": 216.55555555555554,
+    "G_predicted_compile": 0.6679910613202898,
+    "G_predicted_job_start": 0.6319981498704905,
+    "G_HW_same_qubits": 0.7132046916421602,
+    "G_minus_G_b_same_qubits": 0.7000004218384013
+  },
+  {
+    "block": "R4",
+    "job": "C",
+    "job_id": "dbvldueq4uuc73a1cdlg",
+    "endpoint": "H5_m6",
+    "cell": "H5:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 383,
+    "fidelity_raw": 0.5682278097834446,
+    "G": -0.3121519035501646,
+    "G_ci95": [
+      -0.3786883199189052,
+      -0.24528886433870906
+    ],
+    "G_mitigated": -0.2979298964884047,
+    "accepted_shots_per_setting": 1043.6666666666667,
+    "G_predicted_compile": -0.08967446268947737,
+    "G_predicted_job_start": -0.05618384262400117
+  },
+  {
+    "block": "R4",
+    "job": "V",
+    "job_id": "dbvleflhdvas73bi9gfg",
+    "endpoint": "H4_top_bin",
+    "cell": "H4:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 161,
+    "fidelity_raw": 0.8440164923518847,
+    "G": 0.6360384821543975,
+    "G_ci95": [
+      0.5362841804988498,
+      0.7369039249383716
+    ],
+    "G_mitigated": 0.6583493045055525,
+    "accepted_shots_per_setting": 214.88888888888889,
+    "G_predicted_compile": 0.6614264903765195,
+    "G_predicted_job_start": 0.6560051703247263
+  },
+  {
+    "block": "R4",
+    "job": "V",
+    "job_id": "dbvleflhdvas73bi9gfg",
+    "endpoint": "H5_top_bin",
+    "cell": "H5:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.7953910164001018,
+    "G": 0.3781950913063308,
+    "G_ci95": [
+      0.24230575570992005,
+      0.5119481256386667
+    ],
+    "G_mitigated": 0.46440684214783584,
+    "accepted_shots_per_setting": 242.44444444444446,
+    "G_predicted_compile": 0.5547539886154529,
+    "G_predicted_job_start": 0.552594928675478
+  },
+  {
+    "block": "R4",
+    "job": "V",
+    "job_id": "dbvleflhdvas73bi9gfg",
+    "endpoint": "H4r_m6",
+    "cell": "H4r:hhl_m6_bounded_support:relabeled",
+    "two_qubit_gates": 386,
+    "fidelity_raw": 0.5526607326505854,
+    "G": -0.0437916238153005,
+    "G_ci95": [
+      -0.0929793575205615,
+      0.0064411154420106085
+    ],
+    "G_mitigated": -0.035316701396872735,
+    "accepted_shots_per_setting": 1073.2222222222222,
+    "G_predicted_compile": 0.06528429243019782,
+    "G_predicted_job_start": 0.08215756908954794
+  },
+  {
+    "block": "R4",
+    "job": "V",
+    "job_id": "dbvleflhdvas73bi9gfg",
+    "endpoint": "decision_circuit_in_V",
+    "cell": "H4:hhl_m6_bounded_support:basis_input_0",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.42013925300555666,
+    "G": -0.3530084096537014,
+    "G_ci95": [
+      -0.3995643384728727,
+      -0.30494651277970286
+    ],
+    "G_mitigated": -0.3560738091159323,
+    "accepted_shots_per_setting": 1023.4444444444445,
+    "G_predicted_compile": 0.07923507647166174,
+    "G_predicted_job_start": 0.07590481005832714
+  },
+  {
+    "block": "R5",
+    "job": "C",
+    "job_id": "dc08numq4uuc73a28dmg",
+    "endpoint": "P1",
+    "cell": "H4:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6507814927973421,
+    "G": 0.18515681652713142,
+    "G_ci95": [
+      0.054765047650897965,
+      0.31351741767048585
+    ],
+    "G_mitigated": 0.2185073805787355,
+    "accepted_shots_per_setting": 146.88888888888889,
+    "G_predicted_compile": 0.13607848279721063,
+    "G_predicted_job_start": 0.13607848279721063,
+    "G_HW_same_qubits": 0.09877991387488654,
+    "G_minus_G_b_same_qubits": 0.0968707155069434,
+    "G_minus_G_b_vqls_qubits": 0.21235815116254808
+  },
+  {
+    "block": "R5",
+    "job": "V",
+    "job_id": "dc08onanj2vs73ddlb7g",
+    "endpoint": "P2",
+    "cell": "H4r:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.8364434534458032,
+    "G": 0.6183680580402076,
+    "G_ci95": [
+      0.5214862213732208,
+      0.7110702591830238
+    ],
+    "G_mitigated": 0.634381913716749,
+    "accepted_shots_per_setting": 290.55555555555554,
+    "G_predicted_compile": 0.667417031284137,
+    "G_predicted_job_start": 0.667417031284137,
+    "G_HW_same_qubits": 0.6245240253482537,
+    "G_minus_G_b_same_qubits": 0.6099248614256233
+  },
+  {
+    "block": "R5",
+    "job": "C",
+    "job_id": "dc08numq4uuc73a28dmg",
+    "endpoint": "H5_m6",
+    "cell": "H5:hhl_m6_bounded_support:depth_probe",
+    "two_qubit_gates": 383,
+    "fidelity_raw": 0.7046686378847171,
+    "G": 0.10249057776678289,
+    "G_ci95": [
+      -0.05439037752862301,
+      0.26076696447226055
+    ],
+    "G_mitigated": 0.14014589285865062,
+    "accepted_shots_per_setting": 179.33333333333334,
+    "G_predicted_compile": -0.014748767292960237,
+    "G_predicted_job_start": -0.014748767292960237
+  },
+  {
+    "block": "R5",
+    "job": "V",
+    "job_id": "dc08onanj2vs73ddlb7g",
+    "endpoint": "H4_top_bin",
+    "cell": "H4:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 161,
+    "fidelity_raw": 0.7943432780807937,
+    "G": 0.520134315521852,
+    "G_ci95": [
+      0.4209014924508024,
+      0.619057022707342
+    ],
+    "G_mitigated": 0.5269912856515351,
+    "accepted_shots_per_setting": 261.55555555555554,
+    "G_predicted_compile": 0.6759199734468639,
+    "G_predicted_job_start": 0.6759199734468639
+  },
+  {
+    "block": "R5",
+    "job": "V",
+    "job_id": "dc08onanj2vs73ddlb7g",
+    "endpoint": "H5_top_bin",
+    "cell": "H5:hhl_m4_top_bin:top_bin",
+    "two_qubit_gates": 156,
+    "fidelity_raw": 0.8578690396457355,
+    "G": 0.5680652566143193,
+    "G_ci95": [
+      0.44506657791195064,
+      0.6878752201618491
+    ],
+    "G_mitigated": 0.5910477684550997,
+    "accepted_shots_per_setting": 284.8888888888889,
+    "G_predicted_compile": 0.5532267779952916,
+    "G_predicted_job_start": 0.5532267779952916
+  },
+  {
+    "block": "R5",
+    "job": "V",
+    "job_id": "dc08onanj2vs73ddlb7g",
+    "endpoint": "H4r_m6",
+    "cell": "H4r:hhl_m6_bounded_support:relabeled",
+    "two_qubit_gates": 386,
+    "fidelity_raw": 0.6286842574084813,
+    "G": 0.13359660061979006,
+    "G_ci95": [
+      0.007130406904470234,
+      0.26328044192413114
+    ],
+    "G_mitigated": 0.17049372640246427,
+    "accepted_shots_per_setting": 171.44444444444446,
+    "G_predicted_compile": 0.14307023359667373,
+    "G_predicted_job_start": 0.14307023359667373
+  },
+  {
+    "block": "R5",
+    "job": "V",
+    "job_id": "dc08onanj2vs73ddlb7g",
+    "endpoint": "decision_circuit_in_V",
+    "cell": "H4:hhl_m6_bounded_support:basis_input_0",
+    "two_qubit_gates": 385,
+    "fidelity_raw": 0.6104857474940473,
+    "G": 0.09113341081944347,
+    "G_ci95": [
+      -0.034654608280899696,
+      0.2162863187312916
+    ],
+    "G_mitigated": 0.12547520419625183,
+    "accepted_shots_per_setting": 163.22222222222223,
+    "G_predicted_compile": 0.13607848279721063,
+    "G_predicted_job_start": 0.13607848279721063
+  }
+]

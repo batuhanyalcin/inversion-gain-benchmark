@@ -1,0 +1,197 @@
+{
+  "invocation_id": "20261121T020811Z_1ed6ccf7",
+  "started_utc": "2026-11-21T02:12:05.278393+00:00",
+  "design_id": "journal_replication_v1-48c0c4b187ab",
+  "rule": "each block is compiled and run under a provider calibration that no earlier block, including the confirmation block T1 on ibm_boston, was compiled, submitted or run under; blocks run in order, and a block is submitted only after every job of the previous block has finished",
+  "configuration": {
+    "enabled": true,
+    "submit": true,
+    "public_registration": "https://github.com/batuhanyalcin/inversion-gain-benchmark/commit/9770c9a44074fb0de1529daae6959b13aabfa8e8",
+    "wait_minutes": 0,
+    "approval_note": ""
+  },
+  "devices": {
+    "ibm_boston": {
+      "account": "lab_premium",
+      "blocks": {
+        "R1": {
+          "expected_jobs": 2,
+          "submissions": [],
+          "checked_utc": "2026-11-21T02:12:09.102186+00:00",
+          "jobs": [
+            {
+              "job": [
+                "R1",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbudfvvf8rhs73bm1fm0",
+              "compile_calibration_id": "df34a3f437d1defa112bd4b6d47871ff0453f93360071b093391bcabb03328d5",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "R1",
+                "V",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbudgheps3fc73bikakg",
+              "compile_calibration_id": "df34a3f437d1defa112bd4b6d47871ff0453f93360071b093391bcabb03328d5",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "df34a3f437d1defa112bd4b6d47871ff0453f93360071b093391bcabb03328d5": "2026-11-13 12:48:55-05:00",
+            "0183cc2b77f8639061987aecda4d7a5a77ebcdf9bdf05a3b1490985f2185e4c8": "2026-11-13 12:48:55-05:00",
+            "a1ac77ac4df669aeab90b60deb35867de1d1d72467b077c6deae360750746311": "2026-11-13 12:48:55-05:00"
+          }
+        },
+        "R2": {
+          "expected_jobs": 2,
+          "submissions": [],
+          "checked_utc": "2026-11-21T02:12:24.611140+00:00",
+          "jobs": [
+            {
+              "job": [
+                "R2",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbuuii782tmc73du4kc0",
+              "compile_calibration_id": "2456a6ae1b9bcf5f654e628d7785b4c06ed3614064b8bbe483446db6f88e4f4d",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "R2",
+                "V",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbuuitlarooc73fklp3g",
+              "compile_calibration_id": "2456a6ae1b9bcf5f654e628d7785b4c06ed3614064b8bbe483446db6f88e4f4d",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "2456a6ae1b9bcf5f654e628d7785b4c06ed3614064b8bbe483446db6f88e4f4d": "2026-11-18 12:31:38-05:00",
+            "16cf13cb424a8be85941f7e2e0bab711213f167be226cd44975ab048c97d0c6a": "2026-11-18 15:48:13-05:00",
+            "9dad8d17b64732d3a714fbb2ec3449cf7fa98bc8052f5fb651723b0398979c17": "2026-11-18 15:48:13-05:00"
+          }
+        },
+        "R3": {
+          "expected_jobs": 2,
+          "submissions": [],
+          "checked_utc": "2026-11-21T02:12:42.719769+00:00",
+          "jobs": [
+            {
+              "job": [
+                "R3",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbv3hcnf8rhs73bn7u5g",
+              "compile_calibration_id": "db08044c0d687a6bd724af0517516f6326be588b7ed2708c7d4689013c5038e9",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "R3",
+                "V",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbv3hu7f8rhs73bn7v1g",
+              "compile_calibration_id": "db08044c0d687a6bd724af0517516f6326be588b7ed2708c7d4689013c5038e9",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "db08044c0d687a6bd724af0517516f6326be588b7ed2708c7d4689013c5038e9": "2026-11-18 18:16:26-05:00",
+            "f511806031061564a40c57ad40d7dcf6ee5981fb4aabfcacf70d14c52ee9a66d": "2026-11-18 18:16:26-05:00",
+            "052b637fd446d4539f482516f0051085080634c8c923917b8228c75d23751a4d": "2026-11-18 18:37:36-05:00"
+          }
+        },
+        "R4": {
+          "expected_jobs": 2,
+          "submissions": [],
+          "checked_utc": "2026-11-21T02:13:01.602803+00:00",
+          "jobs": [
+            {
+              "job": [
+                "R4",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbvldueq4uuc73a1cdlg",
+              "compile_calibration_id": "5848611ef4dd7695482c3dbadb0d7dbb8ccd2896434a6a9edefe51a8d2fcab7f",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "R4",
+                "V",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dbvleflhdvas73bi9gfg",
+              "compile_calibration_id": "5848611ef4dd7695482c3dbadb0d7dbb8ccd2896434a6a9edefe51a8d2fcab7f",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "5848611ef4dd7695482c3dbadb0d7dbb8ccd2896434a6a9edefe51a8d2fcab7f": "2026-11-19 12:28:41-05:00",
+            "a78298172ff41d0c06d180fbd37bde3a442a99a54f7e045022a35b04cfdd3d61": "2026-11-20 06:46:40-05:00",
+            "0dedb16010ced435031f4463992420036d3dfa15e8ff60f9731d2557767d46e9": "2026-11-20 06:46:40-05:00"
+          }
+        },
+        "R5": {
+          "expected_jobs": 2,
+          "submissions": [],
+          "checked_utc": "2026-11-21T02:13:21.193152+00:00",
+          "jobs": [
+            {
+              "job": [
+                "R5",
+                "C",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dc08numq4uuc73a28dmg",
+              "compile_calibration_id": "d8da6f2f039fbedaacd51c98ec22a3c0290ce8a705cd3587c538b4b498430e74",
+              "analyzed": true
+            },
+            {
+              "job": [
+                "R5",
+                "V",
+                "raw"
+              ],
+              "status": "completed",
+              "job_id": "dc08onanj2vs73ddlb7g",
+              "compile_calibration_id": "d8da6f2f039fbedaacd51c98ec22a3c0290ce8a705cd3587c538b4b498430e74",
+              "analyzed": true
+            }
+          ],
+          "decision": "complete",
+          "calibration_stamps": {
+            "d8da6f2f039fbedaacd51c98ec22a3c0290ce8a705cd3587c538b4b498430e74": "2026-11-20 12:22:17-05:00",
+            "84cac6c19f1fc460ebc7abb77f7c3d81d5513016781cf3c2ed1f2c9555a29056": "2026-11-20 12:22:17-05:00",
+            "b441b655e2a4478912e5a9ee632e23fe3bb12bde7600d17c21239c0ee4de65b0": "2026-11-20 12:22:17-05:00"
+          }
+        }
+      },
+      "calibrations_archived": []
+    }
+  },
+  "finished_utc": "2026-11-21T02:13:37.587240+00:00"
+}
